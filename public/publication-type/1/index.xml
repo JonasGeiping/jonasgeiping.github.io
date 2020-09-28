@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 | Jonas Geiping</title>
+    <link>https://jonasgeiping.github.io/publication-type/1/</link>
+      <atom:link href="https://jonasgeiping.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
+    <description>1</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jonasgeiping.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>1</title>
+      <link>https://jonasgeiping.github.io/publication-type/1/</link>
+    </image>
+    
+    <item>
+      <title>Fast Convex Relaxations Using Graph Discretizations</title>
+      <link>https://jonasgeiping.github.io/publication/geiping-fast-2020-1/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/geiping-fast-2020-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Witchcraft: Efficient PGD Attacks with Random Step Size</title>
+      <link>https://jonasgeiping.github.io/publication/chiang-witchcraft-2020/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/chiang-witchcraft-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Truth or Backpropaganda? An Empirical Investigation of Deep Learning Theory</title>
+      <link>https://jonasgeiping.github.io/publication/goldblum-truth-2020/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/goldblum-truth-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Piecewise Rigid Scene Flow with Implicit Motion Segmentation</title>
+      <link>https://jonasgeiping.github.io/publication/gorlitz-piecewise-2019-1/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/gorlitz-piecewise-2019-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Parametric Majorization for Data-Driven Energy Minimization Methods</title>
+      <link>https://jonasgeiping.github.io/publication/geiping-parametric-2019-2/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/geiping-parametric-2019-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multiframe Motion Coupling for Video Super Resolution</title>
+      <link>https://jonasgeiping.github.io/publication/geiping-multiframe-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/geiping-multiframe-2018/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

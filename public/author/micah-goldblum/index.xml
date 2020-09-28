@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Micah Goldblum | Jonas Geiping</title>
+    <link>https://jonasgeiping.github.io/author/micah-goldblum/</link>
+      <atom:link href="https://jonasgeiping.github.io/author/micah-goldblum/index.xml" rel="self" type="application/rss+xml" />
+    <description>Micah Goldblum</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 May 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jonasgeiping.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Micah Goldblum</title>
+      <link>https://jonasgeiping.github.io/author/micah-goldblum/</link>
+    </image>
+    
+    <item>
+      <title>Witchcraft: Efficient PGD Attacks with Random Step Size</title>
+      <link>https://jonasgeiping.github.io/publication/chiang-witchcraft-2020/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/chiang-witchcraft-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Truth or Backpropaganda? An Empirical Investigation of Deep Learning Theory</title>
+      <link>https://jonasgeiping.github.io/publication/goldblum-truth-2020/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/goldblum-truth-2020/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

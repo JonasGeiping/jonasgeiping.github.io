@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jonas Alexander Geiping | Jonas Geiping</title>
+    <link>https://jonasgeiping.github.io/author/jonas-alexander-geiping/</link>
+      <atom:link href="https://jonasgeiping.github.io/author/jonas-alexander-geiping/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jonas Alexander Geiping</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Sep 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jonasgeiping.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Jonas Alexander Geiping</title>
+      <link>https://jonasgeiping.github.io/author/jonas-alexander-geiping/</link>
+    </image>
+    
+    <item>
+      <title>Image Analysis of Neural Tissue Development: Variational Methods for Segmentation and 3D-Reconstruction from Large Pinhole Confocal Fluorescence Microscopy</title>
+      <link>https://jonasgeiping.github.io/publication/geiping-image-2016/</link>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/geiping-image-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comparison of Topology-Preserving Segmentation Methods and Application to Mitotic Cell Tracking</title>
+      <link>https://jonasgeiping.github.io/publication/geiping-comparison-2014/</link>
+      <pubDate>Mon, 01 Sep 2014 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/geiping-comparison-2014/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
