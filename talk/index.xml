@@ -5,12 +5,28 @@
     <link>https://jonasgeiping.github.io/talk/</link>
       <atom:link href="https://jonasgeiping.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 07 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 25 Apr 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jonasgeiping.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>https://jonasgeiping.github.io/talk/</link>
     </image>
+    
+    <item>
+      <title>Ninth International Conference on Learning Representations (ICLR 2021)</title>
+      <link>https://jonasgeiping.github.io/talk/iclr2021/</link>
+      <pubDate>Sun, 25 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/talk/iclr2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eighth International Conference on Learning Representations (ICLR 2020)</title>
+      <link>https://jonasgeiping.github.io/talk/neurips2020/</link>
+      <pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/talk/neurips2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>31st British Machine Vision Conference (BMVC 2020)</title>

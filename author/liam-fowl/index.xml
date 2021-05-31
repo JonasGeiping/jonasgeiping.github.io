@@ -5,7 +5,7 @@
     <link>https://jonasgeiping.github.io/author/liam-fowl/</link>
       <atom:link href="https://jonasgeiping.github.io/author/liam-fowl/index.xml" rel="self" type="application/rss+xml" />
     <description>Liam Fowl</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jonasgeiping.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Liam Fowl</title>
@@ -13,18 +13,42 @@
     </image>
     
     <item>
-      <title>Witches&#39; Brew: Industrial Scale Data Poisoning via Gradient Matching</title>
-      <link>https://jonasgeiping.github.io/publication/geiping-witches-2020/</link>
-      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://jonasgeiping.github.io/publication/geiping-witches-2020/</guid>
+      <title>Strong Data Augmentation Sanitizes Poisoning and Backdoor Attacks Without an Accuracy Tradeoff</title>
+      <link>https://jonasgeiping.github.io/publication/borgnia-strong-2021/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/borgnia-strong-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DP-InstaHide: Provably Defusing Poisoning and Backdoor Attacks with Differentially Private Data Augmentations</title>
+      <link>https://jonasgeiping.github.io/publication/borgnia-dp-instahide-2021/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/borgnia-dp-instahide-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Preventing Unauthorized Use of Proprietary Data: Poisoning for Secure Dataset Release</title>
+      <link>https://jonasgeiping.github.io/publication/fowl-preventing-2021/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/fowl-preventing-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What Doesn&#39;t Kill You Makes You Robust(Er): Adversarial Training against Poisons and Backdoors</title>
+      <link>https://jonasgeiping.github.io/publication/geiping-what-2021/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/geiping-what-2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MetaPoison: Practical General-Purpose Clean-Label Data Poisoning</title>
-      <link>https://jonasgeiping.github.io/publication/huang-metapoison-2020/</link>
-      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://jonasgeiping.github.io/publication/huang-metapoison-2020/</guid>
+      <link>https://jonasgeiping.github.io/publication/huang-metapoison-2020-1/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/huang-metapoison-2020-1/</guid>
       <description></description>
     </item>
     
