@@ -5,12 +5,28 @@
     <link>https://jonasgeiping.github.io/author/tom-goldstein/</link>
       <atom:link href="https://jonasgeiping.github.io/author/tom-goldstein/index.xml" rel="self" type="application/rss+xml" />
     <description>Tom Goldstein</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Sep 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jonasgeiping.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Tom Goldstein</title>
       <link>https://jonasgeiping.github.io/author/tom-goldstein/</link>
     </image>
+    
+    <item>
+      <title>Stochastic Training Is Not Necessary for Generalization</title>
+      <link>https://jonasgeiping.github.io/publication/geiping-stochastic-2021/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/geiping-stochastic-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adversarial Examples Make Strong Poisons</title>
+      <link>https://jonasgeiping.github.io/publication/fowl-adversarial-2021/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/fowl-adversarial-2021/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Strong Data Augmentation Sanitizes Poisoning and Backdoor Attacks Without an Accuracy Tradeoff</title>
