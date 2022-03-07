@@ -2,359 +2,386 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jonasgeiping.github.io/tag/computer-science-machine-learning/</loc>
-    <lastmod>2021-10-11T18:01:27-04:00</lastmod>
+    <loc>https://jonasgeiping.github.io/</loc>
+    <lastmod>2022-03-07T13:07:37-05:00</lastmod>
   </url><url>
-    <loc>https://jonasgeiping.github.io/tag/mathematics-optimization-and-control/</loc>
-    <lastmod>2021-10-11T18:01:27-04:00</lastmod>
+    <loc>https://jonasgeiping.github.io/talk/</loc>
+    <lastmod>2022-02-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/talk/riken2022/</loc>
+    <lastmod>2022-02-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/publication-type/2/</loc>
-    <lastmod>2021-10-11T18:01:27-04:00</lastmod>
+    <lastmod>2022-03-07T13:07:37-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/authors/</loc>
-    <lastmod>2021-10-11T18:01:27-04:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/author/jonas-geiping/</loc>
-    <lastmod>2021-10-11T18:01:27-04:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/</loc>
-    <lastmod>2021-10-11T18:01:27-04:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/author/micah-goldblum/</loc>
-    <lastmod>2021-10-11T18:01:27-04:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/author/michael-moeller/</loc>
-    <lastmod>2021-10-11T18:01:27-04:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/author/phillip-e.-pope/</loc>
-    <lastmod>2021-10-11T18:01:27-04:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/publication_types/</loc>
-    <lastmod>2021-10-11T18:01:27-04:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/publication/</loc>
-    <lastmod>2021-10-11T18:01:27-04:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/publication/geiping-stochastic-2021/</loc>
-    <lastmod>2021-10-11T18:01:27-04:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tags/</loc>
-    <lastmod>2021-10-11T18:01:27-04:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/author/tom-goldstein/</loc>
-    <lastmod>2021-10-11T18:01:27-04:00</lastmod>
+    <lastmod>2022-03-07T13:07:37-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/tag/computer-science-computer-vision-and-pattern-recognition/</loc>
-    <lastmod>2021-10-11T18:01:25-04:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/publication/geiping-darts-2021/</loc>
-    <lastmod>2021-10-11T18:01:25-04:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/author/jovita-lukasik/</loc>
-    <lastmod>2021-10-11T18:01:25-04:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/author/margret-keuper/</loc>
-    <lastmod>2021-10-11T18:01:25-04:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/adversarial-attacks/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/backdoor-attacks/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
+    <lastmod>2022-03-07T13:07:37-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/tag/computer-science-cryptography-and-security/</loc>
-    <lastmod>2021-10-11T18:01:24-04:00</lastmod>
+    <lastmod>2022-03-07T13:07:37-05:00</lastmod>
   </url><url>
-    <loc>https://jonasgeiping.github.io/tag/conferences/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
+    <loc>https://jonasgeiping.github.io/tag/computer-science-machine-learning/</loc>
+    <lastmod>2022-03-07T13:07:37-05:00</lastmod>
   </url><url>
-    <loc>https://jonasgeiping.github.io/tag/data-augmentation/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
+    <loc>https://jonasgeiping.github.io/publication/wen-fishing-2022/</loc>
+    <lastmod>2022-03-07T13:07:37-05:00</lastmod>
   </url><url>
-    <loc>https://jonasgeiping.github.io/tag/data-models/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/data-poisoning/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/differential-privacy/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/industries/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/machine-learning/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/signal-processing/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/toxicology/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/training-data/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/publication-type/1/</loc>
-    <lastmod>2021-05-31T15:10:55+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/author/adam-czapli%5C%C5%89ski/</loc>
-    <lastmod>2021-10-11T18:01:24-04:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/publication/fowl-adversarial-2021/</loc>
-    <lastmod>2021-10-11T18:01:24-04:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/author/amin-ghiasi/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/author/arjun-gupta/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/author/eitan-borgnia/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/author/kanchana-vaishnavi-gandikota/</loc>
-    <lastmod>2021-10-11T18:01:24-04:00</lastmod>
+    <loc>https://jonasgeiping.github.io/author/jonas-geiping/</loc>
+    <lastmod>2022-03-07T13:07:37-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/author/liam-fowl/</loc>
-    <lastmod>2021-10-11T18:01:24-04:00</lastmod>
+    <lastmod>2022-03-07T13:07:37-05:00</lastmod>
   </url><url>
-    <loc>https://jonasgeiping.github.io/author/ping-yeh-chiang/</loc>
-    <lastmod>2021-10-11T18:01:24-04:00</lastmod>
+    <loc>https://jonasgeiping.github.io/author/micah-goldblum/</loc>
+    <lastmod>2022-03-07T13:07:37-05:00</lastmod>
   </url><url>
-    <loc>https://jonasgeiping.github.io/publication/borgnia-strong-2021/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
+    <loc>https://jonasgeiping.github.io/publication_types/</loc>
+    <lastmod>2022-03-07T13:07:37-05:00</lastmod>
   </url><url>
-    <loc>https://jonasgeiping.github.io/publication/gandikota-training-2021/</loc>
-    <lastmod>2021-10-11T18:01:24-04:00</lastmod>
+    <loc>https://jonasgeiping.github.io/publication/</loc>
+    <lastmod>2022-03-07T13:07:37-05:00</lastmod>
   </url><url>
-    <loc>https://jonasgeiping.github.io/author/valeriia-cherepanova/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
+    <loc>https://jonasgeiping.github.io/tags/</loc>
+    <lastmod>2022-03-07T13:07:37-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/author/tom-goldstein/</loc>
+    <lastmod>2022-03-07T13:07:37-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/author/yuxin-wen/</loc>
+    <lastmod>2022-03-07T13:07:37-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/computer-science-computation-and-language/</loc>
+    <lastmod>2022-03-07T13:07:32-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/publication/fowl-decepticons-2022/</loc>
+    <lastmod>2022-03-07T13:07:32-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/author/steven-reich/</loc>
+    <lastmod>2022-03-07T13:07:32-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/author/wojtek-czaja/</loc>
-    <lastmod>2021-10-11T18:01:24-04:00</lastmod>
+    <lastmod>2022-03-07T13:07:32-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/talk/neurips2021/</loc>
+    <lastmod>2021-12-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/talk/flworkshop2021/</loc>
+    <lastmod>2021-11-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/publication-type/1/</loc>
+    <lastmod>2022-03-07T13:07:37-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/author/liam-h.-fowl/</loc>
+    <lastmod>2022-03-07T13:07:36-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/mathematics-optimization-and-control/</loc>
+    <lastmod>2022-03-07T13:07:34-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/author/michael-moeller/</loc>
+    <lastmod>2022-03-07T13:07:36-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/author/phil-pope/</loc>
+    <lastmod>2022-03-07T13:01:33-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/publication/fowl-robbing-2021/</loc>
+    <lastmod>2022-03-07T13:01:31-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/publication/geiping-stochastic-2021/</loc>
+    <lastmod>2022-03-07T13:01:33-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/author/wojciech-czaja/</loc>
+    <lastmod>2022-03-07T13:07:36-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/publication/geiping-darts-2021/</loc>
+    <lastmod>2022-03-07T13:07:34-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/author/jovita-lukasik/</loc>
+    <lastmod>2022-03-07T13:07:34-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/author/margret-keuper/</loc>
+    <lastmod>2022-03-07T13:07:34-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/talk/google2021/</loc>
+    <lastmod>2021-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/author/adam-czapli%5C%C5%89ski/</loc>
+    <lastmod>2022-03-07T13:07:33-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/adversarial-attacks/</loc>
+    <lastmod>2022-03-07T13:07:32-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/publication/fowl-adversarial-2021/</loc>
+    <lastmod>2022-03-07T13:07:32-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/author/amin-ghiasi/</loc>
+    <lastmod>2022-03-07T13:07:31-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/author/arjun-gupta/</loc>
+    <lastmod>2022-03-07T13:07:31-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/backdoor-attacks/</loc>
+    <lastmod>2022-03-07T13:07:31-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/conferences/</loc>
+    <lastmod>2022-03-07T13:07:31-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/data-augmentation/</loc>
+    <lastmod>2022-03-07T13:07:31-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/data-models/</loc>
+    <lastmod>2022-03-07T13:07:31-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/data-poisoning/</loc>
+    <lastmod>2022-03-07T13:07:31-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/differential-privacy/</loc>
+    <lastmod>2022-03-07T13:07:31-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/author/eitan-borgnia/</loc>
+    <lastmod>2022-03-07T13:07:31-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/industries/</loc>
+    <lastmod>2022-03-07T13:07:31-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/author/kanchana-vaishnavi-gandikota/</loc>
+    <lastmod>2022-03-07T13:07:33-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/machine-learning/</loc>
+    <lastmod>2022-03-07T13:07:31-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/author/ping-yeh-chiang/</loc>
+    <lastmod>2022-03-07T13:07:32-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/signal-processing/</loc>
+    <lastmod>2022-03-07T13:07:31-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/publication/borgnia-strong-2021/</loc>
+    <lastmod>2022-03-07T13:07:31-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/toxicology/</loc>
+    <lastmod>2022-03-07T13:07:31-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/training-data/</loc>
+    <lastmod>2022-03-07T13:07:31-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/publication/gandikota-training-2021/</loc>
+    <lastmod>2022-03-07T13:07:33-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/author/valeriia-cherepanova/</loc>
+    <lastmod>2022-03-07T13:07:31-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/author/zorah-lahner/</loc>
-    <lastmod>2021-10-11T18:01:24-04:00</lastmod>
+    <lastmod>2022-03-07T13:07:33-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/talk/iclr2021/</loc>
     <lastmod>2021-04-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jonasgeiping.github.io/talk/</loc>
-    <lastmod>2021-04-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jonasgeiping.github.io/author/gavin-taylor/</loc>
-    <lastmod>2021-05-31T15:10:55+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/author/liam-h.-fowl/</loc>
-    <lastmod>2021-05-31T15:02:49+02:00</lastmod>
+    <lastmod>2022-03-07T13:07:37-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/author/w.-ronny-huang/</loc>
-    <lastmod>2021-05-31T15:10:55+02:00</lastmod>
+    <lastmod>2022-03-07T13:07:37-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/publication/geiping-witches-2021/</loc>
-    <lastmod>2021-05-31T15:02:49+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/author/wojciech-czaja/</loc>
-    <lastmod>2021-05-31T15:02:49+02:00</lastmod>
+    <lastmod>2022-03-07T13:07:36-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/publication/borgnia-dp-instahide-2021/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
+    <lastmod>2022-03-07T13:07:31-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/author/furong-huang/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
+    <lastmod>2022-03-07T13:07:31-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/author/arpit-bansal/</loc>
-    <lastmod>2021-05-31T15:10:54+02:00</lastmod>
+    <lastmod>2022-03-07T13:07:32-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/author/gowthami-somepalli/</loc>
-    <lastmod>2021-05-31T15:10:55+02:00</lastmod>
+    <lastmod>2022-03-07T13:07:36-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/publication/fowl-preventing-2021/</loc>
-    <lastmod>2021-05-31T15:10:54+02:00</lastmod>
+    <lastmod>2022-03-07T13:07:32-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/publication/geiping-what-2021/</loc>
-    <lastmod>2021-05-31T15:10:55+02:00</lastmod>
+    <lastmod>2022-03-07T13:07:36-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/publication-type/7/</loc>
-    <lastmod>2021-05-31T15:10:54+02:00</lastmod>
+    <lastmod>2022-03-07T13:07:35-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/publication/geiping-modern-2021/</loc>
-    <lastmod>2021-05-31T15:10:54+02:00</lastmod>
+    <lastmod>2022-03-07T13:07:35-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/talk/neurips2020/</loc>
     <lastmod>2020-12-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/author/hannah-droge/</loc>
-    <lastmod>2021-05-31T15:02:48+02:00</lastmod>
+    <lastmod>2022-03-07T13:07:34-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/author/hartmut-bauermeister/</loc>
-    <lastmod>2021-05-31T15:10:54+02:00</lastmod>
+    <lastmod>2022-03-07T13:07:34-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/publication/geiping-inverting-2020-1/</loc>
-    <lastmod>2021-05-31T15:02:48+02:00</lastmod>
+    <lastmod>2022-03-07T13:07:34-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/publication/huang-metapoison-2020-1/</loc>
-    <lastmod>2021-05-31T15:10:55+02:00</lastmod>
+    <lastmod>2022-03-07T13:07:37-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/talk/bmvc2020/</loc>
     <lastmod>2020-09-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/publication/geiping-fast-2020-1/</loc>
-    <lastmod>2021-05-31T15:10:54+02:00</lastmod>
+    <lastmod>2022-03-07T13:07:34-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/author/fjedor-gaede/</loc>
-    <lastmod>2021-05-31T15:10:54+02:00</lastmod>
+    <lastmod>2022-03-07T13:07:34-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/talk/siam2020/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/tag/adversarial/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/attack/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/cifar/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/classical-pgd-attack/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/cnn/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/gradient-methods/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/iterative-fgsm-based-methods/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/iterative-methods/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/learning-artificial-intelligence/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/neural-nets/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/neural-networks/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/pgd-attacks/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/pgd/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/projected-gradient-descent/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/random-step-size/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/stochastic-processes/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/wide-iterative-stochastic-crafting/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/witchcraft/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
+    <lastmod>2022-03-07T13:07:32-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/author/ali-shafahi/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
+    <lastmod>2022-03-07T13:07:32-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/attack/</loc>
+    <lastmod>2022-03-07T13:07:32-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/cifar/</loc>
+    <lastmod>2022-03-07T13:07:32-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/classical-pgd-attack/</loc>
+    <lastmod>2022-03-07T13:07:32-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/cnn/</loc>
+    <lastmod>2022-03-07T13:07:32-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/gradient-methods/</loc>
+    <lastmod>2022-03-07T13:07:32-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/iterative-fgsm-based-methods/</loc>
+    <lastmod>2022-03-07T13:07:32-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/iterative-methods/</loc>
+    <lastmod>2022-03-07T13:07:32-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/learning-artificial-intelligence/</loc>
+    <lastmod>2022-03-07T13:07:32-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/neural-nets/</loc>
+    <lastmod>2022-03-07T13:07:32-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/neural-networks/</loc>
+    <lastmod>2022-03-07T13:07:32-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/pgd/</loc>
+    <lastmod>2022-03-07T13:07:32-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/pgd-attacks/</loc>
+    <lastmod>2022-03-07T13:07:32-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/projected-gradient-descent/</loc>
+    <lastmod>2022-03-07T13:07:32-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/random-step-size/</loc>
+    <lastmod>2022-03-07T13:07:32-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/author/renkun-ni/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
+    <lastmod>2022-03-07T13:07:32-05:00</lastmod>
   </url><url>
-    <loc>https://jonasgeiping.github.io/author/steven-reich/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
+    <loc>https://jonasgeiping.github.io/tag/stochastic-processes/</loc>
+    <lastmod>2022-03-07T13:07:32-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/wide-iterative-stochastic-crafting/</loc>
+    <lastmod>2022-03-07T13:07:32-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/witchcraft/</loc>
+    <lastmod>2022-03-07T13:07:32-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/publication/chiang-witchcraft-2020/</loc>
-    <lastmod>2021-05-31T15:10:53+02:00</lastmod>
+    <lastmod>2022-03-07T13:07:32-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/author/avi-schwarzschild/</loc>
-    <lastmod>2021-05-31T15:10:55+02:00</lastmod>
+    <lastmod>2022-03-07T13:07:36-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/talk/iclr2020/</loc>
     <lastmod>2020-04-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/publication/goldblum-truth-2020/</loc>
-    <lastmod>2021-05-31T15:10:55+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/constant-rigid-motion/</loc>
-    <lastmod>2021-05-31T15:10:55+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/ill-conditioned-problem/</loc>
-    <lastmod>2021-05-31T15:10:55+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/image-colour-analysis/</loc>
-    <lastmod>2021-05-31T15:10:55+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/image-segmentation/</loc>
-    <lastmod>2021-05-31T15:10:55+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/image-sequences/</loc>
-    <lastmod>2021-05-31T15:10:55+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/implicit-motion-segmentation-estimation-approach/</loc>
-    <lastmod>2021-05-31T15:10:55+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/joint-energy-minimization-problem/</loc>
-    <lastmod>2021-05-31T15:10:55+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/l0-rigid-motion-regularization/</loc>
-    <lastmod>2021-05-31T15:10:55+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/minimisation/</loc>
-    <lastmod>2021-05-31T15:10:55+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/motion-estimation/</loc>
-    <lastmod>2021-05-31T15:10:55+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/observed-scene/</loc>
-    <lastmod>2021-05-31T15:10:55+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/piecewise-rigid-motion/</loc>
-    <lastmod>2021-05-31T15:10:55+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/piecewise-rigid-scene-flow-techniques/</loc>
-    <lastmod>2021-05-31T15:10:55+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/proximal-primal-dual-algorithm/</loc>
-    <lastmod>2021-05-31T15:10:55+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/rgb-d-images/</loc>
-    <lastmod>2021-05-31T15:10:55+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/rotational-motion-parts/</loc>
-    <lastmod>2021-05-31T15:10:55+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/scene-flow-estimation-approach/</loc>
-    <lastmod>2021-05-31T15:10:55+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/translational-motion-parts/</loc>
-    <lastmod>2021-05-31T15:10:55+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/variational-approach/</loc>
-    <lastmod>2021-05-31T15:10:55+02:00</lastmod>
+    <lastmod>2022-03-07T13:07:36-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/author/andreas-gorlitz/</loc>
-    <lastmod>2021-05-31T15:10:55+02:00</lastmod>
+    <lastmod>2022-03-07T13:07:36-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/author/andreas-kolb/</loc>
-    <lastmod>2021-05-31T15:10:55+02:00</lastmod>
+    <lastmod>2022-03-07T13:07:36-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/constant-rigid-motion/</loc>
+    <lastmod>2022-03-07T13:07:36-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/ill-conditioned-problem/</loc>
+    <lastmod>2022-03-07T13:07:36-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/image-colour-analysis/</loc>
+    <lastmod>2022-03-07T13:07:36-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/image-segmentation/</loc>
+    <lastmod>2022-03-07T13:07:36-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/image-sequences/</loc>
+    <lastmod>2022-03-07T13:07:36-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/implicit-motion-segmentation-estimation-approach/</loc>
+    <lastmod>2022-03-07T13:07:36-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/joint-energy-minimization-problem/</loc>
+    <lastmod>2022-03-07T13:07:36-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/l0-rigid-motion-regularization/</loc>
+    <lastmod>2022-03-07T13:07:36-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/minimisation/</loc>
+    <lastmod>2022-03-07T13:07:36-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/motion-estimation/</loc>
+    <lastmod>2022-03-07T13:07:36-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/observed-scene/</loc>
+    <lastmod>2022-03-07T13:07:36-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/piecewise-rigid-motion/</loc>
+    <lastmod>2022-03-07T13:07:36-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/piecewise-rigid-scene-flow-techniques/</loc>
+    <lastmod>2022-03-07T13:07:36-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/publication/gorlitz-piecewise-2019-1/</loc>
-    <lastmod>2021-05-31T15:10:55+02:00</lastmod>
+    <lastmod>2022-03-07T13:07:36-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/proximal-primal-dual-algorithm/</loc>
+    <lastmod>2022-03-07T13:07:36-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/rgb-d-images/</loc>
+    <lastmod>2022-03-07T13:07:36-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/rotational-motion-parts/</loc>
+    <lastmod>2022-03-07T13:07:36-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/scene-flow-estimation-approach/</loc>
+    <lastmod>2022-03-07T13:07:36-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/translational-motion-parts/</loc>
+    <lastmod>2022-03-07T13:07:36-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/variational-approach/</loc>
+    <lastmod>2022-03-07T13:07:36-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/talk/iccv2019/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/publication/geiping-parametric-2019-2/</loc>
-    <lastmod>2021-05-31T15:02:48+02:00</lastmod>
+    <lastmod>2022-03-07T13:07:35-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/talk/ifip/</loc>
     <lastmod>2018-07-01T00:00:00+00:00</lastmod>
@@ -375,22 +402,22 @@
     <lastmod>2018-02-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/tag/90c26-90c06-68u10-32b20-65k10-47j06/</loc>
-    <lastmod>2021-05-31T15:10:54+02:00</lastmod>
-  </url><url>
-    <loc>https://jonasgeiping.github.io/tag/mathematics-numerical-analysis/</loc>
-    <lastmod>2021-05-31T15:10:54+02:00</lastmod>
+    <lastmod>2022-03-07T13:07:33-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/publication/geiping-composite-2018/</loc>
-    <lastmod>2021-05-31T15:10:54+02:00</lastmod>
+    <lastmod>2022-03-07T13:07:33-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/author/daniel-cremers/</loc>
-    <lastmod>2021-05-31T15:10:55+02:00</lastmod>
+    <lastmod>2022-03-07T13:07:35-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/author/hendrik-dirks/</loc>
-    <lastmod>2021-05-31T15:10:55+02:00</lastmod>
+    <lastmod>2022-03-07T13:07:35-05:00</lastmod>
+  </url><url>
+    <loc>https://jonasgeiping.github.io/tag/mathematics-numerical-analysis/</loc>
+    <lastmod>2022-03-07T13:07:33-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/publication/geiping-multiframe-2018/</loc>
-    <lastmod>2021-05-31T15:10:55+02:00</lastmod>
+    <lastmod>2022-03-07T13:07:35-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/talk/amm3/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
@@ -399,10 +426,10 @@
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/publication/geiping-image-2016/</loc>
-    <lastmod>2021-05-31T15:10:54+02:00</lastmod>
+    <lastmod>2022-03-07T13:07:34-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/author/jonas-alexander-geiping/</loc>
-    <lastmod>2021-05-31T15:10:54+02:00</lastmod>
+    <lastmod>2022-03-07T13:07:34-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/talk/dtu/</loc>
     <lastmod>2016-04-01T00:00:00+00:00</lastmod>
@@ -411,7 +438,7 @@
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/publication/geiping-comparison-2014/</loc>
-    <lastmod>2021-05-31T15:10:54+02:00</lastmod>
+    <lastmod>2022-03-07T13:07:33-05:00</lastmod>
   </url><url>
     <loc>https://jonasgeiping.github.io/categories/</loc>
   </url><url>

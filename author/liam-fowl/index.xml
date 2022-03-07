@@ -5,12 +5,28 @@
     <link>https://jonasgeiping.github.io/author/liam-fowl/</link>
       <atom:link href="https://jonasgeiping.github.io/author/liam-fowl/index.xml" rel="self" type="application/rss+xml" />
     <description>Liam Fowl</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Feb 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jonasgeiping.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Liam Fowl</title>
       <link>https://jonasgeiping.github.io/author/liam-fowl/</link>
     </image>
+    
+    <item>
+      <title>Fishing for User Data in Large-Batch Federated Learning via Gradient Magnification</title>
+      <link>https://jonasgeiping.github.io/publication/wen-fishing-2022/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/wen-fishing-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decepticons: Corrupted Transformers Breach Privacy in Federated Learning for Language Models</title>
+      <link>https://jonasgeiping.github.io/publication/fowl-decepticons-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/fowl-decepticons-2022/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Adversarial Examples Make Strong Poisons</title>
@@ -53,7 +69,7 @@
     </item>
     
     <item>
-      <title>MetaPoison: Practical General-Purpose Clean-Label Data Poisoning</title>
+      <title>MetaPoison: Practical General-purpose Clean-label Data Poisoning</title>
       <link>https://jonasgeiping.github.io/publication/huang-metapoison-2020-1/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://jonasgeiping.github.io/publication/huang-metapoison-2020-1/</guid>
