@@ -5,12 +5,20 @@
     <link>https://jonasgeiping.github.io/</link>
       <atom:link href="https://jonasgeiping.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Jonas Geiping</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 25 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 25 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jonasgeiping.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Jonas Geiping</title>
       <link>https://jonasgeiping.github.io/</link>
     </image>
+    
+    <item>
+      <title>Federated Learning One World (FLOW) Seminar</title>
+      <link>https://jonasgeiping.github.io/talk/flowtalk/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/talk/flowtalk/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Tenth International Conference on Learning Representations (ICLR 2022)</title>
