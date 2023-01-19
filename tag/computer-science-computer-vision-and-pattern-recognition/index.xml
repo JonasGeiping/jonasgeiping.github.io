@@ -5,18 +5,50 @@
     <link>https://jonasgeiping.github.io/tag/computer-science-computer-vision-and-pattern-recognition/</link>
       <atom:link href="https://jonasgeiping.github.io/tag/computer-science-computer-vision-and-pattern-recognition/index.xml" rel="self" type="application/rss+xml" />
     <description>Computer Science - Computer Vision and Pattern Recognition</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Dec 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://jonasgeiping.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://jonasgeiping.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Computer Science - Computer Vision and Pattern Recognition</title>
       <link>https://jonasgeiping.github.io/tag/computer-science-computer-vision-and-pattern-recognition/</link>
     </image>
     
     <item>
-      <title>Fishing for User Data in Large-Batch Federated Learning via Gradient Magnification</title>
-      <link>https://jonasgeiping.github.io/publication/wen-fishing-2022/</link>
-      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://jonasgeiping.github.io/publication/wen-fishing-2022/</guid>
+      <title>A Simple Strategy to Provable Invariance via Orbit Mapping</title>
+      <link>https://jonasgeiping.github.io/publication/gandikota-simple-2022/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/gandikota-simple-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Diffusion Art or Digital Forgery? Investigating Data Replication in Diffusion Models</title>
+      <link>https://jonasgeiping.github.io/publication/somepalli-diffusion-2022/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/somepalli-diffusion-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How Much Data Are Augmentations Worth? An Investigation into Scaling Laws, Invariance, and Implicit Regularization</title>
+      <link>https://jonasgeiping.github.io/publication/geiping-how-2022/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/geiping-how-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K-SAM: Sharpness-Aware Minimization at the Speed of SGD</title>
+      <link>https://jonasgeiping.github.io/publication/ni-k-sam-2022/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/ni-k-sam-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cold Diffusion: Inverting Arbitrary Image Transforms Without Noise</title>
+      <link>https://jonasgeiping.github.io/publication/bansal-cold-2022/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/bansal-cold-2022/</guid>
       <description></description>
     </item>
     
@@ -37,6 +69,14 @@
     </item>
     
     <item>
+      <title>Witches&#39; Brew: Industrial Scale Data Poisoning via Gradient Matching</title>
+      <link>https://jonasgeiping.github.io/publication/geiping-witches-2021/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/geiping-witches-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>DP-InstaHide: Provably Defusing Poisoning and Backdoor Attacks with Differentially Private Data Augmentations</title>
       <link>https://jonasgeiping.github.io/publication/borgnia-dp-instahide-2021/</link>
       <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
@@ -53,10 +93,34 @@
     </item>
     
     <item>
+      <title>MetaPoison: Practical General-purpose Clean-label Data Poisoning</title>
+      <link>https://jonasgeiping.github.io/publication/huang-metapoison-2020/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/huang-metapoison-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Fast Convex Relaxations Using Graph Discretizations</title>
-      <link>https://jonasgeiping.github.io/publication/geiping-fast-2020-1/</link>
+      <link>https://jonasgeiping.github.io/publication/geiping-fast-2020/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://jonasgeiping.github.io/publication/geiping-fast-2020-1/</guid>
+      <guid>https://jonasgeiping.github.io/publication/geiping-fast-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Witchcraft: Efficient PGD Attacks with Random Step Size</title>
+      <link>https://jonasgeiping.github.io/publication/chiang-witchcraft-2020/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/chiang-witchcraft-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Parametric Majorization for Data-Driven Energy Minimization Methods</title>
+      <link>https://jonasgeiping.github.io/publication/geiping-parametric-2019-1/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/geiping-parametric-2019-1/</guid>
       <description></description>
     </item>
     

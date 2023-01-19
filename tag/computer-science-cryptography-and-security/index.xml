@@ -5,18 +5,26 @@
     <link>https://jonasgeiping.github.io/tag/computer-science-cryptography-and-security/</link>
       <atom:link href="https://jonasgeiping.github.io/tag/computer-science-cryptography-and-security/index.xml" rel="self" type="application/rss+xml" />
     <description>Computer Science - Cryptography and Security</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://jonasgeiping.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://jonasgeiping.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Computer Science - Cryptography and Security</title>
       <link>https://jonasgeiping.github.io/tag/computer-science-cryptography-and-security/</link>
     </image>
     
     <item>
-      <title>Fishing for User Data in Large-Batch Federated Learning via Gradient Magnification</title>
-      <link>https://jonasgeiping.github.io/publication/wen-fishing-2022/</link>
-      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://jonasgeiping.github.io/publication/wen-fishing-2022/</guid>
+      <title>Canary in a Coalmine: Better Membership Inference with Ensembled Adversarial Queries</title>
+      <link>https://jonasgeiping.github.io/publication/wen-canary-2022/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/wen-canary-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thinking Two Moves Ahead: Anticipating Other Users Improves Backdoor Attacks in Federated Learning</title>
+      <link>https://jonasgeiping.github.io/publication/wen-thinking-2022/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/wen-thinking-2022/</guid>
       <description></description>
     </item>
     
@@ -37,10 +45,10 @@
     </item>
     
     <item>
-      <title>Adversarial Examples Make Strong Poisons</title>
-      <link>https://jonasgeiping.github.io/publication/fowl-adversarial-2021/</link>
+      <title>Strong Data Augmentation Sanitizes Poisoning and Backdoor Attacks Without an Accuracy Tradeoff</title>
+      <link>https://jonasgeiping.github.io/publication/borgnia-strong-2021/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://jonasgeiping.github.io/publication/fowl-adversarial-2021/</guid>
+      <guid>https://jonasgeiping.github.io/publication/borgnia-strong-2021/</guid>
       <description></description>
     </item>
     
@@ -65,6 +73,30 @@
       <link>https://jonasgeiping.github.io/publication/geiping-what-2021/</link>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
       <guid>https://jonasgeiping.github.io/publication/geiping-what-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adversarial Examples Make Strong Poisons</title>
+      <link>https://jonasgeiping.github.io/publication/fowl-adversarial-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/fowl-adversarial-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MetaPoison: Practical General-purpose Clean-label Data Poisoning</title>
+      <link>https://jonasgeiping.github.io/publication/huang-metapoison-2020/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/huang-metapoison-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Witchcraft: Efficient PGD Attacks with Random Step Size</title>
+      <link>https://jonasgeiping.github.io/publication/chiang-witchcraft-2020/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/chiang-witchcraft-2020/</guid>
       <description></description>
     </item>
     

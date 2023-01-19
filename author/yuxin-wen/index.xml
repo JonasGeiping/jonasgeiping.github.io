@@ -5,17 +5,33 @@
     <link>https://jonasgeiping.github.io/author/yuxin-wen/</link>
       <atom:link href="https://jonasgeiping.github.io/author/yuxin-wen/index.xml" rel="self" type="application/rss+xml" />
     <description>Yuxin Wen</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://jonasgeiping.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://jonasgeiping.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Yuxin Wen</title>
       <link>https://jonasgeiping.github.io/author/yuxin-wen/</link>
     </image>
     
     <item>
+      <title>Canary in a Coalmine: Better Membership Inference with Ensembled Adversarial Queries</title>
+      <link>https://jonasgeiping.github.io/publication/wen-canary-2022/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/wen-canary-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thinking Two Moves Ahead: Anticipating Other Users Improves Backdoor Attacks in Federated Learning</title>
+      <link>https://jonasgeiping.github.io/publication/wen-thinking-2022/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/wen-thinking-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Fishing for User Data in Large-Batch Federated Learning via Gradient Magnification</title>
       <link>https://jonasgeiping.github.io/publication/wen-fishing-2022/</link>
-      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
       <guid>https://jonasgeiping.github.io/publication/wen-fishing-2022/</guid>
       <description></description>
     </item>

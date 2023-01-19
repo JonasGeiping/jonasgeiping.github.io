@@ -1,22 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>&#34;Statistics - Machine Learning&#34; | Jonas Geiping</title>
+    <title>Statistics - Machine Learning | Jonas Geiping</title>
     <link>https://jonasgeiping.github.io/tag/statistics-machine-learning/</link>
       <atom:link href="https://jonasgeiping.github.io/tag/statistics-machine-learning/index.xml" rel="self" type="application/rss+xml" />
-    <description>&#34;Statistics - Machine Learning&#34;</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <description>Statistics - Machine Learning</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://jonasgeiping.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>&#34;Statistics - Machine Learning&#34;</title>
+      <url>https://jonasgeiping.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Statistics - Machine Learning</title>
       <link>https://jonasgeiping.github.io/tag/statistics-machine-learning/</link>
     </image>
     
     <item>
-      <title>MetaPoison: Practical General-Purpose Clean-Label Data Poisoning</title>
+      <title>MetaPoison: Practical General-purpose Clean-label Data Poisoning</title>
       <link>https://jonasgeiping.github.io/publication/huang-metapoison-2020/</link>
-      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://jonasgeiping.github.io/publication/huang-metapoison-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Witchcraft: Efficient PGD Attacks with Random Step Size</title>
+      <link>https://jonasgeiping.github.io/publication/chiang-witchcraft-2020/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/chiang-witchcraft-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Truth or Backpropaganda? An Empirical Investigation of Deep Learning Theory</title>
+      <link>https://jonasgeiping.github.io/publication/goldblum-truth-2020/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/goldblum-truth-2020/</guid>
       <description></description>
     </item>
     

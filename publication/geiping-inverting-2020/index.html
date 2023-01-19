@@ -30,7 +30,7 @@
   
     
   
-  <meta name="description" content="The idea of federated learning is to collaboratively train a neural network on a server. Each user receives the current weights of the network and in turns sends parameter updates (gradients) based on local data. This protocol has been designed not only to train neural networks data-efficiently, but also to provide privacy benefits for users, as their input data remains on device and only parameter gradients are shared. In this paper we show that sharing parameter gradients is by no means secure: By exploiting a cosine similarity loss along with optimization methods from adversarial attacks, we are able to faithfully reconstruct images at high resolution from the knowledge of their parameter gradients, and demonstrate that such a break of privacy is possible even for trained deep networks. Moreover, we analyze the effects of architecture as well as parameters on the difficulty of reconstructing the input image, prove that any input to a fully connected layer can be reconstructed analytically independent of the remaining architecture, and show numerically that even averaging gradients over several iterations or several images does not protect the user&#39;s privacy in federated learning applications in computer vision.">
+  <meta name="description" content="">
 
   
   <link rel="alternate" hreflang="en-us" href="https://jonasgeiping.github.io/publication/geiping-inverting-2020/">
@@ -56,7 +56,7 @@
   
   
   
-  <meta name="theme-color" content="#2962ff">
+  <meta name="theme-color" content="#707070">
   
 
   
@@ -85,8 +85,8 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
         
       
     
@@ -252,8 +252,8 @@
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png">
 
   <link rel="canonical" href="https://jonasgeiping.github.io/publication/geiping-inverting-2020/">
 
@@ -270,16 +270,19 @@
   
   <meta property="twitter:card" content="summary">
   
+  <meta property="twitter:site" content="@jonasgeiping">
+  <meta property="twitter:creator" content="@jonasgeiping">
+  
   <meta property="og:site_name" content="Jonas Geiping">
   <meta property="og:url" content="https://jonasgeiping.github.io/publication/geiping-inverting-2020/">
-  <meta property="og:title" content="Inverting Gradients -- How Easy Is It to Break Privacy in Federated Learning? | Jonas Geiping">
-  <meta property="og:description" content="The idea of federated learning is to collaboratively train a neural network on a server. Each user receives the current weights of the network and in turns sends parameter updates (gradients) based on local data. This protocol has been designed not only to train neural networks data-efficiently, but also to provide privacy benefits for users, as their input data remains on device and only parameter gradients are shared. In this paper we show that sharing parameter gradients is by no means secure: By exploiting a cosine similarity loss along with optimization methods from adversarial attacks, we are able to faithfully reconstruct images at high resolution from the knowledge of their parameter gradients, and demonstrate that such a break of privacy is possible even for trained deep networks. Moreover, we analyze the effects of architecture as well as parameters on the difficulty of reconstructing the input image, prove that any input to a fully connected layer can be reconstructed analytically independent of the remaining architecture, and show numerically that even averaging gradients over several iterations or several images does not protect the user&#39;s privacy in federated learning applications in computer vision."><meta property="og:image" content="https://jonasgeiping.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="https://jonasgeiping.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  <meta property="og:title" content="Inverting Gradients - How Easy Is It to Break Privacy in Federated Learning? | Jonas Geiping">
+  <meta property="og:description" content=""><meta property="og:image" content="https://jonasgeiping.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png">
+  <meta property="twitter:image" content="https://jonasgeiping.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-09-19T18:47:34&#43;00:00">
+      <meta property="article:published_time" content="2023-01-18T23:35:57&#43;00:00">
     
-    <meta property="article:modified_time" content="2020-09-19T20:47:34&#43;02:00">
+    <meta property="article:modified_time" content="2020-12-01T00:00:00&#43;00:00">
   
 
   
@@ -303,10 +306,10 @@
     "@type": "WebPage",
     "@id": "https://jonasgeiping.github.io/publication/geiping-inverting-2020/"
   },
-  "headline": "Inverting Gradients -- How Easy Is It to Break Privacy in Federated Learning?",
+  "headline": "Inverting Gradients - How Easy Is It to Break Privacy in Federated Learning?",
   
-  "datePublished": "2020-09-19T18:47:34Z",
-  "dateModified": "2020-09-19T20:47:34+02:00",
+  "datePublished": "2023-01-18T23:35:57Z",
+  "dateModified": "2020-12-01T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -318,10 +321,10 @@
     "name": "Jonas Geiping",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://jonasgeiping.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+      "url": "https://jonasgeiping.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "The idea of federated learning is to collaboratively train a neural network on a server. Each user receives the current weights of the network and in turns sends parameter updates (gradients) based on local data. This protocol has been designed not only to train neural networks data-efficiently, but also to provide privacy benefits for users, as their input data remains on device and only parameter gradients are shared. In this paper we show that sharing parameter gradients is by no means secure: By exploiting a cosine similarity loss along with optimization methods from adversarial attacks, we are able to faithfully reconstruct images at high resolution from the knowledge of their parameter gradients, and demonstrate that such a break of privacy is possible even for trained deep networks. Moreover, we analyze the effects of architecture as well as parameters on the difficulty of reconstructing the input image, prove that any input to a fully connected layer can be reconstructed analytically independent of the remaining architecture, and show numerically that even averaging gradients over several iterations or several images does not protect the user's privacy in federated learning applications in computer vision."
+  "description": ""
 }
 </script>
 
@@ -343,12 +346,12 @@
     window.cookieconsent.initialise({
       "palette": {
         "popup": {
-          "background": "#2962ff",
+          "background": "#707070",
           "text": "rgb(255, 255, 255)"
         },
         "button": {
           "background": "rgb(255, 255, 255)",
-          "text": "#2962ff"
+          "text": "#707070"
         }
       },
       "theme": "classic",
@@ -356,7 +359,7 @@
         "message": "This website uses cookies to ensure you get the best experience on our website.",
         "dismiss": "Got it!",
         "link": "Learn more",
-        "href": "https://www.cookiesandyou.com"
+        "href": "/privacy/"
       }
     })});
   </script>
@@ -369,18 +372,18 @@
 
 
 
-  <title>Inverting Gradients -- How Easy Is It to Break Privacy in Federated Learning? | Jonas Geiping</title>
+  <title>Inverting Gradients - How Easy Is It to Break Privacy in Federated Learning? | Jonas Geiping</title>
 
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="dark ">
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class=" ">
 
   
   
   
   
-    <script>const isSiteThemeDark = true;</script>
+    <script>const isSiteThemeDark = false;</script>
   
   
   <script src="/js/load-theme.js"></script>
@@ -571,6 +574,36 @@
         
         
 
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/cv.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
       
 
         
@@ -616,7 +649,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Inverting Gradients -- How Easy Is It to Break Privacy in Federated Learning?</h1>
+  <h1>Inverting Gradients - How Easy Is It to Break Privacy in Federated Learning?</h1>
 
   
 
@@ -645,7 +678,7 @@
     
       
     
-    March 2020
+    December 2020
   </span>
   
 
@@ -690,8 +723,14 @@
 
 
   
+    
+  
 
 
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://proceedings.neurips.cc/paper/2020/hash/c4ede56bbd98819ae6112b20ac6bf145-Abstract.html" target="_blank" rel="noopener">
+  PDF
+</a>
 
 
 
@@ -725,9 +764,6 @@
   <div class="article-container">
 
     
-    <h3>Abstract</h3>
-    <p class="pub-abstract">The idea of federated learning is to collaboratively train a neural network on a server. Each user receives the current weights of the network and in turns sends parameter updates (gradients) based on local data. This protocol has been designed not only to train neural networks data-efficiently, but also to provide privacy benefits for users, as their input data remains on device and only parameter gradients are shared. In this paper we show that sharing parameter gradients is by no means secure: By exploiting a cosine similarity loss along with optimization methods from adversarial attacks, we are able to faithfully reconstruct images at high resolution from the knowledge of their parameter gradients, and demonstrate that such a break of privacy is possible even for trained deep networks. Moreover, we analyze the effects of architecture as well as parameters on the difficulty of reconstructing the input image, prove that any input to a fully connected layer can be reconstructed analytically independent of the remaining architecture, and show numerically that even averaging gradients over several iterations or several images does not protect the user&rsquo;s privacy in federated learning applications in computer vision.</p>
-    
 
     
     <div class="row">
@@ -738,8 +774,8 @@
           <div class="col-12 col-md-9">
             
             
-            <a href="/publication/#2">
-              Journal article
+            <a href="/publication/#1">
+              Conference paper
             </a>
             
           </div>
@@ -756,7 +792,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9"><em>arXiv:2003.14053 [cs]</em></div>
+          <div class="col-12 col-md-9"><em>Advances in Neural Information Processing Systems</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -846,23 +882,6 @@
 
 
   
-  
-  <div class="article-widget content-widget-hr">
-    <h3>Related</h3>
-    <ul>
-      
-      <li><a href="/publication/geiping-fast-2020-1/">Fast Convex Relaxations Using Graph Discretizations</a></li>
-      
-      <li><a href="/publication/goldblum-truth-2020/">Truth or Backpropaganda? An Empirical Investigation of Deep Learning Theory</a></li>
-      
-      <li><a href="/publication/geiping-witches-2020/">Witches&#39; Brew: Industrial Scale Data Poisoning via Gradient Matching</a></li>
-      
-      <li><a href="/publication/geiping-parametric-2019-2/">Parametric Majorization for Data-Driven Energy Minimization Methods</a></li>
-      
-      <li><a href="/publication/geiping-multiframe-2018/">Multiframe Motion Coupling for Video Super Resolution</a></li>
-      
-    </ul>
-  </div>
   
 
 
@@ -974,7 +993,7 @@
     
     
     
-    <script src="/js/academic.min.3b2b658c61ebd725bd5fc606c89fe44c.js"></script>
+    <script src="/js/academic.min.4182b289689108d47721d002a07cd804.js"></script>
 
     
 
@@ -988,23 +1007,30 @@
   <div class="container">
     <footer class="site-footer">
   
-
-  
+  <p class="powered-by">
     
-
-
-  
-  
-
-
-
-
-
-
-  
+      <a href="/privacy/">Privacy Policy</a>
     
     
+  </p>
+  
+
+  <p class="powered-by">
     
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    Published with
+    <a href="https://wowchemy.com" target="_blank" rel="noopener">Wowchemy Website Builder</a>
     
 
     
@@ -1016,7 +1042,7 @@
       </a>
     </span>
     
-
+  </p>
 </footer>
 
   </div>

@@ -5,12 +5,20 @@
     <link>https://jonasgeiping.github.io/author/renkun-ni/</link>
       <atom:link href="https://jonasgeiping.github.io/author/renkun-ni/index.xml" rel="self" type="application/rss+xml" />
     <description>Renkun Ni</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 May 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://jonasgeiping.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://jonasgeiping.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Renkun Ni</title>
       <link>https://jonasgeiping.github.io/author/renkun-ni/</link>
     </image>
+    
+    <item>
+      <title>K-SAM: Sharpness-Aware Minimization at the Speed of SGD</title>
+      <link>https://jonasgeiping.github.io/publication/ni-k-sam-2022/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/ni-k-sam-2022/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Witchcraft: Efficient PGD Attacks with Random Step Size</title>

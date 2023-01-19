@@ -30,7 +30,7 @@
   
     
   
-  <meta name="description" content="Data poisoning--the process by which an attacker takes control of a model by making imperceptible changes to a subset of the training data--is an emerging threat in the context of neural networks. Existing attacks for data poisoning have relied on hand-crafted heuristics. Instead, we pose crafting poisons more generally as a bi-level optimization problem, where the inner level corresponds to training a network on a poisoned dataset and the outer level corresponds to updating those poisons to achieve a desired behavior on the trained model. We then propose MetaPoison, a first-order method to solve this optimization quickly. MetaPoison is effective: it outperforms previous clean-label poisoning methods by a large margin under the same setting. MetaPoison is robust: its poisons transfer to a variety of victims with unknown hyperparameters and architectures. MetaPoison is also general-purpose, working not only in fine-tuning scenarios, but also for end-to-end training from scratch with remarkable success, e.g. causing a target image to be misclassified 90% of the time via manipulating just 1% of the dataset. Additionally, MetaPoison can achieve arbitrary adversary goals not previously possible--like using poisons of one class to make a target image don the label of another arbitrarily chosen class. Finally, MetaPoison works in the real-world. We demonstrate successful data poisoning of models trained on Google Cloud AutoML Vision. Code and premade poisons are provided at https://github.com/wronnyhuang/metapoison">
+  <meta name="description" content="">
 
   
   <link rel="alternate" hreflang="en-us" href="https://jonasgeiping.github.io/publication/huang-metapoison-2020/">
@@ -56,7 +56,7 @@
   
   
   
-  <meta name="theme-color" content="#2962ff">
+  <meta name="theme-color" content="#707070">
   
 
   
@@ -85,8 +85,8 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
         
       
     
@@ -252,8 +252,8 @@
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png">
 
   <link rel="canonical" href="https://jonasgeiping.github.io/publication/huang-metapoison-2020/">
 
@@ -270,16 +270,19 @@
   
   <meta property="twitter:card" content="summary">
   
+  <meta property="twitter:site" content="@jonasgeiping">
+  <meta property="twitter:creator" content="@jonasgeiping">
+  
   <meta property="og:site_name" content="Jonas Geiping">
   <meta property="og:url" content="https://jonasgeiping.github.io/publication/huang-metapoison-2020/">
-  <meta property="og:title" content="MetaPoison: Practical General-Purpose Clean-Label Data Poisoning | Jonas Geiping">
-  <meta property="og:description" content="Data poisoning--the process by which an attacker takes control of a model by making imperceptible changes to a subset of the training data--is an emerging threat in the context of neural networks. Existing attacks for data poisoning have relied on hand-crafted heuristics. Instead, we pose crafting poisons more generally as a bi-level optimization problem, where the inner level corresponds to training a network on a poisoned dataset and the outer level corresponds to updating those poisons to achieve a desired behavior on the trained model. We then propose MetaPoison, a first-order method to solve this optimization quickly. MetaPoison is effective: it outperforms previous clean-label poisoning methods by a large margin under the same setting. MetaPoison is robust: its poisons transfer to a variety of victims with unknown hyperparameters and architectures. MetaPoison is also general-purpose, working not only in fine-tuning scenarios, but also for end-to-end training from scratch with remarkable success, e.g. causing a target image to be misclassified 90% of the time via manipulating just 1% of the dataset. Additionally, MetaPoison can achieve arbitrary adversary goals not previously possible--like using poisons of one class to make a target image don the label of another arbitrarily chosen class. Finally, MetaPoison works in the real-world. We demonstrate successful data poisoning of models trained on Google Cloud AutoML Vision. Code and premade poisons are provided at https://github.com/wronnyhuang/metapoison"><meta property="og:image" content="https://jonasgeiping.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="https://jonasgeiping.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  <meta property="og:title" content="MetaPoison: Practical General-purpose Clean-label Data Poisoning | Jonas Geiping">
+  <meta property="og:description" content=""><meta property="og:image" content="https://jonasgeiping.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png">
+  <meta property="twitter:image" content="https://jonasgeiping.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-09-19T18:47:35&#43;00:00">
+      <meta property="article:published_time" content="2023-01-18T23:35:57&#43;00:00">
     
-    <meta property="article:modified_time" content="2020-09-19T20:47:35&#43;02:00">
+    <meta property="article:modified_time" content="2020-12-01T00:00:00&#43;00:00">
   
 
   
@@ -303,10 +306,10 @@
     "@type": "WebPage",
     "@id": "https://jonasgeiping.github.io/publication/huang-metapoison-2020/"
   },
-  "headline": "MetaPoison: Practical General-Purpose Clean-Label Data Poisoning",
+  "headline": "MetaPoison: Practical General-purpose Clean-label Data Poisoning",
   
-  "datePublished": "2020-09-19T18:47:35Z",
-  "dateModified": "2020-09-19T20:47:35+02:00",
+  "datePublished": "2023-01-18T23:35:57Z",
+  "dateModified": "2020-12-01T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -318,10 +321,10 @@
     "name": "Jonas Geiping",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://jonasgeiping.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+      "url": "https://jonasgeiping.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "Data poisoning--the process by which an attacker takes control of a model by making imperceptible changes to a subset of the training data--is an emerging threat in the context of neural networks. Existing attacks for data poisoning have relied on hand-crafted heuristics. Instead, we pose crafting poisons more generally as a bi-level optimization problem, where the inner level corresponds to training a network on a poisoned dataset and the outer level corresponds to updating those poisons to achieve a desired behavior on the trained model. We then propose MetaPoison, a first-order method to solve this optimization quickly. MetaPoison is effective: it outperforms previous clean-label poisoning methods by a large margin under the same setting. MetaPoison is robust: its poisons transfer to a variety of victims with unknown hyperparameters and architectures. MetaPoison is also general-purpose, working not only in fine-tuning scenarios, but also for end-to-end training from scratch with remarkable success, e.g. causing a target image to be misclassified 90% of the time via manipulating just 1% of the dataset. Additionally, MetaPoison can achieve arbitrary adversary goals not previously possible--like using poisons of one class to make a target image don the label of another arbitrarily chosen class. Finally, MetaPoison works in the real-world. We demonstrate successful data poisoning of models trained on Google Cloud AutoML Vision. Code and premade poisons are provided at https://github.com/wronnyhuang/metapoison"
+  "description": ""
 }
 </script>
 
@@ -343,12 +346,12 @@
     window.cookieconsent.initialise({
       "palette": {
         "popup": {
-          "background": "#2962ff",
+          "background": "#707070",
           "text": "rgb(255, 255, 255)"
         },
         "button": {
           "background": "rgb(255, 255, 255)",
-          "text": "#2962ff"
+          "text": "#707070"
         }
       },
       "theme": "classic",
@@ -356,7 +359,7 @@
         "message": "This website uses cookies to ensure you get the best experience on our website.",
         "dismiss": "Got it!",
         "link": "Learn more",
-        "href": "https://www.cookiesandyou.com"
+        "href": "/privacy/"
       }
     })});
   </script>
@@ -369,18 +372,18 @@
 
 
 
-  <title>MetaPoison: Practical General-Purpose Clean-Label Data Poisoning | Jonas Geiping</title>
+  <title>MetaPoison: Practical General-purpose Clean-label Data Poisoning | Jonas Geiping</title>
 
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="dark ">
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class=" ">
 
   
   
   
   
-    <script>const isSiteThemeDark = true;</script>
+    <script>const isSiteThemeDark = false;</script>
   
   
   <script src="/js/load-theme.js"></script>
@@ -571,6 +574,36 @@
         
         
 
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/cv.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
       
 
         
@@ -616,7 +649,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>MetaPoison: Practical General-Purpose Clean-Label Data Poisoning</h1>
+  <h1>MetaPoison: Practical General-purpose Clean-label Data Poisoning</h1>
 
   
 
@@ -645,7 +678,7 @@
     
       
     
-    April 2020
+    December 2020
   </span>
   
 
@@ -690,8 +723,14 @@
 
 
   
+    
+  
 
 
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://proceedings.neurips.cc//paper_files/paper/2020/hash/8ce6fc704072e351679ac97d4a985574-Abstract.html" target="_blank" rel="noopener">
+  PDF
+</a>
 
 
 
@@ -725,9 +764,6 @@
   <div class="article-container">
 
     
-    <h3>Abstract</h3>
-    <p class="pub-abstract">Data poisoning&ndash;the process by which an attacker takes control of a model by making imperceptible changes to a subset of the training data&ndash;is an emerging threat in the context of neural networks. Existing attacks for data poisoning have relied on hand-crafted heuristics. Instead, we pose crafting poisons more generally as a bi-level optimization problem, where the inner level corresponds to training a network on a poisoned dataset and the outer level corresponds to updating those poisons to achieve a desired behavior on the trained model. We then propose MetaPoison, a first-order method to solve this optimization quickly. MetaPoison is effective: it outperforms previous clean-label poisoning methods by a large margin under the same setting. MetaPoison is robust: its poisons transfer to a variety of victims with unknown hyperparameters and architectures. MetaPoison is also general-purpose, working not only in fine-tuning scenarios, but also for end-to-end training from scratch with remarkable success, e.g. causing a target image to be misclassified 90% of the time via manipulating just 1% of the dataset. Additionally, MetaPoison can achieve arbitrary adversary goals not previously possible&ndash;like using poisons of one class to make a target image don the label of another arbitrarily chosen class. Finally, MetaPoison works in the real-world. We demonstrate successful data poisoning of models trained on Google Cloud AutoML Vision. Code and premade poisons are provided at <a href="https://github.com/wronnyhuang/metapoison">https://github.com/wronnyhuang/metapoison</a></p>
-    
 
     
     <div class="row">
@@ -738,8 +774,8 @@
           <div class="col-12 col-md-9">
             
             
-            <a href="/publication/#2">
-              Journal article
+            <a href="/publication/#1">
+              Conference paper
             </a>
             
           </div>
@@ -756,7 +792,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9"><em>arXiv:2004.00225 [cs, stat]</em></div>
+          <div class="col-12 col-md-9"><em>Advances in Neural Information Processing Systems</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -777,15 +813,15 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/computer-science-artificial-intelligence/">&#34;Computer Science - Artificial Intelligence&#34;</a>
+  <a class="badge badge-light" href="/tag/computer-science-artificial-intelligence/">Computer Science - Artificial Intelligence</a>
   
-  <a class="badge badge-light" href="/tag/computer-science-computer-vision-and-pattern-recognition/">&#34;Computer Science - Computer Vision and Pattern Recognition&#34;</a>
+  <a class="badge badge-light" href="/tag/computer-science-computer-vision-and-pattern-recognition/">Computer Science - Computer Vision and Pattern Recognition</a>
   
-  <a class="badge badge-light" href="/tag/computer-science-cryptography-and-security/">&#34;Computer Science - Cryptography and Security&#34;</a>
+  <a class="badge badge-light" href="/tag/computer-science-cryptography-and-security/">Computer Science - Cryptography and Security</a>
   
-  <a class="badge badge-light" href="/tag/computer-science-machine-learning/">&#34;Computer Science - Machine Learning&#34;</a>
+  <a class="badge badge-light" href="/tag/computer-science-machine-learning/">Computer Science - Machine Learning</a>
   
-  <a class="badge badge-light" href="/tag/statistics-machine-learning/">&#34;Statistics - Machine Learning&#34;</a>
+  <a class="badge badge-light" href="/tag/statistics-machine-learning/">Statistics - Machine Learning</a>
   
 </div>
 
@@ -876,15 +912,15 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/geiping-witches-2020/">Witches&#39; Brew: Industrial Scale Data Poisoning via Gradient Matching</a></li>
-      
-      <li><a href="/publication/geiping-fast-2020-1/">Fast Convex Relaxations Using Graph Discretizations</a></li>
-      
-      <li><a href="/publication/geiping-composite-2018/">Composite Optimization by Nonconvex Majorization-Minimization</a></li>
-      
-      <li><a href="/publication/goldblum-truth-2020/">Truth or Backpropaganda? An Empirical Investigation of Deep Learning Theory</a></li>
-      
       <li><a href="/publication/chiang-witchcraft-2020/">Witchcraft: Efficient PGD Attacks with Random Step Size</a></li>
+      
+      <li><a href="/publication/geiping-what-2021/">What Doesn&#39;t Kill You Makes You Robust(Er): Adversarial Training against Poisons and Backdoors</a></li>
+      
+      <li><a href="/publication/borgnia-dp-instahide-2021/">DP-InstaHide: Provably Defusing Poisoning and Backdoor Attacks with Differentially Private Data Augmentations</a></li>
+      
+      <li><a href="/publication/geiping-witches-2021/">Witches&#39; Brew: Industrial Scale Data Poisoning via Gradient Matching</a></li>
+      
+      <li><a href="/publication/wen-thinking-2022/">Thinking Two Moves Ahead: Anticipating Other Users Improves Backdoor Attacks in Federated Learning</a></li>
       
     </ul>
   </div>
@@ -999,7 +1035,7 @@
     
     
     
-    <script src="/js/academic.min.3b2b658c61ebd725bd5fc606c89fe44c.js"></script>
+    <script src="/js/academic.min.4182b289689108d47721d002a07cd804.js"></script>
 
     
 
@@ -1013,23 +1049,30 @@
   <div class="container">
     <footer class="site-footer">
   
-
-  
+  <p class="powered-by">
     
-
-
-  
-  
-
-
-
-
-
-
-  
+      <a href="/privacy/">Privacy Policy</a>
     
     
+  </p>
+  
+
+  <p class="powered-by">
     
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    Published with
+    <a href="https://wowchemy.com" target="_blank" rel="noopener">Wowchemy Website Builder</a>
     
 
     
@@ -1041,7 +1084,7 @@
       </a>
     </span>
     
-
+  </p>
 </footer>
 
   </div>

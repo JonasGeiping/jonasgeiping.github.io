@@ -5,18 +5,66 @@
     <link>https://jonasgeiping.github.io/tag/computer-science-machine-learning/</link>
       <atom:link href="https://jonasgeiping.github.io/tag/computer-science-machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Computer Science - Machine Learning</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Dec 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://jonasgeiping.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://jonasgeiping.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Computer Science - Machine Learning</title>
       <link>https://jonasgeiping.github.io/tag/computer-science-machine-learning/</link>
     </image>
     
     <item>
-      <title>Fishing for User Data in Large-Batch Federated Learning via Gradient Magnification</title>
-      <link>https://jonasgeiping.github.io/publication/wen-fishing-2022/</link>
-      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://jonasgeiping.github.io/publication/wen-fishing-2022/</guid>
+      <title>Cramming: Training a Language Model on a Single GPU in One Day</title>
+      <link>https://jonasgeiping.github.io/publication/geiping-cramming-2022/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/geiping-cramming-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Diffusion Art or Digital Forgery? Investigating Data Replication in Diffusion Models</title>
+      <link>https://jonasgeiping.github.io/publication/somepalli-diffusion-2022/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/somepalli-diffusion-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Canary in a Coalmine: Better Membership Inference with Ensembled Adversarial Queries</title>
+      <link>https://jonasgeiping.github.io/publication/wen-canary-2022/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/wen-canary-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How Much Data Are Augmentations Worth? An Investigation into Scaling Laws, Invariance, and Implicit Regularization</title>
+      <link>https://jonasgeiping.github.io/publication/geiping-how-2022/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/geiping-how-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K-SAM: Sharpness-Aware Minimization at the Speed of SGD</title>
+      <link>https://jonasgeiping.github.io/publication/ni-k-sam-2022/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/ni-k-sam-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thinking Two Moves Ahead: Anticipating Other Users Improves Backdoor Attacks in Federated Learning</title>
+      <link>https://jonasgeiping.github.io/publication/wen-thinking-2022/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/wen-thinking-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cold Diffusion: Inverting Arbitrary Image Transforms Without Noise</title>
+      <link>https://jonasgeiping.github.io/publication/bansal-cold-2022/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/bansal-cold-2022/</guid>
       <description></description>
     </item>
     
@@ -53,10 +101,18 @@
     </item>
     
     <item>
-      <title>Adversarial Examples Make Strong Poisons</title>
-      <link>https://jonasgeiping.github.io/publication/fowl-adversarial-2021/</link>
+      <title>Strong Data Augmentation Sanitizes Poisoning and Backdoor Attacks Without an Accuracy Tradeoff</title>
+      <link>https://jonasgeiping.github.io/publication/borgnia-strong-2021/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://jonasgeiping.github.io/publication/fowl-adversarial-2021/</guid>
+      <guid>https://jonasgeiping.github.io/publication/borgnia-strong-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Witches&#39; Brew: Industrial Scale Data Poisoning via Gradient Matching</title>
+      <link>https://jonasgeiping.github.io/publication/geiping-witches-2021/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/geiping-witches-2021/</guid>
       <description></description>
     </item>
     
@@ -81,6 +137,46 @@
       <link>https://jonasgeiping.github.io/publication/geiping-what-2021/</link>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
       <guid>https://jonasgeiping.github.io/publication/geiping-what-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adversarial Examples Make Strong Poisons</title>
+      <link>https://jonasgeiping.github.io/publication/fowl-adversarial-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/fowl-adversarial-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MetaPoison: Practical General-purpose Clean-label Data Poisoning</title>
+      <link>https://jonasgeiping.github.io/publication/huang-metapoison-2020/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/huang-metapoison-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Witchcraft: Efficient PGD Attacks with Random Step Size</title>
+      <link>https://jonasgeiping.github.io/publication/chiang-witchcraft-2020/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/chiang-witchcraft-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Truth or Backpropaganda? An Empirical Investigation of Deep Learning Theory</title>
+      <link>https://jonasgeiping.github.io/publication/goldblum-truth-2020/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/goldblum-truth-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Parametric Majorization for Data-Driven Energy Minimization Methods</title>
+      <link>https://jonasgeiping.github.io/publication/geiping-parametric-2019-1/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://jonasgeiping.github.io/publication/geiping-parametric-2019-1/</guid>
       <description></description>
     </item>
     
