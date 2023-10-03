@@ -13,8 +13,8 @@ Good mathematical understanding, or the ambition to learn it, and good coding sk
 
 You do not need to bring previous experience or a background in machine learning, necessarily. Anything that demonstrates your interest in research, coding, and science as a whole is a great addition to any application.
 Don't hesitate to share links to your GitHub repositories or open-source contributions when submitting your application.
-When emailing me, the most important thing to do is to make it clear that your email is addressed to me. To do so, include at least this 🦭 in the subject line.
-Ideally, contextualize your thoughts and previous experience in light of the topics I am working on. Describe which areas of collaboration excite you the most, and add details about your thoughts and plans for a PhD with my group.
+When emailing me, the most important thing to do is to make it clear that your email is addressed to me. To do so, include at least this 🦭 (unicode glyph U+1F9AD) in the subject line.
+Even better though, contextualize your thoughts and previous experience in light of the topics our group is working on. Describe which areas of collaboration excite you the most, and add details about your thoughts and plans for a PhD with my group.
 
 
 ### Topics:
