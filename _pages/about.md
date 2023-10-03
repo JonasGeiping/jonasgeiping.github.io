@@ -22,7 +22,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hi, I'm Jonas. I am starting as a research group leader in Tübingen, where I'm building a group for **safety- and efficiency- aligned learning** (🦭). Before this, I've spent time at the University of Maryland and the University of Siegen.
 
-I am interesting broadly in questions of safety and efficiency in modern machine learning. There are a number of fundamental machine learning questions that come up in these  topics
+I am mostly interested in questions of safety and efficiency in modern machine learning. There are a number of fundamental machine learning questions that come up in these  topics
 that we still do not understand well -- such as the principles of data poisoning, the subtleties of water-marking for generative models,
 privacy questions in federated learning, or adversarial attacks against large language models. Can we ever make these models "safe"? Is every language model API an invitation for the user to
 do jailbreak it and do arbitrary things?
