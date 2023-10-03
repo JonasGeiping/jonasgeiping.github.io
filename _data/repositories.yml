@@ -1,0 +1,10 @@
+github_users:
+  - jonasgeiping
+
+github_repos:
+  - JonasGeiping/cramming
+  - JonasGeiping/breaching
+  - JonasGeiping/data-poisoning
+  - JonasGeiping/fullbatchtraining
+  - jwkirchenbauer/lm-watermarking
+  - YuxinWenRick/tree-ring-watermark
