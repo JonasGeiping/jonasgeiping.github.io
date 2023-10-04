@@ -5,8 +5,8 @@ permalink: /
 subtitle: Independent Research Group Leader <a href='https://institute-tue.ellis.eu/'>ELLIS Institute</a> &  <a href='https://is.mpg.de/'>MPI-IS</a> # Address. Contacts. Moto. Etc.
 
 profile:
-  align: right
-  image: prof_pic.png
+  align: left
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
 #    <p>Tübingen, Germany</p>
