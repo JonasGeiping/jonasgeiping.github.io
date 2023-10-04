@@ -1,7 +1,11 @@
 # Webpage Update for Dummies (me)
 
 Local testing:
-```bundle exec jekyll serve --lsi```
+```bash
+bundle config set --local path 'vendor/bundle'
+
+bundle exec jekyll serve --lsi
+```
 
 Adjust bibliography:
 1. Autogen paper.bib file
