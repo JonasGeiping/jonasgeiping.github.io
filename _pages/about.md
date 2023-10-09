@@ -20,7 +20,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi, I'm Jonas. I am starting as a research group leader in Tübingen, where I'm building a group for **safety- and efficiency- aligned learning** (🦭). Before this, I've spent time at the University of Maryland and the University of Siegen.
+Hi, I'm Jonas. I am starting as a research group leader in Tübingen, where I'm building a group for **safety- & efficiency- aligned learning** (🦭). Before this, I've spent time at the University of Maryland and the University of Siegen.
 
 I am mostly interested in questions of safety and efficiency in modern machine learning. There are a number of fundamental machine learning questions that come up in these  topics
 that we still do not understand well -- such as the principles of data poisoning, the subtleties of water-marking for generative models,
@@ -44,4 +44,4 @@ If you are interested in these topics, feel free to reach out for more informati
 * [Max Planck & ETH Center for Learning Systems (CLS)](https://learning-systems.org/)
 * [International Max Planck Research School for Intelligent Systems (IMPRS-IS)](https://imprs.is.mpg.de/)
 
-For more information, be sure to check out the [openings](openings) page.
+For more details, make sure to also check out the [openings](openings) page.

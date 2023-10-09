@@ -14,9 +14,14 @@ h6,
 em,
 div,
 li,
-span,
+span {
+  font-family: 'Fira Sans', sans-serif;
+  color: var(--global-text-color);
+}
+
 strong {
   font-family: 'Fira Sans', sans-serif;
+  font-weight: bold;
   color: var(--global-text-color);
 }
 
