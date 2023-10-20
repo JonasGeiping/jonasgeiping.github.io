@@ -24,9 +24,9 @@ Hi, I'm Jonas. I am starting as a research group leader in Tübingen, where I'm 
 
 I am mostly interested in questions of safety and efficiency in modern machine learning. There are a number of fundamental machine learning questions that come up in these  topics
 that we still do not understand well -- such as the principles of data poisoning, the subtleties of water-marking for generative models,
-privacy questions in federated learning, or adversarial attacks against large language models. Can we ever make these models "safe"? Is every language model API an invitation for the user to jailbreak it and do what they want?
+privacy questions in federated learning, or adversarial attacks against large language models. Can we ever make these models “safe”, and how do we define this? Are there feasible technical solutions that reduce harm?
 
-Further, I am interested in questions about the efficiency of modern AI systems, especially for large language models. How efficient can we make these systems, can we train strong models with little compute? Can we extend the capabilities of language models with recursive computation? How do these questions impact the safety of these models?
+Further, I am interested in questions about the efficiency of modern AI systems, especially for large language models. How efficient can we make these systems, can we train strong models with little compute? Can we extend the capabilities of language models with recursive computation? How do efficiency modifications impact the safety of these models?
 
 
 
