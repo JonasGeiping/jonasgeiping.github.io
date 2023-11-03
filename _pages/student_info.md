@@ -36,4 +36,4 @@ I willl be occasionally hiring student assistants (SHK/WHK) from the University 
 as student at the University of Tübingen.
 
 ## Internships:
-If you are a predoctoral student, you might be interested in applying to the Max-Planck summer internship program CaCTüS (https://www.projects.tuebingen.mpg.de/). I am currently considering applications for internships only through this program.
+If you are a predoctoral student, you might be interested in applying to the Max-Planck summer internship program [CaCTüS](https://www.projects.tuebingen.mpg.de/) in Tübingen. I am currently considering applications for internships only through this program.
