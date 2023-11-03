@@ -34,3 +34,6 @@ If you are interested in these topics, feel free to reach out for more informati
 
 I willl be occasionally hiring student assistants (SHK/WHK) from the University of Tübingen. Feel free to inquire for more details, if you are currently enrolled
 as student at the University of Tübingen.
+
+## Internships:
+If you are a predoctoral student, you might be interested in applying to the Max-Planck summer internship program CaCTüS (https://www.projects.tuebingen.mpg.de/). I am currently considering applications for internships only through this program.
