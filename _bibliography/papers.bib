@@ -5,44 +5,39 @@
   month = apr,
   eprint = {2304.12210},
   primaryclass = {cs},
-  publisher = {{arXiv}},
+  publisher = {arXiv},
   doi = {10.48550/arXiv.2304.12210},
   url = {http://arxiv.org/abs/2304.12210},
   urldate = {2023-04-25},
   abstract = {Self-supervised learning, dubbed the dark matter of intelligence, is a promising path to advance machine learning. Yet, much like cooking, training SSL methods is a delicate art with a high barrier to entry. While many components are familiar, successfully training a SSL method involves a dizzying set of choices from the pretext tasks to training hyper-parameters. Our goal is to lower the barrier to entry into SSL research by laying the foundations and latest SSL recipes in the style of a cookbook. We hope to empower the curious researcher to navigate the terrain of methods, understand the role of the various knobs, and gain the know-how required to explore how delicious SSL can be.},
-  archiveprefix = {arxiv},
+  archiveprefix = {arXiv},
   keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning},
   journal = {arxiv:2304.12210[cs]}
 }
 
-@article{bansal_cold_2022,
+@inproceedings{bansal_cold_2023,
   title = {Cold {{Diffusion}}: {{Inverting Arbitrary Image Transforms Without Noise}}},
   shorttitle = {Cold {{Diffusion}}},
+  booktitle = {Thirty-Seventh {{Conference}} on {{Neural Information Processing Systems}}},
   author = {Bansal, Arpit and Borgnia, Eitan and Chu, Hong-Min and Li, Jie S. and Kazemi, Hamid and Huang, Furong and Goldblum, Micah and Geiping, Jonas and Goldstein, Tom},
-  year = {2022},
-  month = aug,
-  eprint = {2208.09392},
-  primaryclass = {cs},
-  publisher = {{arXiv}},
-  doi = {10.48550/arXiv.2208.09392},
-  url = {http://arxiv.org/abs/2208.09392},
-  urldate = {2022-10-27},
-  abstract = {Standard diffusion models involve an image transform -- adding Gaussian noise -- and an image restoration operator that inverts this degradation. We observe that the generative behavior of diffusion models is not strongly dependent on the choice of image degradation, and in fact an entire family of generative models can be constructed by varying this choice. Even when using completely deterministic degradations (e.g., blur, masking, and more), the training and test-time update rules that underlie diffusion models can be easily generalized to create generative models. The success of these fully deterministic models calls into question the community's understanding of diffusion models, which relies on noise in either gradient Langevin dynamics or variational inference, and paves the way for generalized diffusion models that invert arbitrary processes. Our code is available at https://github.com/arpitbansal297/Cold-Diffusion-Models},
-  archiveprefix = {arxiv},
-  copyright = {All rights reserved},
-  keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning},
-  journal = {arxiv:2208.09392[cs]}
+  year = {2023},
+  month = nov,
+  url = {https://openreview.net/forum?id=XH3ArccntI\&referrer=\%5BAuthor\%20Console\%5D(\%2Fgroup\%3Fid\%3DNeurIPS.cc\%2F2023\%2FConference\%2FAuthors\%23your-submissions)},
+  urldate = {2023-11-10},
+  abstract = {Standard diffusion models involve an image transform -- adding Gaussian noise -- and an image restoration operator that inverts this degradation. We observe that the generative behavior of diffusion models is not strongly dependent on the choice of image degradation, and in fact, an entire family of generative models can be constructed by varying this choice. Even when using completely deterministic degradations (e.g., blur, masking, and more), the training and test-time update rules that underlie diffusion models can be easily generalized to create generative models. The success of these fully deterministic models calls into question the community's understanding of diffusion models, which relies on noise in either gradient Langevin dynamics or variational inference and paves the way for generalized diffusion models that invert arbitrary processes.},
+  langid = {english},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning}
 }
 
 @inproceedings{bansal_universal_2023,
   title = {Universal {{Guidance}} for {{Diffusion Models}}},
-  booktitle = {Proceedings of the {{IEEE}}/{{CVF Conference}} on {{Computer Vision}} and {{Pattern Recognition}} ({{CVPR}}) {{Workshops}}},
+  booktitle = {The {{Twelfth International Conference}} on {{Learning Representations}}},
   author = {Bansal, Arpit and Chu, Hong-Min and Schwarzschild, Avi and Sengupta, Soumyadip and Goldblum, Micah and Geiping, Jonas and Goldstein, Tom},
   year = {2023},
-  pages = {843--852},
-  url = {https://openaccess.thecvf.com/content/CVPR2023W/GCV/html/Bansal\_Universal\_Guidance\_for\_Diffusion\_Models\_CVPRW\_2023\_paper.html},
-  urldate = {2023-06-06},
-  copyright = {All rights reserved},
+  month = oct,
+  url = {https://openreview.net/forum?id=pzpWBbnwiJ\&referrer=\%5BAuthor\%20Console\%5D(\%2Fgroup\%3Fid\%3DICLR.cc\%2F2024\%2FConference\%2FAuthors\%23your-submissions)},
+  urldate = {2024-10-06},
+  abstract = {Typical diffusion models are trained to accept a particular form of conditioning, most commonly text, and cannot be conditioned on other modalities without retraining. In this work, we propose a universal guidance algorithm that enables diffusion models to be controlled by arbitrary guidance modalities without the need to retrain any use-specific components. We show that our algorithm successfully generates quality images with guidance functions including segmentation, face recognition, object detection, style guidance and classifier signals.},
   langid = {english}
 }
 
@@ -57,7 +52,7 @@
   url = {http://arxiv.org/abs/2103.02079},
   urldate = {2021-03-04},
   abstract = {Data poisoning and backdoor attacks manipulate training data to induce security breaches in a victim model. These attacks can be provably deflected using differentially private (DP) training methods, although this comes with a sharp decrease in model performance. The InstaHide method has recently been proposed as an alternative to DP training that leverages supposed privacy properties of the mixup augmentation, although without rigorous guarantees. In this work, we show that strong data augmentations, such as mixup and random additive noise, nullify poison attacks while enduring only a small accuracy trade-off. To explain these finding, we propose a training method, DP-InstaHide, which combines the mixup regularizer with additive noise. A rigorous analysis of DP-InstaHide shows that mixup does indeed have privacy advantages, and that training with k-way mixup provably yields at least k times stronger DP guarantees than a naive DP mechanism. Because mixup (as opposed to noise) is beneficial to model performance, DP-InstaHide provides a mechanism for achieving stronger empirical performance against poisoning attacks than other known DP methods.},
-  archiveprefix = {arxiv},
+  archiveprefix = {arXiv},
   keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Cryptography and Security,Computer Science - Machine Learning}
 }
 
@@ -73,8 +68,20 @@
   issn = {2379-190X},
   doi = {10.1109/ICASSP39728.2021.9414862},
   abstract = {Data poisoning and backdoor attacks manipulate victim models by maliciously modifying training data. In light of this growing threat, a recent survey of industry professionals revealed heightened fear in the private sector regarding data poisoning. Many previous defenses against poisoning either fail in the face of increasingly strong attacks, or they significantly degrade performance. However, we find that strong data augmentations, such as mixup and CutMix, can significantly diminish the threat of poisoning and backdoor attacks without trading off performance. We further verify the effectiveness of this simple defense against adaptive poisoning methods, and we compare to baselines including the popular differentially private SGD (DP-SGD) defense. In the context of backdoors, CutMix greatly mitigates the attack while simultaneously increasing validation accuracy by 9\%.},
-  archiveprefix = {arxiv},
+  archiveprefix = {arXiv},
   keywords = {Adversarial Attacks,Backdoor Attacks,Computer Science - Cryptography and Security,Computer Science - Machine Learning,Conferences,Data Augmentation,Data models,Data Poisoning,Differential Privacy,Industries,Machine learning,Signal processing,Toxicology,Training data}
+}
+
+@inproceedings{cherepanova_performance-driven_2023,
+  title = {A {{Performance-Driven Benchmark}} for {{Feature Selection}} in {{Tabular Deep Learning}}},
+  booktitle = {Thirty-Seventh {{Conference}} on {{Neural Information Processing Systems Datasets}} and {{Benchmarks Track}}},
+  author = {Cherepanova, Valeriia and Levin, Roman and Somepalli, Gowthami and Geiping, Jonas and Bruss, C. Bayan and Wilson, Andrew Gordon and Goldstein, Tom and Goldblum, Micah},
+  year = {2023},
+  month = nov,
+  url = {https://openreview.net/forum?id=v4PMCdSaAT\&referrer=\%5BAuthor\%20Console\%5D(\%2Fgroup\%3Fid\%3DNeurIPS.cc\%2F2023\%2FTrack\%2FDatasets\_and\_Benchmarks\%2FAuthors\%23your-submissions)},
+  urldate = {2023-11-10},
+  abstract = {Academic tabular benchmarks often contain small sets of curated features. In contrast, data scientists typically collect as many features as possible into their datasets, and even engineer new features from existing ones. To prevent over-fitting in subsequent downstream modeling, practitioners commonly use automated feature selection methods that identify a reduced subset of informative features. Existing benchmarks for tabular feature selection consider classical downstream models, toy synthetic datasets, or do not evaluate feature selectors on the basis of downstream performance. We construct a challenging feature selection benchmark evaluated on downstream neural networks including transformers, using real datasets and multiple methods for generating extraneous features. We also propose an input-gradient-based analogue of LASSO for neural networks that outperforms classical feature selection methods on challenging problems such as selecting from corrupted or second-order features.},
+  langid = {english}
 }
 
 @inproceedings{chiang_loss_2023,
@@ -86,7 +93,7 @@
   month = feb,
   url = {https://openreview.net/forum?id=QC10RmRbZy9},
   urldate = {2023-04-06},
-  abstract = {It is commonly believed that the implicit regularization of optimizers is needed for neural networks to generalize in the overparameterized regime. In this paper, we observe experimentally that this implicit regularization behavior is \{\textbackslash em generic\}, i.e. it does not depend strongly on the choice of optimizer. We demonstrate this by training neural networks using several gradient-free optimizers, which do not benefit from properties that are often attributed to gradient-based optimizers. This includes a guess-and-check optimizer that generates uniformly random parameter vectors until finding one that happens to achieve perfect train accuracy, and a zeroth-order Pattern Search optimizer that uses no gradient computations. In the low sample and few-shot regimes, where zeroth order optimizers are most computationally tractable, we find that these non-gradient optimizers achieve test accuracy comparable to SGD. The code to reproduce results can be found at https://github.com/Ping-C/optimizer .},
+  abstract = {It is commonly believed that the implicit regularization of optimizers is needed for neural networks to generalize in the overparameterized regime. In this paper, we observe experimentally that this implicit regularization behavior is \{{\textbackslash}em generic\}, i.e. it does not depend strongly on the choice of optimizer. We demonstrate this by training neural networks using several gradient-free optimizers, which do not benefit from properties that are often attributed to gradient-based optimizers. This includes a guess-and-check optimizer that generates uniformly random parameter vectors until finding one that happens to achieve perfect train accuracy, and a zeroth-order Pattern Search optimizer that uses no gradient computations. In the low sample and few-shot regimes, where zeroth order optimizers are most computationally tractable, we find that these non-gradient optimizers achieve test accuracy comparable to SGD. The code to reproduce results can be found at https://github.com/Ping-C/optimizer .},
   langid = {english}
 }
 
@@ -103,7 +110,7 @@
   issn = {2379-190X},
   doi = {10.1109/ICASSP40776.2020.9052930},
   abstract = {State-of-the-art adversarial attacks on neural networks use expensive iterative methods and numerous random restarts from different initial points. Iterative FGSM-based methods without restarts trade off performance for computational efficiency because they do not adequately explore the image space and are highly sensitive to the choice of step size. We propose a variant of Projected Gradient Descent (PGD) that uses a random step size to improve performance without resorting to expensive random restarts. Our method, Wide Iterative Stochastic crafting (WITCHcraft), achieves results superior to the classical PGD attack on the CIFAR-10 and MNIST data sets but without additional computational cost. This simple modification of PGD makes crafting attacks more economical, which is important in situations like adversarial training where attacks need to be crafted in real time.},
-  archiveprefix = {arxiv},
+  archiveprefix = {arXiv},
   keywords = {Adversarial,adversarial attacks,Attack,CIFAR,classical PGD attack,CNN,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Cryptography and Security,Computer Science - Machine Learning,Electrical Engineering and Systems Science - Signal Processing,gradient methods,iterative FGSM-based methods,iterative methods,learning (artificial intelligence),neural nets,neural networks,PGD,PGD attacks,projected gradient descent,random step size,Statistics - Machine Learning,stochastic processes,wide iterative stochastic crafting,witchcraft},
   annotation = {ZSCC: 0000002}
 }
@@ -129,11 +136,11 @@
   year = {2021},
   volume = {34},
   pages = {30339--30351},
-  publisher = {{Curran Associates, Inc.}},
+  publisher = {Curran Associates, Inc.},
   url = {https://proceedings.neurips.cc/paper/2021/hash/fe87435d12ef7642af67d9bc82a8b3cd-Abstract.html},
   urldate = {2022-10-31},
   abstract = {The adversarial machine learning literature is largely partitioned into evasion attacks on testing data and poisoning attacks on training data.  In this work, we show that adversarial examples, originally intended for attacking pre-trained models, are even more effective for data poisoning than recent methods designed specifically for poisoning. In fact, adversarial examples with labels re-assigned by the crafting network remain effective for training, suggesting that adversarial examples contain useful semantic content, just with the "wrong" labels (according to a network, but not a human). Our method, adversarial poisoning, is substantially more effective than existing poisoning methods for secure dataset release, and we release a poisoned version of ImageNet, ImageNet-P, to encourage research into the strength of this form of data obfuscation.},
-  keywords = {⛔ No DOI found,Computer Science - Cryptography and Security,Computer Science - Machine Learning}
+  keywords = {Computer Science - Cryptography and Security,Computer Science - Machine Learning}
 }
 
 @inproceedings{fowl_decepticons_2023,
@@ -147,8 +154,8 @@
   urldate = {2023-02-03},
   abstract = {A central tenet of Federated learning (FL), which trains models without centralizing user data, is privacy. However, previous work has shown that the gradient updates used in FL can leak user information. While the most industrial uses of FL are for text applications (e.g. keystroke prediction), nearly all attacks on FL privacy have focused on simple image classifiers. We propose a novel attack that reveals private user text by deploying malicious parameter vectors, and which succeeds even with mini-batches, multiple users, and long sequences. Unlike previous attacks on FL, the attack exploits characteristics of both the Transformer architecture and the token embedding, separately extracting tokens and positional embeddings to retrieve high-fidelity text. This work suggests that FL on text, which has historically been resistant to privacy attacks, is far more vulnerable than previously thought.},
   copyright = {All rights reserved},
-  selected = {true},
-  langid = {english}
+  langid = {english},
+  selected = {true}
 }
 
 @inproceedings{fowl_preventing_2021,
@@ -162,7 +169,7 @@
   url = {http://arxiv.org/abs/2103.02683},
   urldate = {2021-03-05},
   abstract = {Large organizations such as social media companies continually release data, for example user images. At the same time, these organizations leverage their massive corpora of released data to train proprietary models that give them an edge over their competitors. These two behaviors can be in conflict as an organization wants to prevent competitors from using their own data to replicate the performance of their proprietary models. We solve this problem by developing a data poisoning method by which publicly released data can be minimally modified to prevent others from train-ing models on it. Moreover, our method can be used in an online fashion so that companies can protect their data in real time as they release it.We demonstrate the success of our approach onImageNet classification and on facial recognition.},
-  archiveprefix = {arxiv},
+  archiveprefix = {arXiv},
   keywords = {Computer Science - Cryptography and Security,Computer Science - Machine Learning}
 }
 
@@ -177,7 +184,7 @@
   url = {https://openreview.net/forum?id=fwzUgo0FM9v},
   urldate = {2022-02-10},
   abstract = {Federated learning has quickly gained popularity with its promises of increased user privacy and efficiency.  Previous works have shown that federated gradient updates contain information that can...},
-  archiveprefix = {arxiv},
+  archiveprefix = {arXiv},
   copyright = {All rights reserved},
   langid = {english},
   keywords = {Computer Science - Cryptography and Security,Computer Science - Machine Learning}
@@ -191,13 +198,30 @@
   month = dec,
   eprint = {2209.11916},
   primaryclass = {cs},
-  publisher = {{arXiv}},
-  address = {{Macau}},
+  publisher = {arXiv},
+  address = {Macau},
   doi = {10.48550/arXiv.2209.11916},
   url = {http://arxiv.org/abs/2209.11916},
   abstract = {Many applications require robustness, or ideally invariance, of neural networks to certain transformations of input data. Most commonly, this requirement is addressed by training data augmentation, using adversarial training, or defining network architectures that include the desired invariance by design. In this work, we propose a method to make network architectures provably invariant with respect to group actions by choosing one element from a (possibly continuous) orbit based on a fixed criterion. In a nutshell, we intend to 'undo' any possible transformation before feeding the data into the actual network. Further, we empirically analyze the properties of different approaches which incorporate invariance via training or architecture, and demonstrate the advantages of our method in terms of robustness and computational efficiency. In particular, we investigate the robustness with respect to rotations of images (which can hold up to discretization artifacts) as well as the provable orientation and scaling invariance of 3D point cloud classification.},
-  archiveprefix = {arxiv},
+  archiveprefix = {arXiv},
   keywords = {Computer Science - Computer Vision and Pattern Recognition}
+}
+
+@article{geiping_coercing_2024,
+  title = {Coercing {{LLMs}} to Do and Reveal (Almost) Anything},
+  author = {Geiping, Jonas and Stein, Alex and Shu, Manli and Saifullah, Khalid and Wen, Yuxin and Goldstein, Tom},
+  year = {2024},
+  month = feb,
+  eprint = {2402.14020},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  url = {http://arxiv.org/abs/2402.14020},
+  urldate = {2024-02-22},
+  abstract = {It has recently been shown that adversarial attacks on large language models (LLMs) can "jailbreak" the model into making harmful statements. In this work, we argue that the spectrum of adversarial attacks on LLMs is much larger than merely jailbreaking. We provide a broad overview of possible attack surfaces and attack goals. Based on a series of concrete examples, we discuss, categorize and systematize attacks that coerce varied unintended behaviors, such as misdirection, model control, denial-of-service, or data extraction. We analyze these attacks in controlled experiments, and find that many of them stem from the practice of pre-training LLMs with coding capabilities, as well as the continued existence of strange "glitch" tokens in common LLM vocabularies that should be removed for security reasons.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Computation and Language,Computer Science - Cryptography and Security,Computer Science - Machine Learning},
+  journal = {arxiv:2402.14020[cs]},
+  selected = {true}
 }
 
 @phdthesis{geiping_comparison_2014,
@@ -206,10 +230,10 @@
   author = {Geiping, Jonas Alexander},
   year = {2014},
   month = sep,
-  address = {{M\"unster}},
+  address = {M{\"u}nster},
   url = {http://wwwmath.uni-muenster.de:8000/num/Arbeitsgruppen/ag\_burger/teaching/Bachelor/BA\%20Geiping.pdf},
   urldate = {2017-01-02},
-  school = {Westf\"alischen Wilhelms-Universit\"at M\"unster}
+  school = {Westf{\"a}lischen Wilhelms-Universit{\"a}t M{\"u}nster}
 }
 
 @article{geiping_composite_2018,
@@ -223,7 +247,7 @@
   url = {https://epubs.siam.org/doi/10.1137/18M1171989},
   urldate = {2018-10-26},
   abstract = {The minimization of a nonconvex composite function can model a variety of imaging tasks. A popular class of algorithms for solving such problems are majorization-minimization techniques which iteratively approximate the composite nonconvex function by a majorizing function that is easy to minimize. Most techniques, e.g., gradient descent, utilize convex majorizers in order to guarantee that the majorizer is easy to minimize. In our work we consider a natural class of nonconvex majorizers for these functions, and show that these majorizers are still sufficient for a globally convergent optimization scheme. Numerical results illustrate that by applying this scheme, one can often obtain superior local optima compared to previous majorization-minimization methods, when the nonconvex majorizers are solved to global optimality. Finally, we illustrate the behavior of our algorithm for depth superresolution from raw time-of-flight data.},
-  keywords = {{90C26, 90C06, 68U10, 32B20, 65K10, 47J06},Computer Science - Computer Vision and Pattern Recognition,Mathematics - Numerical Analysis,Mathematics - Optimization and Control}
+  keywords = {90C26 90C06 68U10 32B20 65K10 47J06,Computer Science - Computer Vision and Pattern Recognition,Mathematics - Numerical Analysis,Mathematics - Optimization and Control}
 }
 
 @inproceedings{geiping_cramming_2023,
@@ -234,13 +258,13 @@
   year = {2023},
   month = jul,
   pages = {11117--11143},
-  publisher = {{PMLR}},
+  publisher = {PMLR},
   issn = {2640-3498},
   url = {https://proceedings.mlr.press/v202/geiping23a.html},
   urldate = {2023-08-02},
-  selected = {true},
   abstract = {Recent trends in language modeling have focused on increasing performance through scaling, and have resulted in an environment where training language models is out of reach for most researchers and practitioners. While most in the community are asking how to push the limits of extreme computation, we ask the opposite question: How far can we get with a single GPU in just one day? We investigate the downstream performance achievable with a transformer-based language model trained completely from scratch with masked language modeling for a single day on a single consumer GPU. Aside from re-analyzing nearly all components of the pretraining pipeline for this scenario and providing a modified pipeline with performance close to BERT, we investigate why scaling down is hard, and which modifications actually improve performance in this scenario. We provide evidence that even in this constrained setting, performance closely follows scaling laws observed in large-compute settings. Through the lens of scaling laws, we categorize a range of recent improvements to training and architecture and discuss their merit and practical applicability (or lack thereof) for the limited compute setting. We provide code to reproduce all experiments at github.com/JonasGeiping/cramming .},
-  langid = {english}
+  langid = {english},
+  selected = {true}
 }
 
 @article{geiping_darts_2021,
@@ -255,7 +279,7 @@
   url = {http://arxiv.org/abs/2108.05647},
   urldate = {2021-09-14},
   abstract = {Differentiable architecture search (DARTS) is a widely researched tool for neural architecture search, due to its promising results for image classification. The main benefit of DARTS is the effectiveness achieved through the weight-sharing one-shot paradigm, which allows efficient architecture search. In this work, we investigate DARTS in a systematic case study of inverse problems, which allows us to analyze these potential benefits in a controlled manner. Although we demonstrate that the success of DARTS can be extended from image classification to reconstruction, our experiments yield three fundamental difficulties in the evaluation of DARTS-based methods: First, the results show a large variance in all test cases. Second, the final performance is highly dependent on the hyperparameters of the optimizer. And third, the performance of the weight-sharing architecture used during training does not reflect the final performance of the found architecture well. Thus, we conclude the necessity to 1) report the results of any DARTS-based methods from several runs along with its underlying performance statistics, 2) show the correlation of the training and final architecture performance, and 3) carefully consider if the computational efficiency of DARTS outweighs the costs of hyperparameter optimization and multiple runs.},
-  archiveprefix = {arxiv},
+  archiveprefix = {arXiv},
   keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning}
 }
 
@@ -266,11 +290,11 @@
   year = {2020},
   month = sep,
   eprint = {2004.11075},
-  address = {{Virtual}},
+  address = {Virtual},
   url = {https://www.bmvc2020-conference.com/conference/papers/paper\_0694.html},
   urldate = {2020-09-19},
   abstract = {Matching and partitioning problems are fundamentals of computer vision applications with examples in multilabel segmentation, stereo estimation and optical-flow computation. These tasks can be posed as non-convex energy minimization problems and solved near-globally optimal by recent convex lifting approaches. Yet, applying these techniques comes with a significant computational effort, reducing their feasibility in practical applications. We discuss spatial discretization of continuous partitioning problems into a graph structure, generalizing discretization onto a Cartesian grid. This setup allows us to faithfully work on super-pixel graphs constructed by SLIC or Cut-Pursuit, massively decreasing the computational effort for lifted partitioning problems compared to a Cartesian grid, while optimal energy values remain similar: The global matching is still solved near-globally optimal. We discuss this methodology in detail and show examples in multi-label segmentation by minimal partitions and stereo estimation, where we demonstrate that the proposed graph discretization can reduce runtime as well as memory consumption of convex relaxations of matching problems by up to a factor of 10.},
-  archiveprefix = {arxiv},
+  archiveprefix = {arXiv},
   copyright = {All rights reserved},
   keywords = {Computer Science - Computer Vision and Pattern Recognition,Mathematics - Optimization and Control}
 }
@@ -294,9 +318,9 @@
   author = {Geiping, Jonas Alexander},
   year = {2016},
   month = sep,
-  address = {{M\"unster}},
+  address = {M{\"u}nster},
   abstract = {Three-dimensional time series data from confocal fluorescence microscopes is a valuable tool in biological research, but the data is distorted by Poisson noise and defocus blur of varying axial extent. We seek to obtain structural information about the develop- ment of neural tissue from these images and define a segmentation by an appropriate thresholding of reconstructed data. We model the data degradation and develop a reconstruction formulation based on variational methods. Due to imprecise knowledge of the blur kernel we extend local sparsity regularization to a local patch and use this prior as additional regularization. We show favorable analytical properties for this approach, implement the resulting algorithm with a primal-dual optimization scheme and test on artificial and real data.},
-  school = {Westf\"alischen Wilhelms-Universit\"at M\"unster},
+  school = {Westf{\"a}lischen Wilhelms-Universit{\"a}t M{\"u}nster},
   annotation = {00000}
 }
 
@@ -310,7 +334,7 @@
   url = {https://proceedings.neurips.cc/paper/2020/hash/c4ede56bbd98819ae6112b20ac6bf145-Abstract.html},
   urldate = {2020-12-07},
   langid = {english},
-  annotation = {ZSCC: 0000016},
+  annotation = {ZSCC: 0000016}
 }
 
 @phdthesis{geiping_modern_2021,
@@ -318,7 +342,7 @@
   title = {Modern Optimization Techniques in Computer Vision},
   author = {Geiping, Jonas},
   year = {2021},
-  address = {{10.25819/ubsi/9908}},
+  address = {10.25819/ubsi/9908},
   url = {https://dspace.ub.uni-siegen.de/handle/ubsi/1897},
   urldate = {2021-05-10},
   abstract = {This thesis presents research into multiple optimization topics in computer vision with a conceptual focus on composite optimization problems such as bilevel optimization. The optimal graph-based discretization of variational problems in minimal partitions, the theoretical analysis of nonconvex composite optimization by nonconvex majorizers, the bilevel problem of learning energy models by nonconvex majorizers, and the machine learning security applications of bilevel optimization in privacy analysis of federated learning and dataset poisoning of general image classification are featured in this cumulative work.},
@@ -335,7 +359,7 @@
   year = {2018},
   series = {Lecture {{Notes}} in {{Computer Science}}},
   pages = {123--138},
-  publisher = {{Springer International Publishing}},
+  publisher = {Springer International Publishing},
   doi = {10.1007/978-3-319-78199-0 _ 9},
   abstract = {The idea of video super resolution is to use different view points of a single scene to enhance the overall resolution and quality. Classical energy minimization approaches first establish a correspondence of the current frame to all its neighbors in some radius and then use this temporal information for enhancement. In this paper, we propose the first variational super resolution approach that computes several super resolved frames in one batch optimization procedure by incorporating motion information between the high-resolution image frames themselves. As a consequence, the number of motion estimation problems grows linearly in the number of frames, opposed to a quadratic growth of classical methods and temporal consistency is enforced naturally.We use infimal convolution regularization as well as an automatic parameter balancing scheme to automatically determine the reliability of the motion information and reweight the regularization locally. We demonstrate that our approach yields state-of-the-art results and even is competitive with machine learning approaches.},
   isbn = {978-3-319-78199-0},
@@ -352,9 +376,9 @@
   url = {http://openaccess.thecvf.com/content\_ICCV\_2019/html/Geiping\_Parametric\_Majorization\_for\_Data-Driven\_Energy\_Minimization\_Methods\_ICCV\_2019\_paper.html},
   urldate = {2019-11-01},
   abstract = {Energy minimization methods are a classical tool in a multitude of computer vision applications. While they are interpretable and well-studied, their regularity assumptions are difficult to design by hand. Deep learning techniques on the other hand are purely data-driven, often provide excellent results, but are very difficult to constrain to predefined physical or safety-critical models. A possible combination between the two approaches is to design a parametric en- ergy and train the free parameters in such a way that minimizers of the energy correspond to desired solution on a set of training examples. Unfortunately, such formulations typically lead to bi-level optimization problems, on which common optimization algorithms are difficult to scale to modern requirements in data processing and efficiency. In this work, we present a new strategy to optimize these bi-level problems. We investigate surrogate single-level problems that majorize the target problems and can be implemented with existing tools, leading to efficient algorithms without collapse of the energy function. This framework of strategies enables new avenues to the training of parameterized energy minimization models from large data.},
-  archiveprefix = {arxiv},
+  archiveprefix = {arXiv},
   copyright = {All rights reserved},
-  keywords = {{90C06, 68U10, 68T45, 65K10},Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning,G.1.6,G.4,I.4,Mathematics - Optimization and Control}
+  keywords = {90C06 68U10 68T45 65K10,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning,G.1.6,G.4,I.4,Mathematics - Optimization and Control}
 }
 
 @inproceedings{geiping_stochastic_2021,
@@ -367,7 +391,7 @@
   url = {https://openreview.net/forum?id=ZBESeIUB5k},
   urldate = {2022-03-07},
   abstract = {It is widely believed that the implicit regularization of SGD is fundamental to the impressive generalization behavior we observe in neural networks.  In this work, we demonstrate that...},
-  archiveprefix = {arxiv},
+  archiveprefix = {arXiv},
   langid = {english},
   keywords = {Computer Science - Machine Learning,Mathematics - Optimization and Control}
 }
@@ -383,7 +407,7 @@
   url = {http://arxiv.org/abs/2102.13624},
   urldate = {2021-03-01},
   abstract = {Data poisoning is a threat model in which a malicious actor tampers with training data to manipulate outcomes at inference time. A variety of defenses against this threat model have been proposed, but each suffers from at least one of the following flaws: they are easily overcome by adaptive attacks, they severely reduce testing performance, or they cannot generalize to diverse data poisoning threat models. Adversarial training, and its variants, is currently considered the only empirically strong defense against (inference-time) adversarial attacks. In this work, we extend the adversarial training framework to instead defend against (training-time) poisoning and backdoor attacks. Our method desensitizes networks to the effects of poisoning by creating poisons during training and injecting them into training batches. We show that this defense withstands adaptive attacks, generalizes to diverse threat models, and incurs a better performance trade-off than previous defenses.},
-  archiveprefix = {arxiv},
+  archiveprefix = {arXiv},
   copyright = {All rights reserved},
   keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Cryptography and Security,Computer Science - Machine Learning}
 }
@@ -400,9 +424,22 @@
   url = {https://openreview.net/forum?id=01olnfLIbD},
   urldate = {2021-01-15},
   abstract = {Data Poisoning attacks modify training data to maliciously control a model trained on such data. Previous poisoning attacks against deep neural networks have been limited in scope and success...},
-  archiveprefix = {arxiv},
+  archiveprefix = {arXiv},
   langid = {english},
   keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning}
+}
+
+@article{ghosal_survey_2023,
+  title = {A {{Survey}} on the {{Possibilities}} \& {{Impossibilities}} of {{AI-generated Text Detection}}},
+  author = {Ghosal, Soumya Suvra and Chakraborty, Souradip and Geiping, Jonas and Huang, Furong and Manocha, Dinesh and Bedi, Amrit},
+  year = {2023},
+  month = oct,
+  journal = {Transactions on Machine Learning Research},
+  issn = {2835-8856},
+  url = {https://openreview.net/forum?id=AXtFeYjboj\#tab-your-consoles},
+  urldate = {2024-10-06},
+  abstract = {Large Language Models (LLMs) have revolutionized the domain of natural language processing (NLP) with remarkable capabilities of generating human-like text responses. However, despite these advancements, several works in the existing literature have raised serious concerns about the potential misuse of LLMs such as spreading misinformation, generating fake news, plagiarism in academia, and contaminating the web. To address these concerns, a consensus among the research community is to develop algorithmic solutions to detect AI-generated text. The basic idea is that whenever we can tell if the given text is either written by a human or an AI, we can utilize this information to address the above-mentioned concerns. To that end, a plethora of detection frameworks have been proposed, highlighting the possibilities of AI-generated text detection. But in parallel to the development of detection frameworks, researchers have also concentrated on designing strategies to elude detection, i.e., focusing on the impossibilities of AI-generated text detection. This is a crucial step in order to make sure the detection frameworks are robust enough and it is not too easy to fool a detector. Despite the huge interest and the flurry of research in this domain, the community currently lacks a comprehensive analysis of recent developments. In this survey, we aim to provide a concise categorization and overview of current work encompassing both the prospects and the limitations of AI-generated text detection. To enrich the collective knowledge, we engage in an exhaustive discussion on critical and challenging open questions related to ongoing research on AI-generated text detection.},
+  langid = {english}
 }
 
 @inproceedings{goldblum_truth_2020,
@@ -417,7 +454,7 @@
   url = {https://iclr.cc/virtual\_2020/poster\_HyxyIgHFvr.html},
   urldate = {2020-09-19},
   abstract = {We empirically evaluate common assumptions about neural networks that are widely held by practitioners and theorists alike. In this work, we: (1) prove the widespread existence of suboptimal local minima in the loss landscape of neural networks, and we use our theory to find examples; (2) show that small-norm parameters are not optimal for generalization; (3) demonstrate that ResNets do not conform to wide-network theories, such as the neural tangent kernel, and that the interaction between skip connections and batch normalization plays a role; (4) find that rank does not correlate with generalization or robustness in a practical setting.},
-  archiveprefix = {arxiv},
+  archiveprefix = {arXiv},
   copyright = {All rights reserved},
   langid = {english},
   keywords = {Computer Science - Machine Learning,Mathematics - Optimization and Control,Statistics - Machine Learning},
@@ -437,6 +474,48 @@
   keywords = {constant rigid motion,ill-conditioned problem,image colour analysis,image segmentation,image sequences,implicit motion segmentation estimation approach,joint energy minimization problem,L0 rigid motion regularization,minimisation,motion estimation,observed scene,piecewise rigid motion,piecewise rigid scene flow techniques,proximal primal-dual algorithm,RGB-D images,rotational motion parts,scene flow estimation approach,translational motion parts,variational approach}
 }
 
+@article{hans_be_2024,
+  title = {Be like a {{Goldfish}}, {{Don}}'t {{Memorize}}! {{Mitigating Memorization}} in {{Generative LLMs}}},
+  author = {Hans, Abhimanyu and Wen, Yuxin and Jain, Neel and Kirchenbauer, John and Kazemi, Hamid and Singhania, Prajwal and Singh, Siddharth and Somepalli, Gowthami and Geiping, Jonas and Bhatele, Abhinav and Goldstein, Tom},
+  year = {2024},
+  month = jun,
+  eprint = {2406.10209},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  url = {http://arxiv.org/abs/2406.10209},
+  urldate = {2024-06-17},
+  abstract = {Large language models can memorize and repeat their training data, causing privacy and copyright risks. To mitigate memorization, we introduce a subtle modification to the next-token training objective that we call the goldfish loss. During training, a randomly sampled subset of tokens are excluded from the loss computation. These dropped tokens are not memorized by the model, which prevents verbatim reproduction of a complete chain of tokens from the training set. We run extensive experiments training billion-scale Llama-2 models, both pre-trained and trained from scratch, and demonstrate significant reductions in extractable memorization with little to no impact on downstream benchmarks.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Computation and Language},
+  journal = {arxiv:2406.10209[cs]}
+}
+
+@inproceedings{hans_be_2024-1,
+  title = {Be like a {{Goldfish}}, {{Don}}'t {{Memorize}}! {{Mitigating Memorization}} in {{Generative LLMs}}},
+  booktitle = {The {{Thirty-eighth Annual Conference}} on {{Neural Information Processing Systems}}},
+  author = {Hans, Abhimanyu and Kirchenbauer, John and Wen, Yuxin and Jain, Neel and Kazemi, Hamid and Singhania, Prajwal and Singh, Siddharth and Somepalli, Gowthami and Geiping, Jonas and Bhatele, Abhinav and Goldstein, Tom},
+  year = {2024},
+  month = sep,
+  url = {https://openreview.net/forum?id=DylSyAfmWs\&referrer=\%5BAuthor\%20Console\%5D(\%2Fgroup\%3Fid\%3DNeurIPS.cc\%2F2024\%2FConference\%2FAuthors\%23your-submissions)},
+  urldate = {2024-10-06},
+  abstract = {A growing body of work has shown that large language models memorize a portion of their training data and can reproduce this training data verbatim at inference time. This observation has become a key issue for the community as it poses major privacy risks for data owners, and exposes companies to legal risks of copyright infringement claims. To mitigate training data exposure without sacrificing model performance, we introduce a simple but subtle modification to the standard next-token prediction objective for autoregressive LLMs that we call the goldfish loss. During training, a fraction of the tokens in each training data sequence are excluded from the loss computation such that the model is not supervised to predict those tokens. Later, when generating text autoregressively, these dropped tokens inhibit the verbatim reproduction of the complete chain of tokens in the training sequence. We run extensive experiments training billion-scale parameter Llama-2 models trained from scratch and demonstrate significant reductions in extractable sequences with little to no impact on validation perplexity or downstream benchmarks.},
+  langid = {english}
+}
+
+@inproceedings{hans_spotting_2024,
+  title = {Spotting {{LLMs With Binoculars}}: {{Zero-Shot Detection}} of {{Machine-Generated Text}}},
+  shorttitle = {Spotting {{LLMs With Binoculars}}},
+  booktitle = {Proceedings of the {{Forty-first International Conference}} on {{Machine Learning}}},
+  author = {Hans, Abhimanyu and Schwarzschild, Avi and Cherepanova, Valeriia and Kazemi, Hamid and Saha, Aniruddha and Goldblum, Micah and Geiping, Jonas and Goldstein, Tom},
+  year = {2024},
+  month = july,
+  url = {https://openreview.net/forum?id=pXzPMrjjqG},
+  urldate = {2024-10-06},
+  langid = {english},
+  selected = {true},
+  abstract = {Detecting text generated by modern large language models is thought to be hard, as both LLMs and humans can exhibit a wide range of complex behaviors. However, we find that a score based on contrasting two closely related language models is highly accurate at separating human-generated and machine-generated text. Based on this mechanism, we propose a novel LLM detector that only requires simple calculations using a pair of pre-trained LLMs. The method, called Binoculars, achieves state-of-the-art accuracy without any training data. It is capable of spotting machine text from a range of modern LLMs without any model-specific modifications. We comprehensively evaluate Binoculars on a number of text sources and in varied situations. Over a wide range of document types, Binoculars detects over 90% of generated samples from ChatGPT (and other LLMs) at a false positive rate of 0.01%, despite not being trained on any ChatGPT data.}
+}
+
 @inproceedings{huang_metapoison_2020,
   title = {{{MetaPoison}}: {{Practical General-purpose Clean-label Data Poisoning}}},
   shorttitle = {{{MetaPoison}}},
@@ -446,10 +525,10 @@
   month = dec,
   volume = {33},
   eprint = {2004.00225},
-  address = {{Vancouver, Canada}},
+  address = {Vancouver, Canada},
   url = {https://proceedings.neurips.cc//paper\_files/paper/2020/hash/8ce6fc704072e351679ac97d4a985574-Abstract.html},
   urldate = {2020-12-07},
-  archiveprefix = {arxiv},
+  archiveprefix = {arXiv},
   langid = {english},
   keywords = {Computer Science - Artificial Intelligence,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Cryptography and Security,Computer Science - Machine Learning,Statistics - Machine Learning},
   annotation = {ZSCC: 0000007}
@@ -462,31 +541,26 @@
   month = sep,
   eprint = {2309.00614},
   primaryclass = {cs},
-  publisher = {{arXiv}},
+  publisher = {arXiv},
   doi = {10.48550/arXiv.2309.00614},
   url = {http://arxiv.org/abs/2309.00614},
   urldate = {2023-09-04},
   abstract = {As Large Language Models quickly become ubiquitous, their security vulnerabilities are critical to understand. Recent work shows that text optimizers can produce jailbreaking prompts that bypass moderation and alignment. Drawing from the rich body of work on adversarial machine learning, we approach these attacks with three questions: What threat models are practically useful in this domain? How do baseline defense techniques perform in this new domain? How does LLM security differ from computer vision? We evaluate several baseline defense strategies against leading adversarial attacks on LLMs, discussing the various settings in which each is feasible and effective. Particularly, we look at three types of defenses: detection (perplexity based), input preprocessing (paraphrase and retokenization), and adversarial training. We discuss white-box and gray-box settings and discuss the robustness-performance trade-off for each of the defenses considered. Surprisingly, we find much more success with filtering and preprocessing than we would expect from other domains, such as vision, providing a first indication that the relative strengths of these defenses may be weighed differently in these domains.},
-  archiveprefix = {arxiv},
-  selected = {true},
+  archiveprefix = {arXiv},
   keywords = {Computer Science - Computation and Language,Computer Science - Cryptography and Security,Computer Science - Machine Learning},
   journal = {arxiv:2309.00614[cs]}
 }
 
-@article{jain_bring_2023,
-  title = {Bring {{Your Own Data}}! {{Self-Supervised Evaluation}} for {{Large Language Models}}},
+@inproceedings{jain_bring_2024,
+  title = {Bring {{Your Own Data}}! {{Self-Sensitivity Evaluation}} for {{Large Language Models}}},
+  booktitle = {First {{Conference}} on {{Language Modeling}}},
   author = {Jain, Neel and Saifullah, Khalid and Wen, Yuxin and Kirchenbauer, John and Shu, Manli and Saha, Aniruddha and Goldblum, Micah and Geiping, Jonas and Goldstein, Tom},
-  year = {2023},
-  month = jun,
-  eprint = {2306.13651},
-  primaryclass = {cs},
-  publisher = {{arXiv}},
-  url = {http://arxiv.org/abs/2306.13651},
-  urldate = {2023-06-26},
-  abstract = {With the rise of Large Language Models (LLMs) and their ubiquitous deployment in diverse domains, measuring language model behavior on realistic data is imperative. For example, a company deploying a client-facing chatbot must ensure that the model will not respond to client requests with profanity. Current evaluations approach this problem using small, domain-specific datasets with human-curated labels. These evaluation sets are often sampled from a narrow and simplified distribution, and data sources can unknowingly be leaked into the training set which can lead to misleading evaluations. To bypass these drawbacks, we propose a framework for self-supervised evaluation of LLMs by analyzing their sensitivity or invariance to transformations on the input text. Self-supervised evaluation can directly monitor LLM behavior on datasets collected in the wild or streamed during live model deployment. We demonstrate self-supervised evaluation strategies for measuring closed-book knowledge, toxicity, and long-range context dependence, in addition to sensitivity to grammatical structure and tokenization errors. When comparisons to similar human-labeled benchmarks are available, we find strong correlations between self-supervised and human-supervised evaluations. The self-supervised paradigm complements current evaluation strategies that rely on labeled data.},
-  archiveprefix = {arxiv},
-  keywords = {Computer Science - Computation and Language,Computer Science - Machine Learning},
-  journal = {arxiv:2306.13651[cs]}
+  year = {2024},
+  month = aug,
+  url = {https://openreview.net/forum?id=k2xZYPZo34\#discussion},
+  urldate = {2024-10-06},
+  abstract = {With the rise of Large Language Models (LLMs) and their ubiquitous deployment in diverse domains, measuring language model behavior on realistic data is imperative. For example, a company deploying a client-facing chatbot must ensure that the model will not respond to client requests with profanity. Current evaluations approach this problem using small, domain-specific datasets with human-curated labels. These evaluation sets are often sampled from a narrow and simplified distribution, and data sources can unknowingly be leaked into the training set. To alleviate these issues in traditional evaluation, we propose a complementary framework for additional self-sensitivity evaluation of LLMs by analyzing their sensitivity or invariance to transformations on the input text. Self-sensitivity evaluation can directly monitor LLM behavior on datasets collected in-the-wild or streamed during live model deployment. We demonstrate self-sensitivity evaluation strategies for measuring closed-book knowledge, toxicity, long-range context dependence, in addition to sensitivity to grammatical structure and tokenization errors. When comparisons to similar human-labeled benchmarks are available, we find strong correlations between self-sensitivity and human-supervised evaluations. The self-sensitivity paradigm complements current evaluation strategies that rely on labeled data.},
+  langid = {english}
 }
 
 @article{jain_how_2022,
@@ -498,25 +572,62 @@
   url = {https://openreview.net/forum?id=MsjB2ohCJO1},
   urldate = {2023-01-15},
   abstract = {There are a wide range of different tokenizers and vocabularies that have been used to train language models, and training a language model on just one of these can be prohibitively expensive. The ability to swap the vocabulary of a model after it has been trained enables models to be adapted to different tokenizers, and even different languages, without the computational or data cost of from-scratch training. In this paper, we ask when such swaps are possible, and how to perform them effectively? The major challenge of performing a vocab swap is re-learning the parameters of the embedding layer for the vocabulary. We observe that it is possible to re-learn the embedding for a vocabulary using a naive initialization, and we investigate strong initialization strategies that enable learning of new embeddings for swapped vocabularies, even when those vocabularies come from a different source language than the original language model.},
-  langid = {english},
-  keywords = {⛔ No DOI found}
+  langid = {english}
 }
 
-@article{kirchenbauer_reliability_2023,
+@inproceedings{jain_neftune_2023-2,
+  title = {{{NEFTune}}: {{Noisy Embeddings Improve Instruction Finetuning}}},
+  shorttitle = {{{NEFTune}}},
+  booktitle = {The {{Twelfth International Conference}} on {{Learning Representations}}},
+  author = {Jain, Neel and Chiang, Ping-yeh and Wen, Yuxin and Kirchenbauer, John and Chu, Hong-Min and Somepalli, Gowthami and Bartoldson, Brian R. and Kailkhura, Bhavya and Schwarzschild, Avi and Saha, Aniruddha and Goldblum, Micah and Geiping, Jonas and Goldstein, Tom},
+  year = {2023},
+  month = oct,
+  url = {https://openreview.net/forum?id=0bMmZ3fkCk\&referrer=\%5BAuthor\%20Console\%5D(\%2Fgroup\%3Fid\%3DICLR.cc\%2F2024\%2FConference\%2FAuthors\%23your-submissions)},
+  urldate = {2024-10-06},
+  abstract = {We show that language model finetuning can be improved, sometimes dramatically, with a simple augmentation. NEFTune adds noise to the embedding vectors during training. Standard finetuning of LLaMA-2-7B using Alpaca achieves \$29.79\${\textbackslash}\% on AlpacaEval, which rises to \$64.69\${\textbackslash}\% using noisy embeddings. NEFTune also improves over strong baselines on modern instruction datasets. Models trained with Evol-Instruct see a \$10\${\textbackslash}\% improvement, with ShareGPT an \$8\${\textbackslash}\% improvement, and with OpenPlatypus an \$8\${\textbackslash}\% improvement. Even powerful models further refined with RLHF such as LLaMA-2-Chat benefit from additional training with NEFTune. Particularly, we see these improvements on the conversational abilities of the instruction model and not on traditional tasks like those on the OpenLLM Leaderboard, where performance is the same.},
+  langid = {english}
+}
+
+@article{kazemi_what_2024,
+  title = {What Do We Learn from Inverting {{CLIP}} Models?},
+  author = {Kazemi, Hamid and Chegini, Atoosa and Geiping, Jonas and Feizi, Soheil and Goldstein, Tom},
+  year = {2024},
+  month = mar,
+  eprint = {2403.02580},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  url = {http://arxiv.org/abs/2403.02580},
+  urldate = {2024-03-06},
+  abstract = {We employ an inversion-based approach to examine CLIP models. Our examination reveals that inverting CLIP models results in the generation of images that exhibit semantic alignment with the specified target prompts. We leverage these inverted images to gain insights into various aspects of CLIP models, such as their ability to blend concepts and inclusion of gender biases. We notably observe instances of NSFW (Not Safe For Work) images during model inversion. This phenomenon occurs even for semantically innocuous prompts, like "a beautiful landscape," as well as for prompts involving the names of celebrities.},
+  archiveprefix = {arXiv},
+  copyright = {All rights reserved},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning},
+  journal = {arxiv:2403.02580[cs]}
+}
+
+@inproceedings{kirchenbauer_lmd3_2024,
+  title = {{{LMD3}}: {{Language Model Data Density Dependence}}},
+  shorttitle = {{{LMD3}}},
+  booktitle = {First {{Conference}} on {{Language Modeling}}},
+  author = {Kirchenbauer, John and Honke, Garrett and Somepalli, Gowthami and Geiping, Jonas and Lee, Katherine and Ippolito, Daphne and Goldstein, Tom and Andre, David},
+  year = {2024},
+  month = aug,
+  url = {https://openreview.net/forum?id=eGCw1UVOhk\#discussion},
+  urldate = {2024-10-06},
+  abstract = {We develop a methodology for analyzing language model task performance at the individual example level based on training data density estimation. Experiments with paraphrasing as a controlled intervention on finetuning data demonstrate that increasing the support in the training distribution for specific test queries results in a measurable increase in density, which is also a significant predictor of the performance increase caused by the intervention. Experiments with pretraining data demonstrate that we can explain a significant fraction of the variance in model perplexity via density measurements. We conclude that our framework can provide statistical evidence of the dependence of a target model's predictions on subsets of its training data, and can more generally be used to characterize the support (or lack thereof) in the training data for a given test task.},
+  langid = {english}
+}
+
+@inproceedings{kirchenbauer_reliability_2023,
   title = {On the {{Reliability}} of {{Watermarks}} for {{Large Language Models}}},
+  booktitle = {The {{Twelfth International Conference}} on {{Learning Representations}}},
   author = {Kirchenbauer, John and Geiping, Jonas and Wen, Yuxin and Shu, Manli and Saifullah, Khalid and Kong, Kezhi and Fernando, Kasun and Saha, Aniruddha and Goldblum, Micah and Goldstein, Tom},
   year = {2023},
-  month = jun,
-  eprint = {2306.04634},
-  primaryclass = {cs},
-  publisher = {{arXiv}},
-  doi = {10.48550/arXiv.2306.04634},
-  url = {http://arxiv.org/abs/2306.04634},
-  urldate = {2023-06-08},
-  abstract = {Large language models (LLMs) are now deployed to everyday use and positioned to produce large quantities of text in the coming decade. Machine-generated text may displace human-written text on the internet and has the potential to be used for malicious purposes, such as spearphishing attacks and social media bots. Watermarking is a simple and effective strategy for mitigating such harms by enabling the detection and documentation of LLM-generated text. Yet, a crucial question remains: How reliable is watermarking in realistic settings in the wild? There, watermarked text might be mixed with other text sources, paraphrased by human writers or other language models, and used for applications in a broad number of domains, both social and technical. In this paper, we explore different detection schemes, quantify their power at detecting watermarks, and determine how much machine-generated text needs to be observed in each scenario to reliably detect the watermark. We especially highlight our human study, where we investigate the reliability of watermarking when faced with human paraphrasing. We compare watermark-based detection to other detection strategies, finding overall that watermarking is a reliable solution, especially because of its sample complexity - for all attacks we consider, the watermark evidence compounds the more examples are given, and the watermark is eventually detected.},
-  archiveprefix = {arxiv},
-  keywords = {Computer Science - Computation and Language,Computer Science - Cryptography and Security,Computer Science - Machine Learning},
-  journal = {arxiv:2306.04634[cs]}
+  month = oct,
+  url = {https://openreview.net/forum?id=DEJIDCmWOz\&referrer=\%5BAuthor\%20Console\%5D(\%2Fgroup\%3Fid\%3DICLR.cc\%2F2024\%2FConference\%2FAuthors\%23your-submissions)},
+  urldate = {2024-10-06},
+  abstract = {As LLMs become commonplace, machine-generated text has the potential to flood the internet with spam, social media bots, and valueless content. \_Watermarking\_ is a simple and effective strategy for mitigating such harms by enabling the detection and documentation of LLM-generated text. Yet a crucial question remains: How reliable is watermarking in realistic settings in the wild? There, watermarked text may be modified to suit a user's needs, or entirely rewritten to avoid detection. We study the robustness of watermarked text after it is re-written by humans, paraphrased by a non-watermarked LLM, or mixed into a longer hand-written document. We find that watermarks remain detectable even after human and machine paraphrasing. While these attacks dilute the strength of the watermark, paraphrases are statistically likely to leak n-grams or even longer fragments of the original text, resulting in high-confidence detections when enough tokens are observed. For example, after strong human paraphrasing the watermark is detectable after observing 800 tokens on average, when setting a \$1{\textbackslash}mathrm\{e\}\{-5\}\$ false positive rate. We also consider a range of new detection schemes that are sensitive to short spans of watermarked text embedded inside a large document, and we compare the robustness of watermarking to other kinds of detectors.},
+  langid = {english}
 }
 
 @inproceedings{kirchenbauer_watermark_2023,
@@ -526,14 +637,14 @@
   year = {2023},
   month = jul,
   pages = {17061--17084},
-  publisher = {{PMLR}},
+  publisher = {PMLR},
   issn = {2640-3498},
   url = {https://proceedings.mlr.press/v202/kirchenbauer23a.html},
   urldate = {2023-08-02},
   abstract = {Potential harms of large language models can be mitigated by watermarking model output, i.e., embedding signals into generated text that are invisible to humans but algorithmically detectable from a short span of tokens. We propose a watermarking framework for proprietary language models. The watermark can be embedded with negligible impact on text quality, and can be detected using an efficient open-source algorithm without access to the language model API or parameters. The watermark works by selecting a randomized set of "green" tokens before a word is generated, and then softly promoting use of green tokens during sampling. We propose a statistical test for detecting the watermark with interpretable p-values, and derive an information-theoretic framework for analyzing the sensitivity of the watermark. We test the watermark using a multi-billion parameter model from the Open Pretrained Transformer (OPT) family, and discuss robustness and security.},
   copyright = {All rights reserved},
+  langid = {english},
   selected = {true},
-  langid = {english}
 }
 
 @inproceedings{li_augmenters_2023,
@@ -544,8 +655,8 @@
   year = {2023},
   month = jul,
   pages = {44--49},
-  publisher = {{Association for Computational Linguistics}},
-  address = {{Toronto, Canada}},
+  publisher = {Association for Computational Linguistics},
+  address = {Toronto, Canada},
   url = {https://aclanthology.org/2023.semeval-1.5},
   urldate = {2023-07-13},
   abstract = {This paper describes our zero-shot approachesfor the Visual Word Sense Disambiguation(VWSD) Task in English. Our preliminarystudy shows that the simple approach of match-ing candidate images with the phrase usingCLIP suffers from the many-to-many natureof image-text pairs. We find that the CLIP textencoder may have limited abilities in captur-ing the compositionality in natural language.Conversely, the descriptive focus of the phrasevaries from instance to instance. We addressthese issues in our two systems, Augment-CLIPand Stable Diffusion Sampling (SD Sampling).Augment-CLIP augments the text prompt bygenerating sentences that contain the contextphrase with the help of large language mod-els (LLMs). We further explore CLIP modelsin other languages, as the an ambiguous wordmay be translated into an unambiguous one inthe other language. SD Sampling uses text-to-image Stable Diffusion to generate multipleimages from the given phrase, increasing thelikelihood that a subset of images match theone that paired with the text.}
@@ -564,6 +675,19 @@
   langid = {english}
 }
 
+@inproceedings{mcleish_transformers_2024,
+  title = {Transformers {{Can Do Arithmetic}} with the {{Right Embeddings}}},
+  booktitle = {The {{Thirty-eighth Annual Conference}} on {{Neural Information Processing Systems}}},
+  author = {McLeish, Sean Michael and Bansal, Arpit and Stein, Alex and Jain, Neel and Kirchenbauer, John and Bartoldson, Brian R. and Kailkhura, Bhavya and Bhatele, Abhinav and Geiping, Jonas and Schwarzschild, Avi and Goldstein, Tom},
+  year = {2024},
+  month = sep,
+  url = {https://openreview.net/forum?id=aIyNLWXuDO\&referrer=\%5BAuthor\%20Console\%5D(\%2Fgroup\%3Fid\%3DNeurIPS.cc\%2F2024\%2FConference\%2FAuthors\%23your-submissions)},
+  urldate = {2024-10-06},
+  abstract = {The poor performance of transformers on arithmetic tasks seems to stem in large part from their inability to keep track of the exact position of each digit inside of a large span of digits. We mend this problem by adding an embedding to each digit that encodes its position relative to the start of the number. In addition to the boost these embeddings provide on their own, we show that this fix enables architectural modifications such as input injection and recurrent layers to improve performance even further. With positions resolved, we can study the logical extrapolation ability of transformers. Can they solve arithmetic problems that are larger and more complex than those in their training data? We find that training on only 20 digit numbers with a single GPU for one day, we can reach state-of-the-art performance, achieving up to 99\% accuracy on 100 digit addition problems. Finally, we show that these gains in numeracy also unlock improvements on other multi-step reasoning tasks including sorting and multiplication.},
+  langid = {english},
+  selected = {true}
+}
+
 @article{ni_k-sam_2022,
   title = {K-{{SAM}}: {{Sharpness-Aware Minimization}} at the {{Speed}} of {{SGD}}},
   shorttitle = {K-{{SAM}}},
@@ -572,14 +696,30 @@
   month = oct,
   eprint = {2210.12864},
   primaryclass = {cs},
-  publisher = {{arXiv}},
+  publisher = {arXiv},
   doi = {10.48550/arXiv.2210.12864},
   url = {http://arxiv.org/abs/2210.12864},
   urldate = {2022-10-31},
   abstract = {Sharpness-Aware Minimization (SAM) has recently emerged as a robust technique for improving the accuracy of deep neural networks. However, SAM incurs a high computational cost in practice, requiring up to twice as much computation as vanilla SGD. The computational challenge posed by SAM arises because each iteration requires both ascent and descent steps and thus double the gradient computations. To address this challenge, we propose to compute gradients in both stages of SAM on only the top-k samples with highest loss. K-SAM is simple and extremely easy-to-implement while providing significant generalization boosts over vanilla SGD at little to no additional cost.},
-  archiveprefix = {arxiv},
+  archiveprefix = {arXiv},
   keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning},
   journal = {arxiv:2210.12864[cs]}
+}
+
+@article{qi_ai_2024,
+  title = {{{AI Risk Management Should Incorporate Both Safety}} and {{Security}}},
+  author = {Qi, Xiangyu and Huang, Yangsibo and Zeng, Yi and Debenedetti, Edoardo and Geiping, Jonas and He, Luxi and Huang, Kaixuan and Madhushani, Udari and Sehwag, Vikash and Shi, Weijia and Wei, Boyi and Xie, Tinghao and Chen, Danqi and Chen, Pin-Yu and Ding, Jeffrey and Jia, Ruoxi and Ma, Jiaqi and Narayanan, Arvind and Su, Weijie J. and Wang, Mengdi and Xiao, Chaowei and Li, Bo and Song, Dawn and Henderson, Peter and Mittal, Prateek},
+  year = {2024},
+  month = may,
+  eprint = {2405.19524},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  url = {http://arxiv.org/abs/2405.19524},
+  urldate = {2024-05-31},
+  abstract = {The exposure of security vulnerabilities in safety-aligned language models, e.g., susceptibility to adversarial attacks, has shed light on the intricate interplay between AI safety and AI security. Although the two disciplines now come together under the overarching goal of AI risk management, they have historically evolved separately, giving rise to differing perspectives. Therefore, in this paper, we advocate that stakeholders in AI risk management should be aware of the nuances, synergies, and interplay between safety and security, and unambiguously take into account the perspectives of both disciplines in order to devise mostly effective and holistic risk mitigation approaches. Unfortunately, this vision is often obfuscated, as the definitions of the basic concepts of "safety" and "security" themselves are often inconsistent and lack consensus across communities. With AI risk management being increasingly cross-disciplinary, this issue is particularly salient. In light of this conceptual challenge, we introduce a unified reference framework to clarify the differences and interplay between AI safety and AI security, aiming to facilitate a shared understanding and effective collaboration across communities.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Cryptography and Security},
+  journal = {arxiv:2405.19524[cs]}
 }
 
 @inproceedings{saifullah_seeing_2023,
@@ -593,7 +733,7 @@
   urldate = {2023-06-02},
   abstract = {Neural networks for computer vision extract uninterpretable features despite achieving high accuracy on benchmarks. In contrast, humans can explain their predictions using succinct and intuitive descriptions. To incorporate explainability into neural networks, we train a vision model whose feature representations are text. We show that such a model can effectively classify ImageNet images, and we discuss the challenges we encountered when training it.},
   langid = {english},
-  keywords = {⛔ No DOI found,Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning}
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning}
 }
 
 @inproceedings{sandoval-segura_autoregressive_2022,
@@ -615,12 +755,12 @@
   month = apr,
   eprint = {2304.02234},
   primaryclass = {cs},
-  publisher = {{arXiv}},
+  publisher = {arXiv},
   doi = {10.48550/arXiv.2304.02234},
   url = {http://arxiv.org/abs/2304.02234},
   urldate = {2023-04-06},
   abstract = {Recently developed text-to-image diffusion models make it easy to edit or create high-quality images. Their ease of use has raised concerns about the potential for malicious editing or deepfake creation. Imperceptible perturbations have been proposed as a means of protecting images from malicious editing by preventing diffusion models from generating realistic images. However, we find that the aforementioned perturbations are not robust to JPEG compression, which poses a major weakness because of the common usage and availability of JPEG. We discuss the importance of robustness for additive imperceptible perturbations and encourage alternative approaches to protect images against editing.},
-  archiveprefix = {arxiv},
+  archiveprefix = {arXiv},
   copyright = {All rights reserved},
   keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Cryptography and Security,Computer Science - Machine Learning},
   journal = {arxiv:2304.02234[cs]}
@@ -635,43 +775,79 @@
   pages = {197--204},
   issn = {2160-7516},
   doi = {10.1109/CVPRW56347.2022.00033},
-  abstract = {Imperceptible poisoning attacks on entire datasets have recently been touted as methods for protecting data privacy. However, among a number of defenses preventing the practical use of these techniques, early-stopping stands out as a simple, yet effective defense. To gauge poisons' vulnerability to early-stopping, we benchmark error-minimizing, error-maximizing, and synthetic poisons in terms of peak test accuracy over 100 epochs and make a number of surprising observations. First, we find that poisons that reach a low training loss faster have lower peak test accuracy. Second, we find that a current state-of-the-art error-maximizing poison is 7\texttimes{} less effective when poison training is stopped at epoch 8. Third, we find that stronger, more transferable adversarial attacks do not make stronger poisons. We advocate for evaluating poisons in terms of peak test accuracy.},
+  abstract = {Imperceptible poisoning attacks on entire datasets have recently been touted as methods for protecting data privacy. However, among a number of defenses preventing the practical use of these techniques, early-stopping stands out as a simple, yet effective defense. To gauge poisons' vulnerability to early-stopping, we benchmark error-minimizing, error-maximizing, and synthetic poisons in terms of peak test accuracy over 100 epochs and make a number of surprising observations. First, we find that poisons that reach a low training loss faster have lower peak test accuracy. Second, we find that a current state-of-the-art error-maximizing poison is 7{\texttimes} less effective when poison training is stopped at epoch 8. Third, we find that stronger, more transferable adversarial attacks do not make stronger poisons. We advocate for evaluating poisons in terms of peak test accuracy.},
   keywords = {Computer vision,Correlation,Data privacy,Perturbation methods,Privacy,Toxicology,Training}
 }
 
-@article{sandoval-segura_what_2023,
+@inproceedings{sandoval-segura_what_2023,
   title = {What {{Can We Learn}} from {{Unlearnable Datasets}}?},
+  booktitle = {Thirty-Seventh {{Conference}} on {{Neural Information Processing Systems}}},
   author = {{Sandoval-Segura}, Pedro and Singla, Vasu and Geiping, Jonas and Goldblum, Micah and Goldstein, Tom},
   year = {2023},
-  month = may,
-  eprint = {2305.19254},
-  primaryclass = {cs},
-  publisher = {{arXiv}},
-  doi = {10.48550/arXiv.2305.19254},
-  url = {http://arxiv.org/abs/2305.19254},
-  urldate = {2023-06-03},
-  abstract = {In an era of widespread web scraping, unlearnable dataset methods have the potential to protect data privacy by preventing deep neural networks from generalizing. But in addition to a number of practical limitations that make their use unlikely, we make a number of findings that call into question their ability to safeguard data. First, it is widely believed that neural networks trained on unlearnable datasets only learn shortcuts, simpler rules that are not useful for generalization. In contrast, we find that networks actually can learn useful features that can be reweighed for high test performance, suggesting that image privacy is not preserved. Unlearnable datasets are also believed to induce learning shortcuts through linear separability of added perturbations. We provide a counterexample, demonstrating that linear separability of perturbations is not a necessary condition. To emphasize why linearly separable perturbations should not be relied upon, we propose an orthogonal projection attack which allows learning from unlearnable datasets published in ICML 2021 and ICLR 2023. Our proposed attack is significantly less complex than recently proposed techniques.},
-  archiveprefix = {arxiv},
-  keywords = {Computer Science - Cryptography and Security,Computer Science - Machine Learning},
-  journal = {arxiv:2305.19254[cs]}
+  month = nov,
+  url = {https://openreview.net/forum?id=yGs9vTRjaE\&referrer=\%5BAuthor\%20Console\%5D(\%2Fgroup\%3Fid\%3DNeurIPS.cc\%2F2023\%2FConference\%2FAuthors\%23your-submissions)},
+  urldate = {2023-11-10},
+  abstract = {In an era of widespread web scraping, unlearnable dataset methods have the potential to protect data privacy by preventing deep neural networks from generalizing. But in addition to a number of practical limitations that make their use unlikely, we make a number of findings that call into question their ability to safeguard data. First, it is widely believed that neural networks trained on unlearnable datasets only learn shortcuts, simpler rules that are not useful for generalization. In contrast, we find that networks actually can learn useful features that can be reweighed for high test performance, suggesting that image protection is not assured. Unlearnable datasets are also believed to induce learning shortcuts through linear separability of added perturbations. We provide a counterexample, demonstrating that linear separability of perturbations is not a necessary condition. To emphasize why linearly separable perturbations should not be relied upon, we propose an orthogonal projection attack which allows learning from unlearnable datasets published in ICML 2021 and ICLR 2023. Our proposed attack is significantly less complex than recently proposed techniques.},
+  langid = {english}
 }
 
-@article{shu_exploitability_2023,
+@article{sharma_efficiently_2024,
+  title = {Efficiently {{Dispatching Flash Attention For Partially Filled Attention Masks}}},
+  author = {Sharma, Agniv and Geiping, Jonas},
+  year = {2024},
+  month = sep,
+  eprint = {2409.15097},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2409.15097},
+  url = {http://arxiv.org/abs/2409.15097},
+  urldate = {2024-09-27},
+  abstract = {Transformers are widely used across various applications, many of which yield sparse or partially filled attention matrices. Examples include attention masks designed to reduce the quadratic complexity of attention, sequence packing techniques, and recent innovations like tree masking for fast validation in MEDUSA. Despite the inherent sparsity in these matrices, the state-of-the-art algorithm Flash Attention still processes them with quadratic complexity as though they were dense. In this paper, we introduce Binary Block Masking, a highly efficient modification that enhances Flash Attention by making it mask-aware. We further propose two optimizations: one tailored for masks with contiguous non-zero patterns and another for extremely sparse masks. Our experiments on attention masks derived from real-world scenarios demonstrate up to a 9x runtime improvement. The implementation will be publicly released to foster further research and application.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Machine Learning},
+  journal = {arxiv:2409.15097[cs]}
+}
+
+@inproceedings{shu_exploitability_2023-1,
   title = {On the {{Exploitability}} of {{Instruction Tuning}}},
+  booktitle = {Thirty-Seventh {{Conference}} on {{Neural Information Processing Systems}}},
   author = {Shu, Manli and Wang, Jiongxiao and Zhu, Chen and Geiping, Jonas and Xiao, Chaowei and Goldstein, Tom},
   year = {2023},
-  month = jun,
-  eprint = {2306.17194},
+  month = nov,
+  url = {https://openreview.net/forum?id=4AQ4Fnemox\&referrer=\%5BAuthor\%20Console\%5D(\%2Fgroup\%3Fid\%3DNeurIPS.cc\%2F2023\%2FConference\%2FAuthors\%23your-submissions)},
+  urldate = {2023-11-10},
+  abstract = {Instruction tuning is an effective technique to align large language models (LLMs) with human intent. In this work, we investigate how an adversary can exploit instruction tuning by injecting specific instruction-following examples into the training data that intentionally changes the model's behavior. For example, an adversary can achieve content injection by injecting training examples that mention target content and eliciting such behavior from downstream models. To achieve this goal, we propose {\textbackslash}textit\{AutoPoison\}, an automated data poisoning pipeline. It naturally and coherently incorporates versatile attack goals into poisoned data with the help of an oracle LLM. We showcase two example attacks: content injection and over-refusal attacks, each aiming to induce a specific exploitable behavior. We quantify and benchmark the strength and the stealthiness of our data poisoning scheme. Our results show that AutoPoison allows an adversary to change a model's behavior by poisoning only a small fraction of data while maintaining a high level of stealthiness in the poisoned examples. We hope our work sheds light on how data quality affects the behavior of instruction-tuned models and raises awareness of the importance of data quality for responsible deployments of LLMs.},
+  langid = {english}
+}
+
+@article{singla_simple_2023,
+  title = {A {{Simple}} and {{Efficient Baseline}} for {{Data Attribution}} on {{Images}}},
+  author = {Singla, Vasu and {Sandoval-Segura}, Pedro and Goldblum, Micah and Geiping, Jonas and Goldstein, Tom},
+  year = {2023},
+  month = nov,
+  eprint = {2311.03386},
   primaryclass = {cs},
-  publisher = {{arXiv}},
-  doi = {10.48550/arXiv.2306.17194},
-  url = {http://arxiv.org/abs/2306.17194},
-  urldate = {2023-07-03},
-  abstract = {Instruction tuning is an effective technique to align large language models (LLMs) with human intents. In this work, we investigate how an adversary can exploit instruction tuning by injecting specific instruction-following examples into the training data that intentionally changes the model's behavior. For example, an adversary can achieve content injection by injecting training examples that mention target content and eliciting such behavior from downstream models. To achieve this goal, we propose \textbackslash textit\{AutoPoison\}, an automated data poisoning pipeline. It naturally and coherently incorporates versatile attack goals into poisoned data with the help of an oracle LLM. We showcase two example attacks: content injection and over-refusal attacks, each aiming to induce a specific exploitable behavior. We quantify and benchmark the strength and the stealthiness of our data poisoning scheme. Our results show that AutoPoison allows an adversary to change a model's behavior by poisoning only a small fraction of data while maintaining a high level of stealthiness in the poisoned examples. We hope our work sheds light on how data quality affects the behavior of instruction-tuned models and raises awareness of the importance of data quality for responsible deployments of LLMs. Code is available at \textbackslash url\{https://github.com/azshue/AutoPoison\}.},
-  archiveprefix = {arxiv},
-  copyright = {All rights reserved},
-  keywords = {Computer Science - Computation and Language,Computer Science - Cryptography and Security,Computer Science - Machine Learning},
-  journal = {arxiv:2306.17194[cs]}
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2311.03386},
+  url = {http://arxiv.org/abs/2311.03386},
+  urldate = {2023-11-09},
+  abstract = {Data attribution methods play a crucial role in understanding machine learning models, providing insight into which training data points are most responsible for model outputs during deployment. However, current state-of-the-art approaches require a large ensemble of as many as 300,000 models to accurately attribute model predictions. These approaches therefore come at a high computational cost, are memory intensive, and are hard to scale to large models or datasets. In this work, we focus on a minimalist baseline, utilizing the feature space of a backbone pretrained via self-supervised learning to perform data attribution. Our method is model-agnostic and scales easily to large datasets. We show results on CIFAR-10 and ImageNet, achieving strong performance that rivals or outperforms state-of-the-art approaches at a fraction of the compute or memory cost. Contrary to prior work, our results reinforce the intuition that a model's prediction on one image is most impacted by visually similar training samples. Our approach serves as a simple and efficient baseline for data attribution on images.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning},
+  journal = {arxiv:2311.03386[cs]}
+}
+
+@inproceedings{somepalli_calvin_2024,
+  title = {{{CALVIN}}: {{Improved Contextual Video Captioning}} via {{Instruction Tuning}}},
+  shorttitle = {{{CALVIN}}},
+  booktitle = {The {{Thirty-eighth Annual Conference}} on {{Neural Information Processing Systems}}},
+  author = {Somepalli, Gowthami and Chowdhury, Arkabandhu and Geiping, Jonas and Basri, Ronen and Goldstein, Tom and Jacobs, David W.},
+  year = {2024},
+  month = sep,
+  url = {https://openreview.net/forum?id=7Kz7icCZ6H\&referrer=\%5BAuthor\%20Console\%5D(\%2Fgroup\%3Fid\%3DNeurIPS.cc\%2F2024\%2FConference\%2FAuthors\%23your-submissions)},
+  urldate = {2024-10-06},
+  abstract = {The recent emergence of powerful Vision-Language models (VLMs) has significantly improved image captioning. Some of these models are extended to caption videos as well. However, their capabilities to understand complex scenes are limited, and the descriptions they provide for scenes tend to be overly verbose and focused on the superficial appearance of objects. Scene descriptions, especially in movies, require a deeper contextual understanding, unlike general-purpose video captioning. To address this challenge, we propose a model, CALVIN, a specialized video LLM that leverages previous movie context to generate fully "contextual" scene descriptions. To achieve this, we train our model on a suite of tasks that integrate both image-based question-answering and video captioning within a unified framework, before applying instruction tuning to refine the model's ability to provide scene captions. Lastly, we observe that our model responds well to prompt engineering and few-shot in-context learning techniques, enabling the user to adapt it to any new movie with very little additional annotation.},
+  langid = {english}
 }
 
 @inproceedings{somepalli_diffusion_2023,
@@ -683,25 +859,53 @@
   pages = {6048--6058},
   url = {https://openaccess.thecvf.com/content/CVPR2023/html/Somepalli\_Diffusion\_Art\_or\_Digital\_Forgery\_Investigating\_Data\_Replication\_in\_Diffusion\_CVPR\_2023\_paper.html},
   urldate = {2023-06-07},
-  selected = {true},
   langid = {english}
 }
 
-@article{somepalli_understanding_2023,
+@inproceedings{somepalli_investigating_2024,
+  title = {Investigating {{Style Similarity}} in {{Diffusion Models}}},
+  booktitle = {Proceedings of the {{European Conference}} on {{Computer Vision}}},
+  author = {Somepalli, Gowthami and Gupta, Anubhav and Gupta, Kamal and Palta, Shramay and Goldblum, Micah and Geiping, Jonas and Shrivastava, Abhinav and Goldstein, Tom},
+  year = {2024},
+  month = apr,
+  eprint = {2404.01292},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  address = {Milan},
+  doi = {10.48550/arXiv.2404.01292},
+  url = {http://arxiv.org/abs/2404.01292},
+  urldate = {2024-04-15},
+  abstract = {Generative models are now widely used by graphic designers and artists. Prior works have shown that these models remember and often replicate content from their training data during generation. Hence as their proliferation increases, it has become important to perform a database search to determine whether the properties of the image are attributable to specific training data, every time before a generated image is used for professional purposes. Existing tools for this purpose focus on retrieving images of similar semantic content. Meanwhile, many artists are concerned with style replication in text-to-image models. We present a framework for understanding and extracting style descriptors from images. Our framework comprises a new dataset curated using the insight that style is a subjective property of an image that captures complex yet meaningful interactions of factors including but not limited to colors, textures, shapes, etc. We also propose a method to extract style descriptors that can be used to attribute style of a generated image to the images used in the training dataset of a text-to-image model. We showcase promising results in various style retrieval tasks. We also quantitatively and qualitatively analyze style attribution and matching in the Stable Diffusion model. Code and artifacts are available at https://github.com/learn2phoenix/CSD.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning}
+}
+
+@inproceedings{somepalli_understanding_2023,
   title = {Understanding and {{Mitigating Copying}} in {{Diffusion Models}}},
+  booktitle = {Thirty-Seventh {{Conference}} on {{Neural Information Processing Systems}}},
   author = {Somepalli, Gowthami and Singla, Vasu and Goldblum, Micah and Geiping, Jonas and Goldstein, Tom},
   year = {2023},
-  month = may,
-  eprint = {2305.20086},
+  month = nov,
+  url = {https://openreview.net/forum?id=HtMXRGbUMt\&referrer=\%5BAuthor\%20Console\%5D(\%2Fgroup\%3Fid\%3DNeurIPS.cc\%2F2023\%2FConference\%2FAuthors\%23your-submissions)},
+  urldate = {2023-11-10},
+  abstract = {Images generated by diffusion models like Stable Diffusion are increasingly widespread. Recent works and even lawsuits have shown that these models are prone to replicating their training data, unbeknownst to the user. In this paper, we first analyze this memorization problem in text-to-image diffusion models. While it is widely believed that duplicated images in the training set are responsible for content replication at inference time, we observe that the text conditioning of the model plays a similarly important role. In fact, we see in our experiments that data replication often does not happen for unconditional models, while it is common in the text-conditional case. Motivated by our findings, we then propose several techniques for reducing data replication at both training and inference time by randomizing and augmenting image captions in the training set. Code is available at https://github.com/somepago/DCR.},
+  langid = {english}
+}
+
+@article{souri_generating_2024,
+  title = {Generating {{Potent Poisons}} and {{Backdoors}} from {{Scratch}} with {{Guided Diffusion}}},
+  author = {Souri, Hossein and Bansal, Arpit and Kazemi, Hamid and Fowl, Liam and Saha, Aniruddha and Geiping, Jonas and Wilson, Andrew Gordon and Chellappa, Rama and Goldstein, Tom and Goldblum, Micah},
+  year = {2024},
+  month = mar,
+  eprint = {2403.16365},
   primaryclass = {cs},
-  publisher = {{arXiv}},
-  doi = {10.48550/arXiv.2305.20086},
-  url = {http://arxiv.org/abs/2305.20086},
-  urldate = {2023-06-01},
-  abstract = {Images generated by diffusion models like Stable Diffusion are increasingly widespread. Recent works and even lawsuits have shown that these models are prone to replicating their training data, unbeknownst to the user. In this paper, we first analyze this memorization problem in text-to-image diffusion models. While it is widely believed that duplicated images in the training set are responsible for content replication at inference time, we observe that the text conditioning of the model plays a similarly important role. In fact, we see in our experiments that data replication often does not happen for unconditional models, while it is common in the text-conditional case. Motivated by our findings, we then propose several techniques for reducing data replication at both training and inference time by randomizing and augmenting image captions in the training set.},
-  archiveprefix = {arxiv},
+  publisher = {arXiv},
+  url = {http://arxiv.org/abs/2403.16365},
+  urldate = {2024-03-26},
+  abstract = {Modern neural networks are often trained on massive datasets that are web scraped with minimal human inspection. As a result of this insecure curation pipeline, an adversary can poison or backdoor the resulting model by uploading malicious data to the internet and waiting for a victim to scrape and train on it. Existing approaches for creating poisons and backdoors start with randomly sampled clean data, called base samples, and then modify those samples to craft poisons. However, some base samples may be significantly more amenable to poisoning than others. As a result, we may be able to craft more potent poisons by carefully choosing the base samples. In this work, we use guided diffusion to synthesize base samples from scratch that lead to significantly more potent poisons and backdoors than previous state-of-the-art attacks. Our Guided Diffusion Poisoning (GDP) base samples can be combined with any downstream poisoning or backdoor attack to boost its effectiveness. Our implementation code is publicly available at: https://github.com/hsouri/GDP .},
+  archiveprefix = {arXiv},
   keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Cryptography and Security,Computer Science - Machine Learning},
-  journal = {arxiv:2305.20086[cs]}
+  journal = {arxiv:2403.16365[cs]}
 }
 
 @inproceedings{wen_canary_2023,
@@ -725,7 +929,7 @@
   year = {2022},
   month = jun,
   pages = {23668--23684},
-  publisher = {{PMLR}},
+  publisher = {PMLR},
   issn = {2640-3498},
   url = {https://proceedings.mlr.press/v162/wen22a.html},
   urldate = {2022-09-26},
@@ -733,17 +937,31 @@
   langid = {english}
 }
 
-@article{wen_hard_2023,
+@inproceedings{wen_hard_2023,
   title = {Hard {{Prompts Made Easy}}: {{Gradient-Based Discrete Optimization}} for {{Prompt Tuning}} and {{Discovery}}},
   shorttitle = {Hard {{Prompts Made Easy}}},
+  booktitle = {Thirty-Seventh {{Conference}} on {{Neural Information Processing Systems}}},
   author = {Wen, Yuxin and Jain, Neel and Kirchenbauer, John and Goldblum, Micah and Geiping, Jonas and Goldstein, Tom},
   year = {2023},
-  month = feb,
-  url = {https://arxiv.org/abs/2302.03668v1},
-  urldate = {2023-02-08},
-  abstract = {The strength of modern generative models lies in their ability to be controlled through text-based prompts. Typical "hard" prompts are made from interpretable words and tokens, and must be hand-crafted by humans. There are also "soft" prompts, which consist of continuous feature vectors. These can be discovered using powerful optimization methods, but they cannot be easily interpreted, re-used across models, or plugged into a text-based interface. We describe an approach to robustly optimize hard text prompts through efficient gradient-based optimization. Our approach automatically generates hard text-based prompts for both text-to-image and text-to-text applications. In the text-to-image setting, the method creates hard prompts for diffusion models, allowing API users to easily generate, discover, and mix and match image concepts without prior knowledge on how to prompt the model. In the text-to-text setting, we show that hard prompts can be automatically discovered that are effective in tuning LMs for classification.},
-  langid = {english},
-  keywords = {⛔ No DOI found}
+  month = nov,
+  url = {https://openreview.net/forum?id=VOstHxDdsN},
+  urldate = {2023-11-10},
+  abstract = {The strength of modern generative models lies in their ability to be controlled through prompts. Hard prompts comprise interpretable words and tokens, and are typically hand-crafted by humans. Soft prompts, on the other hand, consist of continuous feature vectors. These can be discovered using powerful optimization methods, but they cannot be easily edited, re-used across models, or plugged into a text-based interface. We describe an easy-to-use approach to automatically optimize hard text prompts through efficient gradient-based optimization. Our approach can be readily applied to text-to-image and text-only applications alike. This method allows API users to easily generate, discover, and mix and match image concepts without prior knowledge of how to prompt the model. Furthermore, using our method, we can bypass token-level content filters imposed by Midjourney by optimizing through the open-sourced text encoder.},
+  copyright = {All rights reserved},
+  langid = {english}
+}
+
+@inproceedings{wen_privacy_2024-1,
+  title = {Privacy {{Backdoors}}: {{Enhancing Membership Inference}} through {{Poisoning Pre-trained Models}}},
+  shorttitle = {Privacy {{Backdoors}}},
+  booktitle = {The {{Thirty-eighth Annual Conference}} on {{Neural Information Processing Systems}}},
+  author = {Wen, Yuxin and Marchyok, Leo and Hong, Sanghyun and Geiping, Jonas and Goldstein, Tom and Carlini, Nicholas},
+  year = {2024},
+  month = sep,
+  url = {https://openreview.net/forum?id=KppBAWJbry\&referrer=\%5BAuthor\%20Console\%5D(\%2Fgroup\%3Fid\%3DNeurIPS.cc\%2F2024\%2FConference\%2FAuthors\%23your-submissions)},
+  urldate = {2024-10-06},
+  abstract = {It is commonplace to produce application-specific models by fine-tuning large pre-trained models using a small bespoke dataset. The widespread availability of foundation model checkpoints on the web poses considerable risks, including the vulnerability to backdoor attacks. In this paper, we unveil a new vulnerability: the privacy backdoor attack. This black-box privacy attack aims to amplify the privacy leakage that arises when fine-tuning a model: when a victim fine-tunes a backdoored model, their training data will be leaked at a significantly higher rate than if they had fine-tuned a typical model. We conduct extensive experiments on various datasets and models, including both vision-language models (CLIP) and large language models, demonstrating the broad applicability and effectiveness of such an attack. Additionally, we carry out multiple ablation studies with different fine-tuning methods and inference strategies to thoroughly analyze this new threat. Our findings highlight a critical privacy concern within the machine learning community and call for a re-evaluation of safety protocols in the use of open-source pre-trained models.},
+  langid = {english}
 }
 
 @inproceedings{wen_styx_2023,
@@ -765,8 +983,8 @@
   booktitle = {{{AdvML Frontiers}} Workshop at 39th {{International Conference}} on {{Machine Learning}}},
   author = {Wen, Yuxin and Geiping, Jonas and Fowl, Liam and Souri, Hossein and Chellappa, Rama and Goldblum, Micah and Goldstein, Tom},
   year = {2022},
-  publisher = {{arXiv}},
-  address = {{Baltimore, Maryland, USA}},
+  publisher = {arXiv},
+  address = {Baltimore, Maryland, USA},
   doi = {10.48550/arXiv.2210.09305},
   url = {https://advml-frontier.github.io/pdf/31/CameraReady/backdoor\_fl.pdf},
   urldate = {2022-10-18},
@@ -774,21 +992,26 @@
   keywords = {Computer Science - Cryptography and Security,Computer Science - Machine Learning}
 }
 
-@article{wen_tree-ring_2023,
-  title = {Tree-{{Ring Watermarks}}: {{Fingerprints}} for {{Diffusion Images}} That Are {{Invisible}} and {{Robust}}},
-  shorttitle = {Tree-{{Ring Watermarks}}},
+@inproceedings{wen_tree-rings_2023,
+  title = {Tree-{{Rings Watermarks}}: {{Invisible Fingerprints}} for {{Diffusion Images}}},
+  shorttitle = {Tree-{{Rings Watermarks}}},
+  booktitle = {Thirty-Seventh {{Conference}} on {{Neural Information Processing Systems}}},
   author = {Wen, Yuxin and Kirchenbauer, John and Geiping, Jonas and Goldstein, Tom},
   year = {2023},
-  month = may,
-  eprint = {2305.20030},
-  primaryclass = {cs},
-  publisher = {{arXiv}},
-  doi = {10.48550/arXiv.2305.20030},
-  url = {http://arxiv.org/abs/2305.20030},
-  urldate = {2023-06-01},
-  abstract = {Watermarking the outputs of generative models is a crucial technique for tracing copyright and preventing potential harm from AI-generated content. In this paper, we introduce a novel technique called Tree-Ring Watermarking that robustly fingerprints diffusion model outputs. Unlike existing methods that perform post-hoc modifications to images after sampling, Tree-Ring Watermarking subtly influences the entire sampling process, resulting in a model fingerprint that is invisible to humans. The watermark embeds a pattern into the initial noise vector used for sampling. These patterns are structured in Fourier space so that they are invariant to convolutions, crops, dilations, flips, and rotations. After image generation, the watermark signal is detected by inverting the diffusion process to retrieve the noise vector, which is then checked for the embedded signal. We demonstrate that this technique can be easily applied to arbitrary diffusion models, including text-conditioned Stable Diffusion, as a plug-in with negligible loss in FID. Our watermark is semantically hidden in the image space and is far more robust than watermarking alternatives that are currently deployed. Code is available at github.com/YuxinWenRick/tree-ring-watermark.},
-  archiveprefix = {arxiv},
-  selected = {true},
-  keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Cryptography and Security,Computer Science - Machine Learning},
-  journal = {arxiv:2305.20030[cs]}
+  month = nov,
+  url = {https://openreview.net/forum?id=Z57JrmubNl\&referrer=\%5BAuthor\%20Console\%5D(\%2Fgroup\%3Fid\%3DNeurIPS.cc\%2F2023\%2FConference\%2FAuthors\%23your-submissions)},
+  urldate = {2023-11-10},
+  abstract = {Watermarking the outputs of generative models is a crucial technique for tracing copyright and preventing potential harm from AI-generated content. In this paper, we introduce a novel technique called Tree-Ring Watermarking that robustly fingerprints diffusion model outputs. Unlike existing methods that perform post-hoc modifications to images after sampling, Tree-Ring Watermarking subtly influences the entire sampling process, resulting in a model fingerprint that is invisible to humans. The watermark embeds a pattern into the initial noise vector used for sampling. These patterns are structured in Fourier space so that they are invariant to convolutions, crops, dilations, flips, and rotations. After image generation, the watermark signal is detected by inverting the diffusion process to retrieve the noise vector, which is then checked for the embedded signal. We demonstrate that this technique can be easily applied to arbitrary diffusion models, including text-conditioned Stable Diffusion, as a plug-in with negligible loss in FID. Our watermark is semantically hidden in the image space and is far more robust than watermarking alternatives that are currently deployed.},
+  langid = {english}
+}
+
+@inproceedings{yue_object_2024,
+  title = {Object {{Recognition}} as {{Next Token Prediction}}},
+  booktitle = {Proceedings of the {{IEEE}}/{{CVF Conference}} on {{Computer Vision}} and {{Pattern Recognition}}},
+  author = {Yue, Kaiyu and Chen, Bor-Chun and Geiping, Jonas and Li, Hengduo and Goldstein, Tom and Lim, Ser-Nam},
+  year = {2024},
+  pages = {16645--16656},
+  url = {https://openaccess.thecvf.com/content/CVPR2024/html/Yue\_Object\_Recognition\_as\_Next\_Token\_Prediction\_CVPR\_2024\_paper.html},
+  urldate = {2024-10-06},
+  langid = {english}
 }
