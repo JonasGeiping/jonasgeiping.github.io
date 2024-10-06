@@ -29,8 +29,10 @@ If you are interested in these topics, feel free to reach out for more informati
 * [Max Planck & ETH Center for Learning Systems (CLS)](https://learning-systems.org/)
 * [International Max Planck Research School for Intelligent Systems (IMPRS-IS)](https://imprs.is.mpg.de/)
 
+An admission to one of these programs comes with full funding as PhD student at the Max-Planck Institute for Intelligent Systems or the ELLIS Institute Tübingen in my research group.
+In Germany, PhD students are considered employees and receive a salary based on salary tables for public employees.
 
-### HiWis:
+### Student Assistants:
 
 I am occasionally hiring student assistants (SHK/WHK) from the University of Tübingen. Feel free to inquire for more details, if you are currently enrolled
 as student at the University of Tübingen, or are admitted.
