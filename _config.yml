@@ -103,9 +103,9 @@ wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.
 
 contact_note: >
   If you have research questions, feel free to reach out anytime via email or twitter!
-  I do actually read every single email. If you did not get an answer, I may be busy, or I did not think the email was addressed to me in particular.
-  (In either case, rephrasing the email and resending it after a while is ok!)
-  If you are a student appyling for a position, please also do not forget to read the openings page first.
+  I do actually read every single email. If you did not get an answer, I may be busy, or I did not think the email was addressed to me in particular
+  (In either case, rephrasing the email and resending it after a while is ok!).
+  If you are a student appyling for a position, please also do not forget to read the openings page.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification

@@ -30,7 +30,7 @@ If you are interested in these topics, feel free to reach out for more informati
 * [International Max Planck Research School for Intelligent Systems (IMPRS-IS)](https://imprs.is.mpg.de/)
 
 An admission to one of these programs comes with full funding as PhD student at the Max-Planck Institute for Intelligent Systems or the ELLIS Institute Tübingen in my research group.
-In Germany, PhD students are considered employees and receive a salary based on salary tables for public employees.
+In Germany, PhD students are considered employees and receive a salary based on salary tables for public employees, with an initial contract over at least three years.
 
 ### Student Assistants:
 
