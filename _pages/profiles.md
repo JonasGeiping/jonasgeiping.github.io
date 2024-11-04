@@ -30,7 +30,7 @@ profiles:
     image: shashwat.jpg
     content: team/shashwat.md
     image_circular: false # crops the image to make it circular
-    webpage: https://kotekjedi.github.io/
+    webpage: https://shash42.github.io/
     more_info:
     current_member: true
   - align: right
