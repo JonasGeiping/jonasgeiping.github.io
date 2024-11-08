@@ -26,6 +26,13 @@ profiles:
     more_info: 
     webpage: https://github.com/Guinan-Su
     current_member: true
+  - align: left
+    image: xueyan.jpg
+    content: team/xueyan.md
+    image_circular: false # crops the image to make it circular
+    webpage: 
+    more_info:
+    current_member: true
   - align: right
     image: shashwat.jpg
     content: team/shashwat.md
