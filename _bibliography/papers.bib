@@ -1,3 +1,20 @@
+@article{ajroldi_when_2025,
+  title = {When, {{Where}} and {{Why}} to {{Average Weights}}?},
+  author = {Ajroldi, Niccol{\`o} and Orvieto, Antonio and Geiping, Jonas},
+  year = {2025},
+  month = feb,
+  eprint = {2502.06761},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2502.06761},
+  url = {http://arxiv.org/abs/2502.06761},
+  urldate = {2025-02-11},
+  abstract = {Averaging checkpoints along the training trajectory is a simple yet powerful approach to improve the generalization performance of Machine Learning models and reduce training time. Motivated by these potential gains, and in an effort to fairly and thoroughly benchmark this technique, we present an extensive evaluation of averaging techniques in modern Deep Learning, which we perform using AlgoPerf {\textbackslash}citep\{dahl\_benchmarking\_2023\}, a large-scale benchmark for optimization algorithms. We investigate whether weight averaging can reduce training time, improve generalization, and replace learning rate decay, as suggested by recent literature. Our evaluation across seven architectures and datasets reveals that averaging significantly accelerates training and yields considerable efficiency gains, at the price of a minimal implementation and memory cost, while mildly improving generalization across all considered workloads. Finally, we explore the relationship between averaging and learning rate annealing and show how to optimally combine the two to achieve the best performances.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Machine Learning},
+  journal = {arxiv:2502.06761[cs]}
+}
+
 @article{balestriero_cookbook_2023,
   title = {A {{Cookbook}} of {{Self-Supervised Learning}}},
   author = {Balestriero, Randall and Ibrahim, Mark and Sobal, Vlad and Morcos, Ari and Shekhar, Shashank and Goldstein, Tom and Bordes, Florian and Bardes, Adrien and Mialon, Gregoire and Tian, Yuandong and Schwarzschild, Avi and Wilson, Andrew Gordon and Geiping, Jonas and Garrido, Quentin and Fernandez, Pierre and Bar, Amir and Pirsiavash, Hamed and LeCun, Yann and Goldblum, Micah},
@@ -39,6 +56,21 @@
   urldate = {2024-10-06},
   abstract = {Typical diffusion models are trained to accept a particular form of conditioning, most commonly text, and cannot be conditioned on other modalities without retraining. In this work, we propose a universal guidance algorithm that enables diffusion models to be controlled by arbitrary guidance modalities without the need to retrain any use-specific components. We show that our algorithm successfully generates quality images with guidance functions including segmentation, face recognition, object detection, style guidance and classifier signals.},
   langid = {english}
+}
+
+@article{boreiko_realistic_2024,
+  title = {A {{Realistic Threat Model}} for {{Large Language Model Jailbreaks}}},
+  author = {Boreiko, Valentyn and Panfilov, Alexander and Voracek, Vaclav and Hein, Matthias and Geiping, Jonas},
+  year = {2024},
+  month = oct,
+  eprint = {2410.16222},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2410.16222},
+  url = {http://arxiv.org/abs/2410.16222},
+  urldate = {2024-10-22},
+  abstract = {A plethora of jailbreaking attacks have been proposed to obtain harmful responses from safety-tuned LLMs. In their original settings, these methods all largely succeed in coercing the target output, but their attacks vary substantially in fluency and computational effort. In this work, we propose a unified threat model for the principled comparison of these methods. Our threat model combines constraints in perplexity, measuring how far a jailbreak deviates from natural text, and computational budget, in total FLOPs. For the former, we build an N-gram model on 1T tokens, which, in contrast to model-based perplexity, allows for an LLM-agnostic and inherently interpretable evaluation. We adapt popular attacks to this new, realistic threat model, with which we, for the first time, benchmark these attacks on equal footing. After a rigorous comparison, we not only find attack success rates against safety-tuned modern models to be lower than previously presented but also find that attacks based on discrete optimization significantly outperform recent LLM-based attacks. Being inherently interpretable, our threat model allows for a comprehensive analysis and comparison of jailbreak attacks. We find that effective attacks exploit and abuse infrequent N-grams, either selecting N-grams absent from real-world text or rare ones, e.g. specific to code datasets.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Machine Learning}
 }
 
 @inproceedings{borgnia_dp-instahide_2021,
@@ -154,8 +186,7 @@
   urldate = {2023-02-03},
   abstract = {A central tenet of Federated learning (FL), which trains models without centralizing user data, is privacy. However, previous work has shown that the gradient updates used in FL can leak user information. While the most industrial uses of FL are for text applications (e.g. keystroke prediction), nearly all attacks on FL privacy have focused on simple image classifiers. We propose a novel attack that reveals private user text by deploying malicious parameter vectors, and which succeeds even with mini-batches, multiple users, and long sequences. Unlike previous attacks on FL, the attack exploits characteristics of both the Transformer architecture and the token embedding, separately extracting tokens and positional embeddings to retrieve high-fidelity text. This work suggests that FL on text, which has historically been resistant to privacy attacks, is far more vulnerable than previously thought.},
   copyright = {All rights reserved},
-  langid = {english},
-  selected = {true}
+  langid = {english}
 }
 
 @inproceedings{fowl_preventing_2021,
@@ -264,7 +295,7 @@
   urldate = {2023-08-02},
   abstract = {Recent trends in language modeling have focused on increasing performance through scaling, and have resulted in an environment where training language models is out of reach for most researchers and practitioners. While most in the community are asking how to push the limits of extreme computation, we ask the opposite question: How far can we get with a single GPU in just one day? We investigate the downstream performance achievable with a transformer-based language model trained completely from scratch with masked language modeling for a single day on a single consumer GPU. Aside from re-analyzing nearly all components of the pretraining pipeline for this scenario and providing a modified pipeline with performance close to BERT, we investigate why scaling down is hard, and which modifications actually improve performance in this scenario. We provide evidence that even in this constrained setting, performance closely follows scaling laws observed in large-compute settings. Through the lens of scaling laws, we categorize a range of recent improvements to training and architecture and discuss their merit and practical applicability (or lack thereof) for the limited compute setting. We provide code to reproduce all experiments at github.com/JonasGeiping/cramming .},
   langid = {english},
-  selected = {true}
+  selected = {true},
 }
 
 @article{geiping_darts_2021,
@@ -381,6 +412,25 @@
   keywords = {90C06 68U10 68T45 65K10,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning,G.1.6,G.4,I.4,Mathematics - Optimization and Control}
 }
 
+@article{geiping_scaling_2025,
+  title = {Scaling up {{Test-Time Compute}} with {{Latent Reasoning}}: {{A Recurrent Depth Approach}}},
+  shorttitle = {Scaling up {{Test-Time Compute}} with {{Latent Reasoning}}},
+  author = {Geiping, Jonas and McLeish, Sean and Jain, Neel and Kirchenbauer, John and Singh, Siddharth and Bartoldson, Brian R. and Kailkhura, Bhavya and Bhatele, Abhinav and Goldstein, Tom},
+  year = {2025},
+  month = feb,
+  eprint = {2502.05171},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2502.05171},
+  url = {http://arxiv.org/abs/2502.05171},
+  urldate = {2025-02-10},
+  abstract = {We study a novel language model architecture that is capable of scaling test-time computation by implicitly reasoning in latent space. Our model works by iterating a recurrent block, thereby unrolling to arbitrary depth at test-time. This stands in contrast to mainstream reasoning models that scale up compute by producing more tokens. Unlike approaches based on chain-of-thought, our approach does not require any specialized training data, can work with small context windows, and can capture types of reasoning that are not easily represented in words. We scale a proof-of-concept model to 3.5 billion parameters and 800 billion tokens. We show that the resulting model can improve its performance on reasoning benchmarks, sometimes dramatically, up to a computation load equivalent to 50 billion parameters.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Computation and Language,Computer Science - Machine Learning},
+  journal = {arxiv:2502.05171[cs]},
+  selected = {true}
+}
+
 @inproceedings{geiping_stochastic_2021,
   title = {Stochastic {{Training}} Is {{Not Necessary}} for {{Generalization}}},
   booktitle = {International {{Conference}} on {{Learning Representations}}},
@@ -442,6 +492,23 @@
   langid = {english}
 }
 
+@article{goel_great_2025,
+  title = {Great {{Models Think Alike}} and This {{Undermines AI Oversight}}},
+  author = {Goel, Shashwat and Struber, Joschka and Auzina, Ilze Amanda and Chandra, Karuna K. and Kumaraguru, Ponnurangam and Kiela, Douwe and Prabhu, Ameya and Bethge, Matthias and Geiping, Jonas},
+  year = {2025},
+  month = feb,
+  eprint = {2502.04313},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2502.04313},
+  url = {http://arxiv.org/abs/2502.04313},
+  urldate = {2025-02-07},
+  abstract = {As Language Model (LM) capabilities advance, evaluating and supervising them at scale is getting harder for humans. There is hope that other language models can automate both these tasks, which we refer to as "AI Oversight". We study how model similarity affects both aspects of AI oversight by proposing a probabilistic metric for LM similarity based on overlap in model mistakes. Using this metric, we first show that LLM-as-a-judge scores favor models similar to the judge, generalizing recent self-preference results. Then, we study training on LM annotations, and find complementary knowledge between the weak supervisor and strong student model plays a crucial role in gains from "weak-to-strong generalization". As model capabilities increase, it becomes harder to find their mistakes, and we might defer more to AI oversight. However, we observe a concerning trend -- model mistakes are becoming more similar with increasing capabilities, pointing to risks from correlated failures. Our work underscores the importance of reporting and correcting for model similarity, especially in the emerging paradigm of AI oversight.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Machine Learning},
+  journal = {arxiv:2502.04313[cs]}
+}
+
 @inproceedings{goldblum_truth_2020,
   ids = {goldblum_truth_2019},
   title = {Truth or Backpropaganda? {{An}} Empirical Investigation of Deep Learning Theory},
@@ -474,23 +541,7 @@
   keywords = {constant rigid motion,ill-conditioned problem,image colour analysis,image segmentation,image sequences,implicit motion segmentation estimation approach,joint energy minimization problem,L0 rigid motion regularization,minimisation,motion estimation,observed scene,piecewise rigid motion,piecewise rigid scene flow techniques,proximal primal-dual algorithm,RGB-D images,rotational motion parts,scene flow estimation approach,translational motion parts,variational approach}
 }
 
-@article{hans_be_2024,
-  title = {Be like a {{Goldfish}}, {{Don}}'t {{Memorize}}! {{Mitigating Memorization}} in {{Generative LLMs}}},
-  author = {Hans, Abhimanyu and Wen, Yuxin and Jain, Neel and Kirchenbauer, John and Kazemi, Hamid and Singhania, Prajwal and Singh, Siddharth and Somepalli, Gowthami and Geiping, Jonas and Bhatele, Abhinav and Goldstein, Tom},
-  year = {2024},
-  month = jun,
-  eprint = {2406.10209},
-  primaryclass = {cs},
-  publisher = {arXiv},
-  url = {http://arxiv.org/abs/2406.10209},
-  urldate = {2024-06-17},
-  abstract = {Large language models can memorize and repeat their training data, causing privacy and copyright risks. To mitigate memorization, we introduce a subtle modification to the next-token training objective that we call the goldfish loss. During training, a randomly sampled subset of tokens are excluded from the loss computation. These dropped tokens are not memorized by the model, which prevents verbatim reproduction of a complete chain of tokens from the training set. We run extensive experiments training billion-scale Llama-2 models, both pre-trained and trained from scratch, and demonstrate significant reductions in extractable memorization with little to no impact on downstream benchmarks.},
-  archiveprefix = {arXiv},
-  keywords = {Computer Science - Computation and Language},
-  journal = {arxiv:2406.10209[cs]}
-}
-
-@inproceedings{hans_be_2024-1,
+@inproceedings{hans_be_2024,
   title = {Be like a {{Goldfish}}, {{Don}}'t {{Memorize}}! {{Mitigating Memorization}} in {{Generative LLMs}}},
   booktitle = {The {{Thirty-eighth Annual Conference}} on {{Neural Information Processing Systems}}},
   author = {Hans, Abhimanyu and Kirchenbauer, John and Wen, Yuxin and Jain, Neel and Kazemi, Hamid and Singhania, Prajwal and Singh, Siddharth and Somepalli, Gowthami and Geiping, Jonas and Bhatele, Abhinav and Goldstein, Tom},
@@ -508,12 +559,12 @@
   booktitle = {Proceedings of the {{Forty-first International Conference}} on {{Machine Learning}}},
   author = {Hans, Abhimanyu and Schwarzschild, Avi and Cherepanova, Valeriia and Kazemi, Hamid and Saha, Aniruddha and Goldblum, Micah and Geiping, Jonas and Goldstein, Tom},
   year = {2024},
-  month = july,
+  month = jan,
   url = {https://openreview.net/forum?id=pXzPMrjjqG},
   urldate = {2024-10-06},
+  abstract = {Detecting text generated by modern large language models is thought to be hard, as both LLMs and humans can exhibit a wide range of complex behaviors. However, we find that a score based on contrasting two closely related language models is highly accurate at separating human-generated and machine-generated text. Based on this mechanism, we propose a novel LLM detector that only requires simple calculations using a pair of pre-trained LLMs. The method, called Binoculars, achieves state-of-the-art accuracy without any training data. It is capable of spotting machine text from a range of modern LLMs without any model-specific modifications. We comprehensively evaluate Binoculars on a number of text sources and in varied situations. Over a wide range of document types, Binoculars detects over 90\% of generated samples from ChatGPT (and other LLMs) at a false positive rate of 0.01\%, despite not being trained on any ChatGPT data.},
   langid = {english},
-  selected = {true},
-  abstract = {Detecting text generated by modern large language models is thought to be hard, as both LLMs and humans can exhibit a wide range of complex behaviors. However, we find that a score based on contrasting two closely related language models is highly accurate at separating human-generated and machine-generated text. Based on this mechanism, we propose a novel LLM detector that only requires simple calculations using a pair of pre-trained LLMs. The method, called Binoculars, achieves state-of-the-art accuracy without any training data. It is capable of spotting machine text from a range of modern LLMs without any model-specific modifications. We comprehensively evaluate Binoculars on a number of text sources and in varied situations. Over a wide range of document types, Binoculars detects over 90% of generated samples from ChatGPT (and other LLMs) at a false positive rate of 0.01%, despite not being trained on any ChatGPT data.}
+  selected = {true}
 }
 
 @inproceedings{huang_metapoison_2020,
@@ -575,19 +626,6 @@
   langid = {english}
 }
 
-@inproceedings{jain_neftune_2023-2,
-  title = {{{NEFTune}}: {{Noisy Embeddings Improve Instruction Finetuning}}},
-  shorttitle = {{{NEFTune}}},
-  booktitle = {The {{Twelfth International Conference}} on {{Learning Representations}}},
-  author = {Jain, Neel and Chiang, Ping-yeh and Wen, Yuxin and Kirchenbauer, John and Chu, Hong-Min and Somepalli, Gowthami and Bartoldson, Brian R. and Kailkhura, Bhavya and Schwarzschild, Avi and Saha, Aniruddha and Goldblum, Micah and Geiping, Jonas and Goldstein, Tom},
-  year = {2023},
-  month = oct,
-  url = {https://openreview.net/forum?id=0bMmZ3fkCk\&referrer=\%5BAuthor\%20Console\%5D(\%2Fgroup\%3Fid\%3DICLR.cc\%2F2024\%2FConference\%2FAuthors\%23your-submissions)},
-  urldate = {2024-10-06},
-  abstract = {We show that language model finetuning can be improved, sometimes dramatically, with a simple augmentation. NEFTune adds noise to the embedding vectors during training. Standard finetuning of LLaMA-2-7B using Alpaca achieves \$29.79\${\textbackslash}\% on AlpacaEval, which rises to \$64.69\${\textbackslash}\% using noisy embeddings. NEFTune also improves over strong baselines on modern instruction datasets. Models trained with Evol-Instruct see a \$10\${\textbackslash}\% improvement, with ShareGPT an \$8\${\textbackslash}\% improvement, and with OpenPlatypus an \$8\${\textbackslash}\% improvement. Even powerful models further refined with RLHF such as LLaMA-2-Chat benefit from additional training with NEFTune. Particularly, we see these improvements on the conversational abilities of the instruction model and not on traditional tasks like those on the OpenLLM Leaderboard, where performance is the same.},
-  langid = {english}
-}
-
 @article{kazemi_what_2024,
   title = {What Do We Learn from Inverting {{CLIP}} Models?},
   author = {Kazemi, Hamid and Chegini, Atoosa and Geiping, Jonas and Feizi, Soheil and Goldstein, Tom},
@@ -644,7 +682,7 @@
   abstract = {Potential harms of large language models can be mitigated by watermarking model output, i.e., embedding signals into generated text that are invisible to humans but algorithmically detectable from a short span of tokens. We propose a watermarking framework for proprietary language models. The watermark can be embedded with negligible impact on text quality, and can be detected using an efficient open-source algorithm without access to the language model API or parameters. The watermark works by selecting a randomized set of "green" tokens before a word is generated, and then softly promoting use of green tokens during sampling. We propose a statistical test for detecting the watermark with interpretable p-values, and derive an information-theoretic framework for analyzing the sensitivity of the watermark. We test the watermark using a multi-billion parameter model from the Open Pretrained Transformer (OPT) family, and discuss robustness and security.},
   copyright = {All rights reserved},
   langid = {english},
-  selected = {true},
+  selected = {true}
 }
 
 @inproceedings{li_augmenters_2023,
@@ -660,6 +698,18 @@
   url = {https://aclanthology.org/2023.semeval-1.5},
   urldate = {2023-07-13},
   abstract = {This paper describes our zero-shot approachesfor the Visual Word Sense Disambiguation(VWSD) Task in English. Our preliminarystudy shows that the simple approach of match-ing candidate images with the phrase usingCLIP suffers from the many-to-many natureof image-text pairs. We find that the CLIP textencoder may have limited abilities in captur-ing the compositionality in natural language.Conversely, the descriptive focus of the phrasevaries from instance to instance. We addressthese issues in our two systems, Augment-CLIPand Stable Diffusion Sampling (SD Sampling).Augment-CLIP augments the text prompt bygenerating sentences that contain the contextphrase with the help of large language mod-els (LLMs). We further explore CLIP modelsin other languages, as the an ambiguous wordmay be translated into an unambiguous one inthe other language. SD Sampling uses text-to-image Stable Diffusion to generate multipleimages from the given phrase, increasing thelikelihood that a subset of images match theone that paired with the text.}
+}
+
+@inproceedings{li_llm-generated_2025,
+  title = {{{LLM-Generated Passphrases That Are Secure}} and {{Easy}} to {{Remember}}},
+  booktitle = {The 2025 {{Annual Conference}} of the {{Nations}} of the {{Americas Chapter}} of the {{ACL}}},
+  author = {Li, Jie S. and Geiping, Jonas and Goldblum, Micah and Saha, Aniruddha and Goldstein, Tom},
+  year = {2025},
+  month = jan,
+  url = {https://openreview.net/forum?id=E68v0F9arG\&referrer=\%5BAuthor\%20Console\%5D(\%2Fgroup\%3Fid\%3Daclweb.org\%2FNAACL\%2F2025\%2FConference\%2FAuthors\%23your-submissions)},
+  urldate = {2025-01-29},
+  abstract = {Automatically generated passwords and passphrases are a cornerstone of IT security. Yet, these passphrases are often hard to remember and see only limited adoption. In this work, we use large language models to generate passphrases with rigorous security guarantees via the computation of the entropy of the output as a metric of the security of the passphrase. We then present a range of practical methods to generate language model outputs with sufficient entropy: raising entropy through in-context examples and generation through a new top-q truncation method. We further verify the influence of prompt construction in steering the output topic and grammatical structure. Finally, we conduct user studies to determine the adoption rates for these LLM-generated passphrases in practice.},
+  langid = {english}
 }
 
 @inproceedings{lukasik_differentiable_2023,
@@ -684,8 +734,7 @@
   url = {https://openreview.net/forum?id=aIyNLWXuDO\&referrer=\%5BAuthor\%20Console\%5D(\%2Fgroup\%3Fid\%3DNeurIPS.cc\%2F2024\%2FConference\%2FAuthors\%23your-submissions)},
   urldate = {2024-10-06},
   abstract = {The poor performance of transformers on arithmetic tasks seems to stem in large part from their inability to keep track of the exact position of each digit inside of a large span of digits. We mend this problem by adding an embedding to each digit that encodes its position relative to the start of the number. In addition to the boost these embeddings provide on their own, we show that this fix enables architectural modifications such as input injection and recurrent layers to improve performance even further. With positions resolved, we can study the logical extrapolation ability of transformers. Can they solve arithmetic problems that are larger and more complex than those in their training data? We find that training on only 20 digit numbers with a single GPU for one day, we can reach state-of-the-art performance, achieving up to 99\% accuracy on 100 digit addition problems. Finally, we show that these gains in numeracy also unlock improvements on other multi-step reasoning tasks including sorting and multiplication.},
-  langid = {english},
-  selected = {true}
+  langid = {english}
 }
 
 @article{ni_k-sam_2022,
@@ -720,6 +769,24 @@
   archiveprefix = {arXiv},
   keywords = {Computer Science - Artificial Intelligence,Computer Science - Cryptography and Security},
   journal = {arxiv:2405.19524[cs]}
+}
+
+@article{runkel_training_2024,
+  title = {Training {{Data Reconstruction}}: {{Privacy}} Due to {{Uncertainty}}?},
+  shorttitle = {Training {{Data Reconstruction}}},
+  author = {Runkel, Christina and Gandikota, Kanchana Vaishnavi and Geiping, Jonas and Sch{\"o}nlieb, Carola-Bibiane and Moeller, Michael},
+  year = {2024},
+  month = dec,
+  eprint = {2412.08544},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2412.08544},
+  url = {http://arxiv.org/abs/2412.08544},
+  urldate = {2024-12-17},
+  abstract = {Being able to reconstruct training data from the parameters of a neural network is a major privacy concern. Previous works have shown that reconstructing training data, under certain circumstances, is possible. In this work, we analyse such reconstructions empirically and propose a new formulation of the reconstruction as a solution to a bilevel optimisation problem. We demonstrate that our formulation as well as previous approaches highly depend on the initialisation of the training images \$x\$ to reconstruct. In particular, we show that a random initialisation of \$x\$ can lead to reconstructions that resemble valid training samples while not being part of the actual training dataset. Thus, our experiments on affine and one-hidden layer networks suggest that when reconstructing natural images, yet an adversary cannot identify whether reconstructed images have indeed been part of the set of training samples.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Cryptography and Security,Computer Science - Machine Learning},
+  journal = {arxiv:2412.08544[cs]}
 }
 
 @inproceedings{saifullah_seeing_2023,
@@ -791,21 +858,17 @@
   langid = {english}
 }
 
-@article{sharma_efficiently_2024,
+@inproceedings{sharma_efficiently_2024,
   title = {Efficiently {{Dispatching Flash Attention For Partially Filled Attention Masks}}},
+  booktitle = {{{ENLSP Workshop}} at {{NeurIPS}} 2024},
   author = {Sharma, Agniv and Geiping, Jonas},
   year = {2024},
   month = sep,
-  eprint = {2409.15097},
-  primaryclass = {cs},
-  publisher = {arXiv},
   doi = {10.48550/arXiv.2409.15097},
   url = {http://arxiv.org/abs/2409.15097},
   urldate = {2024-09-27},
   abstract = {Transformers are widely used across various applications, many of which yield sparse or partially filled attention matrices. Examples include attention masks designed to reduce the quadratic complexity of attention, sequence packing techniques, and recent innovations like tree masking for fast validation in MEDUSA. Despite the inherent sparsity in these matrices, the state-of-the-art algorithm Flash Attention still processes them with quadratic complexity as though they were dense. In this paper, we introduce Binary Block Masking, a highly efficient modification that enhances Flash Attention by making it mask-aware. We further propose two optimizations: one tailored for masks with contiguous non-zero patterns and another for extremely sparse masks. Our experiments on attention masks derived from real-world scenarios demonstrate up to a 9x runtime improvement. The implementation will be publicly released to foster further research and application.},
-  archiveprefix = {arXiv},
-  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Machine Learning},
-  journal = {arxiv:2409.15097[cs]}
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Machine Learning}
 }
 
 @inproceedings{shu_exploitability_2023-1,
@@ -818,6 +881,41 @@
   urldate = {2023-11-10},
   abstract = {Instruction tuning is an effective technique to align large language models (LLMs) with human intent. In this work, we investigate how an adversary can exploit instruction tuning by injecting specific instruction-following examples into the training data that intentionally changes the model's behavior. For example, an adversary can achieve content injection by injecting training examples that mention target content and eliciting such behavior from downstream models. To achieve this goal, we propose {\textbackslash}textit\{AutoPoison\}, an automated data poisoning pipeline. It naturally and coherently incorporates versatile attack goals into poisoned data with the help of an oracle LLM. We showcase two example attacks: content injection and over-refusal attacks, each aiming to induce a specific exploitable behavior. We quantify and benchmark the strength and the stealthiness of our data poisoning scheme. Our results show that AutoPoison allows an adversary to change a model's behavior by poisoning only a small fraction of data while maintaining a high level of stealthiness in the poisoned examples. We hope our work sheds light on how data quality affects the behavior of instruction-tuned models and raises awareness of the importance of data quality for responsible deployments of LLMs.},
   langid = {english}
+}
+
+@inproceedings{singh_democratizing_2024-1,
+  title = {Democratizing {{AI}}: {{Open-source Scalable LLM Training}} on {{GPU-based Supercomputers}}},
+  shorttitle = {Democratizing {{AI}}},
+  booktitle = {2024 {{SC24}}: {{International Conference}} for {{High Performance Computing}}, {{Networking}}, {{Storage}} and {{Analysis SC}}},
+  author = {Singh, Siddharth and Singhania, Prajwal and Ranjan, Aditya and Kirchenbauer, John and Geiping, Jonas and Wen, Yuxin and Jain, Neel and Hans, Abhimanyu and Shu, Manli and Tomar, Aditya and Goldstein, Tom and Bhatele, Abhinav},
+  year = {2024},
+  month = nov,
+  pages = {36--49},
+  publisher = {IEEE Computer Society},
+  doi = {10.1109/SC41406.2024.00010},
+  url = {https://www.computer.org/csdl/proceedings-article/sc/2024/529100a036/21HUV5yQsyQ},
+  urldate = {2024-11-29},
+  abstract = {Training and fine-tuning large language models (LLMs) with hundreds of billions to trillions of parameters requires tens of thousands of GPUs, and a highly scalable software stack. In this work, we present a novel four-dimensional hybrid parallel algorithm implemented in a highly scalable, portable, open-source framework called AxoNN. We describe several performance optimizations in AxoNN to improve matrix multiply kernel performance, overlap non-blocking collectives with computation, and performance modeling to choose performance optimal configurations. These have resulted in unprecedented scaling and peak flop/s (bf16) for training of GPT-style transformer models on Perlmutter (620.1 Petaflop/s), Frontier (1.381 Exaflop/s) and Alps (1.423 Exaflop/s). While the abilities of LLMs improve with the number of trainable parameters, so do privacy and copyright risks caused by memorization of training data, which can cause disclosure of sensitive or private information at inference time. We highlight this side effect of scale through experiments that explore ``catastrophic memorization,'' where models are sufficiently large to memorize training data in a single pass, and present an approach to prevent it. As part of this study, we demonstrate fine-tuning of a 405-billion parameter LLM using AxoNN on Frontier.},
+  isbn = {979-8-3503-5291-7},
+  langid = {english}
+}
+
+@article{singh_democratizing_2025,
+  title = {Democratizing {{AI}}: {{Open-source Scalable LLM Training}} on {{GPU-based Supercomputers}}},
+  shorttitle = {Democratizing {{AI}}},
+  author = {Singh, Siddharth and Singhania, Prajwal and Ranjan, Aditya and Kirchenbauer, John and Geiping, Jonas and Wen, Yuxin and Jain, Neel and Hans, Abhimanyu and Shu, Manli and Tomar, Aditya and Goldstein, Tom and Bhatele, Abhinav},
+  year = {2025},
+  month = feb,
+  eprint = {2502.08145},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2502.08145},
+  url = {http://arxiv.org/abs/2502.08145},
+  urldate = {2025-02-14},
+  abstract = {Training and fine-tuning large language models (LLMs) with hundreds of billions to trillions of parameters requires tens of thousands of GPUs, and a highly scalable software stack. In this work, we present a novel four-dimensional hybrid parallel algorithm implemented in a highly scalable, portable, open-source framework called AxoNN. We describe several performance optimizations in AxoNN to improve matrix multiply kernel performance, overlap non-blocking collectives with computation, and performance modeling to choose performance optimal configurations. These have resulted in unprecedented scaling and peak flop/s (bf16) for training of GPT-style transformer models on Perlmutter (620.1 Petaflop/s), Frontier (1.381 Exaflop/s) and Alps (1.423 Exaflop/s). While the abilities of LLMs improve with the number of trainable parameters, so do privacy and copyright risks caused by memorization of training data, which can cause disclosure of sensitive or private information at inference time. We highlight this side effect of scale through experiments that explore "catastrophic memorization", where models are sufficiently large to memorize training data in a single pass, and present an approach to prevent it. As part of this study, we demonstrate fine-tuning of a 405-billion parameter LLM using AxoNN on Frontier.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Distributed Parallel and Cluster Computing,Computer Science - Machine Learning},
+  journal = {arxiv:2502.08145[cs]}
 }
 
 @article{singla_simple_2023,
@@ -835,6 +933,24 @@
   archiveprefix = {arXiv},
   keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning},
   journal = {arxiv:2311.03386[cs]}
+}
+
+@article{sinha_can_2025,
+  title = {Can {{Language Models Falsify}}? {{Evaluating Algorithmic Reasoning}} with {{Counterexample Creation}}},
+  shorttitle = {Can {{Language Models Falsify}}?},
+  author = {Sinha, Shiven and Goel, Shashwat and Kumaraguru, Ponnurangam and Geiping, Jonas and Bethge, Matthias and Prabhu, Ameya},
+  year = {2025},
+  month = feb,
+  eprint = {2502.19414},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2502.19414},
+  url = {http://arxiv.org/abs/2502.19414},
+  urldate = {2025-02-27},
+  abstract = {There is growing excitement about the potential of Language Models (LMs) to accelerate scientific discovery. Falsifying hypotheses is key to scientific progress, as it allows claims to be iteratively refined over time. This process requires significant researcher effort, reasoning, and ingenuity. Yet current benchmarks for LMs predominantly assess their ability to generate solutions rather than challenge them. We advocate for developing benchmarks that evaluate this inverse capability - creating counterexamples for subtly incorrect solutions. To demonstrate this approach, we start with the domain of algorithmic problem solving, where counterexamples can be evaluated automatically using code execution. Specifically, we introduce REFUTE, a dynamically updating benchmark that includes recent problems and incorrect submissions from programming competitions, where human experts successfully identified counterexamples. Our analysis finds that the best reasoning agents, even OpenAI o3-mini (high) with code execution feedback, can create counterexamples for only {$<$}9\% of incorrect solutions in REFUTE, even though ratings indicate its ability to solve up to 48\% of these problems from scratch. We hope our work spurs progress in evaluating and enhancing LMs' ability to falsify incorrect solutions - a capability that is crucial for both accelerating research and making models self-improve through reliable reflective reasoning.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Machine Learning,Computer Science - Software Engineering},
+  journal = {arxiv:2502.19414[cs]}
 }
 
 @inproceedings{somepalli_calvin_2024,
@@ -906,6 +1022,24 @@
   archiveprefix = {arXiv},
   keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Cryptography and Security,Computer Science - Machine Learning},
   journal = {arxiv:2403.16365[cs]}
+}
+
+@article{su_fine_2025,
+  title = {Fine, {{I}}'ll {{Merge It Myself}}: {{A Multi-Fidelity Framework}} for {{Automated Model Merging}}},
+  shorttitle = {Fine, {{I}}'ll {{Merge It Myself}}},
+  author = {Su, Guinan and Geiping, Jonas},
+  year = {2025},
+  month = feb,
+  eprint = {2502.04030},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2502.04030},
+  url = {http://arxiv.org/abs/2502.04030},
+  urldate = {2025-02-07},
+  abstract = {Reasoning capabilities represent a critical frontier for large language models (LLMs), but developing them requires extensive proprietary datasets and computational resources. One way to efficiently supplement capabilities with is by model merging, which offers a promising alternative by combining multiple models without retraining. However, current merging approaches rely on manually-designed strategies for merging hyperparameters, limiting the exploration of potential model combinations and requiring significant human effort. We propose an Automated Model Merging Framework that enables fine-grained exploration of merging strategies while reducing costs through multi-fidelity approximations. We support both single and multi-objective optimization and introduce two novel search spaces: layerwise fusion (LFS) and depth-wise integration (DIS). Evaluating across a number of benchmarks, we find that the search autonomously finds 1) Merges that further boost single-objective performance, even on tasks the model has already been finetuned on, and 2) Merges that optimize multi-objective frontiers across tasks. Effective merges are found with limited compute, e.g. within less than 500 search steps.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning},
+  journal = {arxiv:2502.04030[cs]}
 }
 
 @inproceedings{wen_canary_2023,
