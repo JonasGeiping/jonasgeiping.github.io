@@ -2,7 +2,7 @@
 layout: about
 title: About Me
 permalink: /
-subtitle: Independent Research Group Leader <a href='https://institute-tue.ellis.eu/'>ELLIS Institute</a> &  <a href='https://is.mpg.de/'>Max-Planck Institute for Intelligent Systems</a> # Address. Contacts. Moto. Etc.
+subtitle: Research Group Leader <a href='https://institute-tue.ellis.eu/'>ELLIS Institute</a> &  <a href='https://is.mpg.de/'>Max-Planck Institute for Intelligent Systems</a> <br> <a href='https://tuebingen.ai/'>Tübingen AI Center</a>, Germany
 
 profile:
   align: left
