@@ -1,8 +1,11 @@
 github_users:
   - jonasgeiping
+  - seal-rg
 
 github_repos:
+  - seal-rg/recurrent-pretraining
   - JonasGeiping/cramming
+  - JonasGeiping/linear_cross_entropy_loss
   - JonasGeiping/breaching
   - JonasGeiping/data-poisoning
   - JonasGeiping/fullbatchtraining
