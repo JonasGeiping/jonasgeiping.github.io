@@ -2,9 +2,9 @@
 layout: profiles
 permalink: /group/
 title: Group
-description: > 
-    These are current members of the Safety- and Efficiency aligned Learning Group and visiting researchers. 
-    
+description: >
+  These are current students of the Safety- and Efficiency aligned Learning Group and visiting researchers.
+
 photo_description: SEAL in September 2024
 nav: true
 nav_order: 1
@@ -17,20 +17,20 @@ profiles:
     content: team/alexander.md
     image_circular: false # crops the image to make it circular
     webpage: https://github.com/kotekjedi
-    more_info: 
+    more_info:
     current_member: true
   - align: left
     image: guinan.jpg
     content: team/guinan.md
     image_circular: false # crops the image to make it circular
-    more_info: 
+    more_info:
     webpage: https://github.com/Guinan-Su
     current_member: true
   - align: left
     image: xueyan.jpg
     content: team/xueyan.md
     image_circular: false # crops the image to make it circular
-    webpage: 
+    webpage:
     more_info:
     current_member: true
   - align: right
@@ -40,13 +40,6 @@ profiles:
     webpage: https://shash42.github.io/
     more_info:
     current_member: true
-  - align: right
-    image: fay.jpg
-    content: team/fay.md
-    image_circular: false # crops the image to make it circular
-    more_info:
-    webpage: https://ieeexplore.ieee.org/author/37088867828
-    current_member: true
   - align: left
     image: niccolo.jpg
     content: team/niccolo.md
@@ -54,25 +47,30 @@ profiles:
     more_info:
     webpage: https://github.com/Niccolo-Ajroldi
     current_member: true
+
+  - align: right
+    image: albert.jpg
+    content: team/albert.md
+    image_circular: false # crops the image to make it circular
+    webpage: https://shash42.github.io/
+    more_info:
+    current_member: true
+
   - align: left
     image: teodora.jpg
     content: team/teodora.md
     image_circular: false # crops the image to make it circular
     more_info:
-    webpage: 
+    webpage:
     current_member: false
   - align: right
-    image: seal.png
-    content: team/max.md
+    image: fay.jpg
+    content: team/fay.md
     image_circular: false # crops the image to make it circular
     more_info:
-    webpage: 
-    current_member: true
+    webpage: https://ieeexplore.ieee.org/author/37088867828
+    current_member: false
 ---
-
-
-
-
 
 <!-- ---
 layout: profiles

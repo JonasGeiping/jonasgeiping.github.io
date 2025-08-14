@@ -104,6 +104,23 @@
   keywords = {Adversarial Attacks,Backdoor Attacks,Computer Science - Cryptography and Security,Computer Science - Machine Learning,Conferences,Data Augmentation,Data models,Data Poisoning,Differential Privacy,Industries,Machine learning,Signal processing,Toxicology,Training data}
 }
 
+@article{chandak_answer_2025,
+  title = {Answer {{Matching Outperforms Multiple Choice}} for {{Language Model Evaluation}}},
+  author = {Chandak, Nikhil and Goel, Shashwat and Prabhu, Ameya and Hardt, Moritz and Geiping, Jonas},
+  year = {2025},
+  month = jul,
+  eprint = {2507.02856},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2507.02856},
+  url = {http://arxiv.org/abs/2507.02856},
+  urldate = {2025-07-04},
+  abstract = {Multiple choice benchmarks have long been the workhorse of language model evaluation because grading multiple choice is objective and easy to automate. However, we show multiple choice questions from popular benchmarks can often be answered without even seeing the question. These shortcuts arise from a fundamental limitation of discriminative evaluation not shared by evaluations of the model's free-form, generative answers. Until recently, there appeared to be no viable, scalable alternative to multiple choice--but, we show that this has changed. We consider generative evaluation via what we call answer matching: Give the candidate model the question without the options, have it generate a free-form response, then use a modern language model with the reference answer to determine if the response matches the reference. To compare the validity of different evaluation strategies, we annotate MMLU-Pro and GPQA-Diamond to obtain human grading data, and measure the agreement of each evaluation approach. We find answer matching using recent models--even small ones--achieves near-perfect agreement, in the range of inter-annotator agreement. In contrast, both multiple choice evaluation and using LLM-as-a-judge without reference answers aligns poorly with human grading. Improving evaluations via answer matching is not merely a conceptual concern: the rankings of several models change significantly when evaluating their free-form responses with answer matching. In light of these findings, we discuss how to move the evaluation ecosystem from multiple choice to answer matching.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Machine Learning},
+  journal = {arxiv:2507.02856[cs]}
+}
+
 @inproceedings{cherepanova_performance-driven_2023,
   title = {A {{Performance-Driven Benchmark}} for {{Feature Selection}} in {{Tabular Deep Learning}}},
   booktitle = {Thirty-Seventh {{Conference}} on {{Neural Information Processing Systems Datasets}} and {{Benchmarks Track}}},
@@ -159,6 +176,24 @@
   abstract = {As federated learning (FL) matures, privacy attacks against FL systems in turn become more numerous and complex. Attacks on language models have progressed from recovering single sentences in simple classification tasks to recovering larger parts of user data. Current attacks against federated language models are sequence-agnostic and aim to extract as much data as possible from an FL update - often at the expense of fidelity for any particular sequence. Because of this, current attacks fail to extract any meaningful data under large-scale aggregation. In realistic settings, an attacker cares most about a small portion of user data that contains sensitive personal information, for example sequences containing the phrase "my credit card number is ...". In this work, we propose the first attack on FL that achieves targeted extraction of sequences that contain privacy-critical phrases, whereby we employ maliciously modified parameters to allow the transformer itself to filter relevant sequences from aggregated user data and encode them in the gradient update. Our attack can effectively extract sequences of interest even against extremely large-scale aggregation.},
   copyright = {All rights reserved},
   langid = {english}
+}
+
+@article{elhassan_can_2025,
+  title = {Can You {{Finetune}} Your {{Binoculars}}? {{Embedding Text Watermarks}} into the {{Weights}} of {{Large Language Models}}},
+  shorttitle = {Can You {{Finetune}} Your {{Binoculars}}?},
+  author = {Elhassan, Fay and Ajroldi, Niccol{\`o} and Orvieto, Antonio and Geiping, Jonas},
+  year = {2025},
+  month = apr,
+  eprint = {2504.06446},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2504.06446},
+  url = {http://arxiv.org/abs/2504.06446},
+  urldate = {2025-04-11},
+  abstract = {The indistinguishability of AI-generated content from human text raises challenges in transparency and accountability. While several methods exist to watermark models behind APIs, embedding watermark strategies directly into model weights that are later reflected in the outputs of the model is challenging. In this study we propose a strategy to finetune a pair of low-rank adapters of a model, one serving as the text-generating model, and the other as the detector, so that a subtle watermark is embedded into the text generated by the first model and simultaneously optimized for detectability by the second. In this way, the watermarking strategy is fully learned end-to-end. This process imposes an optimization challenge, as balancing watermark robustness, naturalness, and task performance requires trade-offs. We discuss strategies on how to optimize this min-max objective and present results showing the effect of this modification to instruction finetuning.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning},
+  journal = {arxiv:2504.06446[cs]}
 }
 
 @inproceedings{fowl_adversarial_2021,
@@ -295,7 +330,7 @@
   urldate = {2023-08-02},
   abstract = {Recent trends in language modeling have focused on increasing performance through scaling, and have resulted in an environment where training language models is out of reach for most researchers and practitioners. While most in the community are asking how to push the limits of extreme computation, we ask the opposite question: How far can we get with a single GPU in just one day? We investigate the downstream performance achievable with a transformer-based language model trained completely from scratch with masked language modeling for a single day on a single consumer GPU. Aside from re-analyzing nearly all components of the pretraining pipeline for this scenario and providing a modified pipeline with performance close to BERT, we investigate why scaling down is hard, and which modifications actually improve performance in this scenario. We provide evidence that even in this constrained setting, performance closely follows scaling laws observed in large-compute settings. Through the lens of scaling laws, we categorize a range of recent improvements to training and architecture and discuss their merit and practical applicability (or lack thereof) for the limited compute setting. We provide code to reproduce all experiments at github.com/JonasGeiping/cramming .},
   langid = {english},
-  selected = {true},
+  selected = {true}
 }
 
 @article{geiping_darts_2021,
@@ -443,7 +478,8 @@
   abstract = {It is widely believed that the implicit regularization of SGD is fundamental to the impressive generalization behavior we observe in neural networks.  In this work, we demonstrate that...},
   archiveprefix = {arXiv},
   langid = {english},
-  keywords = {Computer Science - Machine Learning,Mathematics - Optimization and Control}
+  keywords = {Computer Science - Machine Learning,Mathematics - Optimization and Control},
+  selected = {true}
 }
 
 @inproceedings{geiping_what_2021,
@@ -734,7 +770,8 @@
   url = {https://openreview.net/forum?id=aIyNLWXuDO\&referrer=\%5BAuthor\%20Console\%5D(\%2Fgroup\%3Fid\%3DNeurIPS.cc\%2F2024\%2FConference\%2FAuthors\%23your-submissions)},
   urldate = {2024-10-06},
   abstract = {The poor performance of transformers on arithmetic tasks seems to stem in large part from their inability to keep track of the exact position of each digit inside of a large span of digits. We mend this problem by adding an embedding to each digit that encodes its position relative to the start of the number. In addition to the boost these embeddings provide on their own, we show that this fix enables architectural modifications such as input injection and recurrent layers to improve performance even further. With positions resolved, we can study the logical extrapolation ability of transformers. Can they solve arithmetic problems that are larger and more complex than those in their training data? We find that training on only 20 digit numbers with a single GPU for one day, we can reach state-of-the-art performance, achieving up to 99\% accuracy on 100 digit addition problems. Finally, we show that these gains in numeracy also unlock improvements on other multi-step reasoning tasks including sorting and multiplication.},
-  langid = {english}
+  langid = {english},
+  selected = {true}
 }
 
 @article{ni_k-sam_2022,
@@ -755,6 +792,40 @@
   journal = {arxiv:2210.12864[cs]}
 }
 
+@article{paleka_pitfalls_2025,
+  title = {Pitfalls in {{Evaluating Language Model Forecasters}}},
+  author = {Paleka, Daniel and Goel, Shashwat and Geiping, Jonas and Tram{\`e}r, Florian},
+  year = {2025},
+  month = may,
+  eprint = {2506.00723},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2506.00723},
+  url = {http://arxiv.org/abs/2506.00723},
+  urldate = {2025-06-04},
+  abstract = {Large language models (LLMs) have recently been applied to forecasting tasks, with some works claiming these systems match or exceed human performance. In this paper, we argue that, as a community, we should be careful about such conclusions as evaluating LLM forecasters presents unique challenges. We identify two broad categories of issues: (1) difficulty in trusting evaluation results due to many forms of temporal leakage, and (2) difficulty in extrapolating from evaluation performance to real-world forecasting. Through systematic analysis and concrete examples from prior work, we demonstrate how evaluation flaws can raise concerns about current and future performance claims. We argue that more rigorous evaluation methodologies are needed to confidently assess the forecasting abilities of LLMs.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Information Retrieval,Computer Science - Machine Learning},
+  journal = {arxiv:2506.00723[cs]}
+}
+
+@article{panfilov_capability-based_2025,
+  title = {Capability-{{Based Scaling Laws}} for {{LLM Red-Teaming}}},
+  author = {Panfilov, Alexander and Kassianik, Paul and Andriushchenko, Maksym and Geiping, Jonas},
+  year = {2025},
+  month = may,
+  eprint = {2505.20162},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2505.20162},
+  url = {http://arxiv.org/abs/2505.20162},
+  urldate = {2025-05-27},
+  abstract = {As large language models grow in capability and agency, identifying vulnerabilities through red-teaming becomes vital for safe deployment. However, traditional prompt-engineering approaches may prove ineffective once red-teaming turns into a weak-to-strong problem, where target models surpass red-teamers in capabilities. To study this shift, we frame red-teaming through the lens of the capability gap between attacker and target. We evaluate more than 500 attacker-target pairs using LLM-based jailbreak attacks that mimic human red-teamers across diverse families, sizes, and capability levels. Three strong trends emerge: (i) more capable models are better attackers, (ii) attack success drops sharply once the target's capability exceeds the attacker's, and (iii) attack success rates correlate with high performance on social science splits of the MMLU-Pro benchmark. From these trends, we derive a jailbreaking scaling law that predicts attack success for a fixed target based on attacker-target capability gap. These findings suggest that fixed-capability attackers (e.g., humans) may become ineffective against future models, increasingly capable open-source models amplify risks for existing systems, and model providers must accurately measure and control models' persuasive and manipulative abilities to limit their effectiveness as attackers.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Artificial Intelligence},
+  journal = {arxiv:2505.20162[cs]}
+}
+
 @article{qi_ai_2024,
   title = {{{AI Risk Management Should Incorporate Both Safety}} and {{Security}}},
   author = {Qi, Xiangyu and Huang, Yangsibo and Zeng, Yi and Debenedetti, Edoardo and Geiping, Jonas and He, Luxi and Huang, Kaixuan and Madhushani, Udari and Sehwag, Vikash and Shi, Weijia and Wei, Boyi and Xie, Tinghao and Chen, Danqi and Chen, Pin-Yu and Ding, Jeffrey and Jia, Ruoxi and Ma, Jiaqi and Narayanan, Arvind and Su, Weijie J. and Wang, Mengdi and Xiao, Chaowei and Li, Bo and Song, Dawn and Henderson, Peter and Mittal, Prateek},
@@ -768,7 +839,7 @@
   abstract = {The exposure of security vulnerabilities in safety-aligned language models, e.g., susceptibility to adversarial attacks, has shed light on the intricate interplay between AI safety and AI security. Although the two disciplines now come together under the overarching goal of AI risk management, they have historically evolved separately, giving rise to differing perspectives. Therefore, in this paper, we advocate that stakeholders in AI risk management should be aware of the nuances, synergies, and interplay between safety and security, and unambiguously take into account the perspectives of both disciplines in order to devise mostly effective and holistic risk mitigation approaches. Unfortunately, this vision is often obfuscated, as the definitions of the basic concepts of "safety" and "security" themselves are often inconsistent and lack consensus across communities. With AI risk management being increasingly cross-disciplinary, this issue is particularly salient. In light of this conceptual challenge, we introduce a unified reference framework to clarify the differences and interplay between AI safety and AI security, aiming to facilitate a shared understanding and effective collaboration across communities.},
   archiveprefix = {arXiv},
   keywords = {Computer Science - Artificial Intelligence,Computer Science - Cryptography and Security},
-  journal = {arxiv:2405.19524[cs]}
+  journal = {arxiv:2405.19524[cs]},
 }
 
 @article{runkel_training_2024,
@@ -897,26 +968,10 @@
   urldate = {2024-11-29},
   abstract = {Training and fine-tuning large language models (LLMs) with hundreds of billions to trillions of parameters requires tens of thousands of GPUs, and a highly scalable software stack. In this work, we present a novel four-dimensional hybrid parallel algorithm implemented in a highly scalable, portable, open-source framework called AxoNN. We describe several performance optimizations in AxoNN to improve matrix multiply kernel performance, overlap non-blocking collectives with computation, and performance modeling to choose performance optimal configurations. These have resulted in unprecedented scaling and peak flop/s (bf16) for training of GPT-style transformer models on Perlmutter (620.1 Petaflop/s), Frontier (1.381 Exaflop/s) and Alps (1.423 Exaflop/s). While the abilities of LLMs improve with the number of trainable parameters, so do privacy and copyright risks caused by memorization of training data, which can cause disclosure of sensitive or private information at inference time. We highlight this side effect of scale through experiments that explore ``catastrophic memorization,'' where models are sufficiently large to memorize training data in a single pass, and present an approach to prevent it. As part of this study, we demonstrate fine-tuning of a 405-billion parameter LLM using AxoNN on Frontier.},
   isbn = {979-8-3503-5291-7},
-  langid = {english}
+  langid = {english},
+  selected = {true}
 }
 
-@article{singh_democratizing_2025,
-  title = {Democratizing {{AI}}: {{Open-source Scalable LLM Training}} on {{GPU-based Supercomputers}}},
-  shorttitle = {Democratizing {{AI}}},
-  author = {Singh, Siddharth and Singhania, Prajwal and Ranjan, Aditya and Kirchenbauer, John and Geiping, Jonas and Wen, Yuxin and Jain, Neel and Hans, Abhimanyu and Shu, Manli and Tomar, Aditya and Goldstein, Tom and Bhatele, Abhinav},
-  year = {2025},
-  month = feb,
-  eprint = {2502.08145},
-  primaryclass = {cs},
-  publisher = {arXiv},
-  doi = {10.48550/arXiv.2502.08145},
-  url = {http://arxiv.org/abs/2502.08145},
-  urldate = {2025-02-14},
-  abstract = {Training and fine-tuning large language models (LLMs) with hundreds of billions to trillions of parameters requires tens of thousands of GPUs, and a highly scalable software stack. In this work, we present a novel four-dimensional hybrid parallel algorithm implemented in a highly scalable, portable, open-source framework called AxoNN. We describe several performance optimizations in AxoNN to improve matrix multiply kernel performance, overlap non-blocking collectives with computation, and performance modeling to choose performance optimal configurations. These have resulted in unprecedented scaling and peak flop/s (bf16) for training of GPT-style transformer models on Perlmutter (620.1 Petaflop/s), Frontier (1.381 Exaflop/s) and Alps (1.423 Exaflop/s). While the abilities of LLMs improve with the number of trainable parameters, so do privacy and copyright risks caused by memorization of training data, which can cause disclosure of sensitive or private information at inference time. We highlight this side effect of scale through experiments that explore "catastrophic memorization", where models are sufficiently large to memorize training data in a single pass, and present an approach to prevent it. As part of this study, we demonstrate fine-tuning of a 405-billion parameter LLM using AxoNN on Frontier.},
-  archiveprefix = {arXiv},
-  keywords = {Computer Science - Artificial Intelligence,Computer Science - Distributed Parallel and Cluster Computing,Computer Science - Machine Learning},
-  journal = {arxiv:2502.08145[cs]}
-}
 
 @article{singla_simple_2023,
   title = {A {{Simple}} and {{Efficient Baseline}} for {{Data Attribution}} on {{Images}}},
@@ -1024,6 +1079,24 @@
   journal = {arxiv:2403.16365[cs]}
 }
 
+@article{sreckovic_is_2025,
+  title = {Is Your Batch Size the Problem? {{Revisiting}} the {{Adam-SGD}} Gap in Language Modeling},
+  shorttitle = {Is Your Batch Size the Problem?},
+  author = {Sre{\'c}kovi{\'c}, Teodora and Geiping, Jonas and Orvieto, Antonio},
+  year = {2025},
+  month = jun,
+  eprint = {2506.12543},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2506.12543},
+  url = {http://arxiv.org/abs/2506.12543},
+  urldate = {2025-06-17},
+  abstract = {Adam is known to perform significantly better than Stochastic Gradient Descent (SGD) in language models, a phenomenon for which a number of explanations have been proposed. In this work, we revisit this "optimizer gap" through a series of comprehensively tuned baseline training runs for language modeling with Transformers. We exhaustively study how momentum, gradient clipping, and batch size affect the gap between SGD and Adam. Our empirical findings show that SGD with momentum can actually perform similarly to Adam in small-batch settings, if tuned correctly. We revisit existing explanations for Adam's advantage, including heavy-tailed class imbalance, directional sharpness, and Hessian heterogeneity, which struggle to directly explain this phenomenon. Towards bridging this gap in our understanding, by analyzing our Transformer training runs and simple quadratic settings inspired by the literature, we provide new insights, driven by stochastic differential equation models, into the role of batch size on the training dynamics.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Machine Learning,Mathematics - Optimization and Control},
+  journal = {arxiv:2506.12543[cs]}
+}
+
 @article{su_fine_2025,
   title = {Fine, {{I}}'ll {{Merge It Myself}}: {{A Multi-Fidelity Framework}} for {{Automated Model Merging}}},
   shorttitle = {Fine, {{I}}'ll {{Merge It Myself}}},
@@ -1040,6 +1113,24 @@
   archiveprefix = {arXiv},
   keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning},
   journal = {arxiv:2502.04030[cs]}
+}
+
+@article{su_gptailor_2025,
+  title = {{{GPTailor}}: {{Large Language Model Pruning Through Layer Cutting}} and {{Stitching}}},
+  shorttitle = {{{GPTailor}}},
+  author = {Su, Guinan and Shen, Li and Yin, Lu and Liu, Shiwei and Yang, Yanwu and Geiping, Jonas},
+  year = {2025},
+  month = jun,
+  eprint = {2506.20480},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2506.20480},
+  url = {http://arxiv.org/abs/2506.20480},
+  urldate = {2025-06-26},
+  abstract = {Large language models (LLMs) have shown remarkable capabilities in language understanding and generation. However, such impressive capability typically comes with a substantial model size, which presents significant challenges in deployment and inference. While structured pruning of model parameters offers a promising way to reduce computational costs at deployment time, current methods primarily focus on single model pruning. In this work, we develop a novel strategy to compress models by strategically combining or merging layers from finetuned model variants, which preserves the original model's abilities by aggregating capabilities accentuated in different finetunes. We pose the optimal tailoring of these LLMs as a zero-order optimization problem, adopting a search space that supports three different operations: (1) Layer removal, (2) Layer selection from different candidate models, and (3) Layer merging. Our experiments demonstrate that this approach leads to competitive model pruning, for example, for the Llama2-13B model families, our compressed models maintain approximately 97.3{\textbackslash}\% of the original performance while removing \${\textbackslash}sim25{\textbackslash}\%\$ of parameters, significantly outperforming previous state-of-the-art methods. The code is available at https://github.com/Guinan-Su/auto-merge-llm.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Computation and Language},
+  journal = {arxiv:2506.20480[cs]}
 }
 
 @inproceedings{wen_canary_2023,

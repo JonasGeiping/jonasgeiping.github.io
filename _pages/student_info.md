@@ -16,18 +16,18 @@ Don't hesitate to share links to your GitHub repositories or open-source contrib
 When emailing me, the most important thing to do is to make it clear that your email is addressed to me. To do so, include at least this 🦭 (unicode glyph U+1F9AD) in the subject line.
 Even better though, contextualize your thoughts and previous experience in light of the topics our group is working on. Describe which areas of collaboration excite you the most, and add details about your thoughts and plans for a PhD with my group.
 
-
 ### Topics:
-* The Safety of Machine Learning Systems (Security, Misuse, Oversight, Attribution)
-* Efficient Machine Learning (especially Language Modeling)
-* Reasoning in Intelligent Systems
-* Understanding "The Science" of Deep Learning
 
+- The Safety of Machine Learning Systems (Security, Misuse, Oversight, Attribution)
+- Efficient Machine Learning (especially Language Modeling)
+- Reasoning in Intelligent Systems
+- Understanding "The Science" of Deep Learning
 
-If you are interested in these topics, feel free to reach out for more information! I am admitting students through the following PhD programs:
-* [ELLIS PhD program](https://ellis.eu/phd-postdoc)
-* [Max Planck & ETH Center for Learning Systems (CLS)](https://learning-systems.org/)
-* [International Max Planck Research School for Intelligent Systems (IMPRS-IS)](https://imprs.is.mpg.de/)
+If you are interested in these topics, feel free to reach out for more information! I am admitting only students through the following PhD programs:
+
+- [ELLIS PhD program](https://ellis.eu/phd-postdoc)
+- [Max Planck & ETH Center for Learning Systems (CLS)](https://learning-systems.org/)
+- [International Max Planck Research School for Intelligent Systems (IMPRS-IS)](https://imprs.is.mpg.de/)
 
 An admission to one of these programs comes with full funding as PhD student at the Max-Planck Institute for Intelligent Systems or the ELLIS Institute Tübingen in my research group. The deadlines of these PhD programs are always in the Fall semester.
 In Germany, PhD students are considered employees and receive a salary based on salary tables for public employees, with an initial contract over at least three years, which we then extend later.
@@ -38,4 +38,5 @@ I am occasionally hiring student assistants (SHK/WHK) from the University of Tü
 as student at the University of Tübingen, or are admitted.
 
 ## Internships:
+
 If you are a predoctoral student, you might be interested in applying to the Max-Planck summer internship program [CaCTüS](https://www.projects.tuebingen.mpg.de/) in Tübingen. I also regularly check incoming internship applications through the [ELLIS Institute Tübingen](https://institute-tue.ellis.eu/de/jobs/internship-students). I am currently considering applications for internships only through these avenues.

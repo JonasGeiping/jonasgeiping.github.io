@@ -14,10 +14,10 @@ profile:
      <p>ELLIS Institute</p>
      <p>Maria-von-Linden Straße 2</p>
 
-news: false  # includes a list of news items
-latest_posts: false  # includes a list of the newest posts
+news: false # includes a list of news items
+latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
 Hi, I'm Jonas. I am a Machine Learning researcher in Tübingen, where I lead the research group for **safety- & efficiency- aligned learning** (🦭). Before this, I've spent time at the Universities of Maryland, Siegen and Münster.
@@ -29,17 +29,18 @@ For efficiency, I study how we can build systems that do more with less, from we
 At the core of my research is this intersection: Can we make models that reason well without sacrificing safety? How do computational constraints affect safety guarantees? Can we design systems where intelligence and safety reinforce each other?
 
 In short:
-* Safety, Security and Privacy in Machine Learning
-* Efficient Machine Learning (especially in Language Modeling)
-* Understanding Reasoning in Intelligent Systems
-* Deep Learning as-a-Science
 
+- Safety, Security and Privacy in Machine Learning
+- Understanding (and Implementing) Reasoning in Intelligent Systems
+- Efficient Machine Learning (especially in Language Modeling)
+- Deep Learning as-a-Natural-Science
 
-###  Incoming PhD Students:
+### Incoming PhD Students:
 
-If you are interested in these topics, feel free to reach out for more information! I'm admitting PhD students on a yearly basis through the following PhD programs:
-* [ELLIS PhD program](https://ellis.eu/phd-postdoc)
-* [Max Planck & ETH Center for Learning Systems (CLS)](https://learning-systems.org/)
-* [International Max Planck Research School for Intelligent Systems (IMPRS-IS)](https://imprs.is.mpg.de/)
+If you are interested in these topics, feel free to reach out for more information! I am admitting a small number of PhD students through the following PhD programs:
+
+- [ELLIS PhD program](https://ellis.eu/phd-postdoc)
+- [Max Planck & ETH Center for Learning Systems (CLS)](https://learning-systems.org/)
+- [International Max Planck Research School for Intelligent Systems (IMPRS-IS)](https://imprs.is.mpg.de/)
 
 For more details, make sure to read the [openings](openings) page carefully.
