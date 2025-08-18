@@ -23,7 +23,7 @@ Even better though, contextualize your thoughts and previous experience in light
 - Reasoning in Intelligent Systems
 - Understanding "The Science" of Deep Learning
 
-If you are interested in these topics, feel free to reach out for more information! I am admitting only students through the following PhD programs:
+If you are interested in these topics, feel free to reach out for more information! I am admitting students only through the following PhD programs:
 
 - [ELLIS PhD program](https://ellis.eu/phd-postdoc)
 - [Max Planck & ETH Center for Learning Systems (CLS)](https://learning-systems.org/)
