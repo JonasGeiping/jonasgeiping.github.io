@@ -49,3 +49,185 @@
 "Hans":
   - firstname: ["Abhimanyu", "H."]
     url: https://ahans30.github.io/
+
+# Current students
+
+"Panfilov":
+  - firstname: ["Alexander", "A."]
+    url: https://github.com/kotekjedi
+
+"Su":
+  - firstname: ["Guinan", "G."]
+    url: https://github.com/Guinan-Su
+
+"Li":
+  - firstname: ["Xueyan", "X."]
+    url: https://github.com/xueyan-lii
+
+"Goel":
+  - firstname: ["Shashwat", "S."]
+    url: https://shash42.github.io/
+
+"Ajroldi":
+  - firstname: ["Niccolo", "N."]
+    url: https://github.com/Niccolo-Ajroldi
+
+"Catalan-Tatjer":
+  - firstname: ["Albert", "A."]
+    url: https://aldakata.github.io/
+
+"Zenn":
+  - firstname: ["Johannes", "J."]
+    url: https://jzenn.github.io/
+
+# Additional coauthors
+
+"Fowl":
+  - firstname: ["Liam", "Liam H.", "L.", "L. H."]
+    url: https://lhfowl.github.io/
+
+"Bansal":
+  - firstname: ["Arpit", "A."]
+    url: https://arpitbansal297.github.io/
+
+"Kazemi":
+  - firstname: ["Hamid", "H."]
+    url: https://scholar.google.com/citations?user=7hNdaGQAAAAJ
+
+"Chiang":
+  - firstname: ["Ping-yeh", "Ping-Yeh", "P."]
+    url: https://pingchiang.com/
+
+"Shu":
+  - firstname: ["Manli", "M."]
+    url: https://azshue.github.io/
+
+"Wilson":
+  - firstname: ["Andrew Gordon", "A. G.", "Andrew G."]
+    url: https://cims.nyu.edu/~andrewgw/
+
+"Borgnia":
+  - firstname: ["Eitan", "E."]
+    url: https://scholar.google.com/citations?user=CZB9QXYAAAAJ
+
+"Cherepanova":
+  - firstname: ["Valeriia", "V."]
+    url: https://vcherepanova.github.io/
+
+"Prabhu":
+  - firstname: ["Ameya", "A."]
+    url: https://ameya.prabhu.be/
+
+"Czaja":
+  - firstname: ["Wojciech", "Wojtek", "W."]
+    url: https://math.umd.edu/~czaja/
+
+"Bhatele":
+  - firstname: ["Abhinav", "A."]
+    url: https://www.cs.umd.edu/~bhatele/
+
+"Chu":
+  - firstname: ["Hong-Min", "H."]
+    url: https://scholar.google.com/citations?user=UMmSSyAAAAAJ
+
+"Huang":
+  - firstname: ["Furong", "F."]
+    url: https://furong-huang.com/
+  - firstname: ["W. Ronny"]
+    url: https://wrhuang.com/
+
+"Ni":
+  - firstname: ["Renkun", "R."]
+    url: https://www.cs.umd.edu/~rn9zm/
+
+"Singh":
+  - firstname: ["Siddharth", "S."]
+    url: https://siddharth9820.github.io/
+
+"McLeish":
+  - firstname: ["Sean", "Sean Michael", "S."]
+    url: https://mcleish7.github.io/
+
+"Souri":
+  - firstname: ["Hossein", "H."]
+    url: https://hsouri.github.io/
+
+"Gandikota":
+  - firstname: ["Kanchana Vaishnavi", "K. V."]
+    url: https://kvgandikota.github.io/
+
+"Orvieto":
+  - firstname: ["Antonio", "A."]
+    url: http://orvi.altervista.org/
+
+"Andriushchenko":
+  - firstname: ["Maksym", "M."]
+    url: https://www.andriushchenko.me/
+
+"Chandak":
+  - firstname: ["Nikhil", "N."]
+    url: https://nikhilchandak.github.io/
+
+"Hardt":
+  - firstname: ["Moritz", "M."]
+    url: https://mrtz.org/
+
+"Stein":
+  - firstname: ["Alex", "A."]
+    url: https://alexstein0.github.io/
+
+"Lukasik":
+  - firstname: ["Jovita", "J."]
+    url: https://jovitalukasik.github.io/
+
+"Keuper":
+  - firstname: ["Margret", "M."]
+    url: https://www.uni-mannheim.de/dws/people/professors/prof-dr-ing-margret-keuper/
+
+"Bauermeister":
+  - firstname: ["Hartmut", "H."]
+    url: https://www.vsa.informatik.uni-siegen.de/en/bauermeister-hartmut
+
+"Bartoldson":
+  - firstname: ["Brian R.", "Brian", "B."]
+    url: https://people.llnl.gov/bartoldson1
+
+"Kailkhura":
+  - firstname: ["Bhavya", "B."]
+    url: https://bhavya-kailkhura.com/
+
+"Taylor":
+  - firstname: ["Gavin", "G."]
+    url: https://www.usna.edu/Users/cs/taylor/
+
+"Singhania":
+  - firstname: ["Prajwal", "P."]
+    url: https://prajwal1210.github.io/
+
+"Xiao":
+  - firstname: ["Chaowei", "C."]
+    url: https://xiaocw11.github.io/
+
+"Chellappa":
+  - firstname: ["Rama", "R."]
+    url: https://engineering.jhu.edu/faculty/rama-chellappa/
+
+"Jacobs":
+  - firstname: ["David", "David W.", "D."]
+    url: http://www.cs.umd.edu/~djacobs/
+
+"Yin":
+  - firstname: ["Lu", "L."]
+    url: http://luuyin.com/
+
+"Liu":
+  - firstname: ["Shiwei", "S."]
+    url: https://shiweiliuiiiiiii.github.io/
+
+"Ghiasi":
+  - firstname: ["Amin", "A."]
+    url: https://www.cs.umd.edu/~amin/
+
+"Bethge":
+  - firstname: ["Matthias", "M."]
+    url: https://bethgelab.org/

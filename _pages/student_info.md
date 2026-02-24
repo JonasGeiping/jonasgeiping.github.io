@@ -39,4 +39,4 @@ as student at the University of Tübingen, or are admitted.
 
 ## Internships:
 
-If you are a predoctoral student, you might be interested in applying to the Max-Planck summer internship program [CaCTüS](https://www.projects.tuebingen.mpg.de/) in Tübingen. I also regularly check incoming internship applications through the [ELLIS Institute Tübingen](https://institute-tue.ellis.eu/de/jobs/internship-students). I am currently considering applications for internships only through these avenues.
+If you are a predoctoral student, you might be interested in applying to the Max-Planck summer internship program [CaCTüS](https://www.projects.tuebingen.mpg.de/) in Tübingen. I am currently considering applications for internships only through this avenue.

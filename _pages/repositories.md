@@ -41,4 +41,26 @@ nav_order: 3
     {% include repository/repo.html repository=repo %}
   {% endfor %}
 </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelectorAll("[data-repo]").forEach(function(el) {
+    var repo = el.getAttribute("data-repo");
+    fetch("https://api.github.com/repos/" + repo)
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        if (data.description) el.textContent = data.description;
+        var statsEl = document.querySelector('[data-repo-stats="' + repo + '"]');
+        if (statsEl && data.stargazers_count !== undefined) {
+          var parts = [];
+          if (data.language) parts.push('<span>\u25cf ' + data.language + '</span>');
+          parts.push('<span>\u2605 ' + data.stargazers_count + '</span>');
+          if (data.forks_count) parts.push('<span>\u2442 ' + data.forks_count + '</span>');
+          statsEl.innerHTML = parts.join('');
+        }
+      })
+      .catch(function() {});
+  });
+});
+</script>
 {% endif %}

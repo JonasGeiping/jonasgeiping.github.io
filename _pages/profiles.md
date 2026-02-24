@@ -30,7 +30,7 @@ profiles:
     image: xueyan.jpg
     content: team/xueyan.md
     image_circular: false # crops the image to make it circular
-    webpage:
+    webpage: https://github.com/xueyan-lii
     more_info:
     current_member: true
   - align: right
@@ -52,7 +52,14 @@ profiles:
     image: albert.jpg
     content: team/albert.md
     image_circular: false # crops the image to make it circular
-    webpage: https://shash42.github.io/
+    webpage: https://aldakata.github.io/
+    more_info:
+    current_member: true
+  - align: left
+    image: johannes.jpg
+    content: team/johannes.md
+    image_circular: false # crops the image to make it circular
+    webpage: https://jzenn.github.io/
     more_info:
     current_member: true
 
@@ -69,6 +76,13 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info:
     webpage: https://ieeexplore.ieee.org/author/37088867828
+    current_member: false
+  - align: left
+    image: jeronimo.jpg
+    content: team/jeronimo.md
+    image_circular: false # crops the image to make it circular
+    more_info:
+    webpage:
     current_member: false
 ---
 
