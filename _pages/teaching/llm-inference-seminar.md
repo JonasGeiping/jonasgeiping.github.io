@@ -26,7 +26,7 @@ We will go through a list of key topics in this seminar. Each topic is presented
 
 ### Format
 
-This is a _Seminar_: each participant selects one of the topics below and prepares a presentation for one of the weekly sessions, followed by questions and discussion. There is no separate written report required - but your presentation should be good! You will have about an hour to really go in-depth into your assigned topic. This may include profiling runs or simulations that you have run, ablations or just a very clear explanation of a crunchy piece of systems engineering. Please don't present just a vague collection of high-level ideas that you got from prompting GPT-5.4 "what's going on in PagedAttention".
+This is a _Seminar_: each participant selects one of the topics below and prepares a presentation for one of the weekly sessions, followed by questions and discussion. There is no separate written report required - but your presentation should be good! You will have about an hour to really go in-depth into your assigned topic. This may include detailed descriptions of the systems architecture, profiling runs or simulations that you have run, ablations or just a very clear explanation of a crunchy piece of systems engineering. Please don't present just a vague collection of high-level ideas that you got from prompting GPT-5.4 "what's going on in PagedAttention".
 
 - **Week 1:** Introduction, Basics, Topic Assignment
 - **Week 2:** Office Hour and Q&A - I would suggest starting to read up on your topic a bit, so you can ask questions here.
@@ -45,7 +45,7 @@ The grade is based on the quality of the presentation, including clarity of expl
 
 ## Seminar Topics
 
-The following topics are available for presentations. Each topic covers a core technique used in production LLM serving systems. References include both academic papers and open-source implementations --- as presenters you are expected to engage with the actual code in systems like [vLLM](https://github.com/vllm-project/vllm) and [SGLang](https://github.com/sgl-project/sglang), not only the papers. The references are also not exhaustive, feel free to extend them with your own research, but I hope they give some indication of the planned direction (so we make sure not to repeat concepts in different presentations).
+The following topics are available for presentations. Each topic covers a core technique used in production LLM serving systems. References include both academic papers and open-source implementations. As presenters you are expected to engage with the actual code in systems like [vLLM](https://github.com/vllm-project/vllm) and [SGLang](https://github.com/sgl-project/sglang), using the academic papers as a basis. The reference suggestions provided for each topic are not exhaustive, feel free to extend them with your own research, but I hope they give some indication of the planned direction (so we make sure not to repeat concepts in different presentations).
 
 ---
 
