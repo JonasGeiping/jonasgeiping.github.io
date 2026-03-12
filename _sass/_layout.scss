@@ -26,6 +26,11 @@ body.sticky-bottom-footer {
   max-width: $max-content-width;
 }
 
+// Widen container when ToC sidebar is active so main content keeps the same width
+.container:has(#toc-sidebar) {
+  max-width: 1100px;
+}
+
 // Profile
 .profile {
   img {
