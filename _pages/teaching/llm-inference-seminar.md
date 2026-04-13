@@ -29,7 +29,7 @@ We will go through a list of key topics in this seminar. Each topic is presented
 **In the week of April 13th, email me (jonas@tue.ellis.eu) with a ranked list of your top five topics. After the 16th I will send out confirmation emails.
 Once you confirm your topic, your presentation slot is final.**
 
-Emails received so far: 3
+Emails received so far: 4
 
 Topics available: 11
 
