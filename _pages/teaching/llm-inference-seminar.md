@@ -14,7 +14,7 @@ Large Language Models are quite large. Just to run the trained model and generat
 
 This seminar introduces the key technologies in machine learning engineering that make the generation of text from large-scale language models economically feasible at scale. Modern LLM serving systems such as [vLLM](https://github.com/vllm-project/vllm) and [SGLang](https://github.com/sgl-project/sglang) combine a range of systems-level optimizations that together enable the deployment of models with up to trillions of parameters. Understanding what happens under the hood not only helps you extend inference engines with new ideas, but also how to best use these engines in practice (and what all of the funny settings mean).
 
-We will go through a list of key topics in this seminar. Each topic is presented by one of the participants at the weekly meetings of the seminar (this could be you!). If you do not want to prepare a seminar talk, you can still take part passively, but will not receive a grade. The topic assignment will be finalized in the first week of class. There will likely be a ranked-choice system where you can hope for your favorite topic.
+We will go through a list of key topics in this seminar. Each topic is presented by one of the participants at the weekly meetings of the seminar (this could be you!). If you do not want to prepare a seminar talk, you can still take part passively, but will not receive a grade. The topic assignment will be finalized in the first week of class.
 
 **Instructor:** Jonas Geiping\\
 **Module:** ML-4501o\\
@@ -23,6 +23,15 @@ We will go through a list of key topics in this seminar. Each topic is presented
 **Where:** Hörsaal TTR2, Cyber Valley Campus (Maria-von-Linden-Str. 6)\\
 **Semester:** Summer 2026 (April 13 -- July 20)\\
 **ALMA:** [Course listing](https://alma.uni-tuebingen.de:443/alma/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=98930&periodId=229&navigationPosition=studiesOffered,searchCourses)
+
+## How to Sign Up!:
+
+**In the week of April 13th, email me (jonas@tue.ellis.eu) with a ranked list of your top five topics. After the 16th I will send out confirmation emails.
+Once you confirm your topic, your presentation slot is final.**
+
+Emails received so far: 3
+
+Topics available: 11
 
 ### Format
 
@@ -35,7 +44,7 @@ This is a _Seminar_: each participant selects one of the topics below and prepar
 
 ### Prerequisites
 
-Prior knowledge of machine learning and an understanding of language modeling with transformers are potentially required - but only insofar as this will not be part of the seminar. At a basic level, inference for LLMs is quite simple, so you can also quickly catch up if you're willing to do so. Prior ML engineering or advanced systems knowledge is not required and will (hopefully) be obtained as part of the class.
+Prior knowledge of machine learning and an understanding of language modeling with transformers are potentially required - but only insofar as this will not be part of the seminar. At a basic level, inference for LLMs is quite learnable, so you can also quickly catch up if you're willing to do so. Prior ML engineering or advanced systems knowledge is not required and will (hopefully) be obtained as part of the class.
 
 ### Grading
 
