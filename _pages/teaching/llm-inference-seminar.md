@@ -26,7 +26,7 @@ We will go through a list of key topics in this seminar. Each topic is presented
 
 ## How to Sign Up!:
 
-**In the week of April 13th, email me (jonas@tue.ellis.eu) with a ranked list of your top five topics. After the 16th I will send out confirmation emails.
+**In the week of April 13th, email me (jonas@tue.ellis.eu) with a ranked list of your top five topics. In case of more than 11 emails, the slots will be given out by lottery. After the 16th I will send out confirmation emails.
 Once you confirm your topic, your presentation slot is final.**
 
 Emails received so far: 6
