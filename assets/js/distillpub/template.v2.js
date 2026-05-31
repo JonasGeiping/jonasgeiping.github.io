@@ -718,8 +718,8 @@
 
   // Copyright 2018 The Distill Template Authors
 
-  const katexJSURL = 'https://distill.pub/third-party/katex/katex.min.js';
-  const katexCSSTag = '<link rel="stylesheet" href="https://distill.pub/third-party/katex/katex.min.css" crossorigin="anonymous">';
+  const katexJSURL = '/assets/js/distillpub/vendor/katex.min.js';
+  const katexCSSTag = '<link rel="stylesheet" href="/assets/js/distillpub/vendor/katex.min.css">';
 
   const T = Template('d-math', `
 ${katexCSSTag}
@@ -1432,14 +1432,14 @@ ${math}
                'Promise' in window &&
                'from' in Array;
       },
-      url: 'https://distill.pub/third-party/polyfills/webcomponents-lite.js'
+      url: '/assets/js/distillpub/vendor/webcomponents-lite.js'
     }, {
       name: 'IntersectionObserver',
       support: function() {
         return 'IntersectionObserver' in window &&
                'IntersectionObserverEntry' in window;
       },
-      url: 'https://distill.pub/third-party/polyfills/intersection-observer.js'
+      url: '/assets/js/distillpub/vendor/intersection-observer.js'
     },
   ];
 
