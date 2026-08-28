@@ -55,22 +55,22 @@
   langid = {english}
 }
 
-@article{bertram_nessie_2026,
+@inproceedings{bertram_nessie_2026,
   title = {{{NESSiE}}: {{The Necessary Safety Benchmark}} -- {{Identifying Errors}} That Should Not {{Exist}}},
   shorttitle = {{{NESSiE}}},
+  booktitle = {{{ICLR}} 2026 {{AIWILD}}},
   author = {Bertram, Johannes and Geiping, Jonas},
   year = 2026,
   month = feb,
   eprint = {2602.16756},
   primaryclass = {cs},
-  publisher = {arXiv},
+  publisher = {ICLR 2026 AIWILD Workshop},
   doi = {10.48550/arXiv.2602.16756},
   url = {http://arxiv.org/abs/2602.16756},
   urldate = {2026-02-20},
   abstract = {We introduce NESSiE, the NEceSsary SafEty benchmark for large language models (LLMs). With minimal test cases of information and access security, NESSiE reveals safety-relevant failures that should not exist, given the low complexity of the tasks. NESSiE is intended as a lightweight, easy-to-use sanity check for language model safety and, as such, is not sufficient for guaranteeing safety in general -- but we argue that passing this test is necessary for any deployment. However, even state-of-the-art LLMs do not reach 100\% on NESSiE and thus fail our necessary condition of language model safety, even in the absence of adversarial attacks. Our Safe \& Helpful (SH) metric allows for direct comparison of the two requirements, showing models are biased toward being helpful rather than safe. We further find that disabled reasoning for some models, but especially a benign distraction context degrade model performance. Overall, our results underscore the critical risks of deploying such models as autonomous agents in the wild. We make the dataset, package and plotting code publicly available.},
   archiveprefix = {arXiv},
-  keywords = {Computer Science - Cryptography and Security,Computer Science - Software Engineering},
-  journal = {arxiv:2602.16756[cs]}
+  keywords = {Computer Science - Cryptography and Security,Computer Science - Software Engineering}
 }
 
 @inproceedings{boreiko_interpretable_2025,
@@ -117,21 +117,16 @@
   keywords = {Adversarial Attacks,Backdoor Attacks,Computer Science - Cryptography and Security,Computer Science - Machine Learning,Conferences,Data Augmentation,Data models,Data Poisoning,Differential Privacy,Industries,Machine learning,Signal processing,Toxicology,Training data}
 }
 
-@article{catalan-tatjer_training_2025,
+@inproceedings{catalan-tatjer_training_2025-1,
   title = {Training {{Dynamics Impact Post-Training Quantization Robustness}}},
+  booktitle = {The {{Fourteenth International Conference}} on {{Learning Representations}}},
   author = {{Catalan-Tatjer}, Albert and Ajroldi, Niccol{\`o} and Geiping, Jonas},
   year = 2025,
   month = oct,
-  eprint = {2510.06213},
-  primaryclass = {cs},
-  publisher = {arXiv},
-  doi = {10.48550/arXiv.2510.06213},
-  url = {http://arxiv.org/abs/2510.06213},
-  urldate = {2025-10-09},
+  url = {https://openreview.net/forum?id=ZXr3Xx7Z1O\&referrer=\%5BAuthor\%20Console\%5D(\%2Fgroup\%3Fid\%3DICLR.cc\%2F2026\%2FConference\%2FAuthors\%23your-submissions)},
+  urldate = {2026-04-13},
   abstract = {While post-training quantization is widely adopted for efficient deployment of large language models, the mechanisms underlying quantization robustness remain unclear. We conduct a comprehensive analysis of quantization degradation across open-source language model training trajectories up to 32B parameters and 15T training tokens to accurately assess the relationship between training dynamics and quantization performance. Our key finding is that quantization errors in large-scale training runs are driven by a complex interplay between learning rate and other training hyperparameters. Specifically, once learning rates decay, validation loss and quantization error diverge, largely independent of training data scale. To investigate interventions on the training dynamics and identify specific configurations that can modulate quantization robustness favorably, we train our own models in controlled experiments up to 100B tokens. Our results challenge the assumption that increasing dataset scale inherently compromises quantization effectiveness, demonstrating instead that strategic training hyperparameter interventions can improve quantization quality at scale.},
-  archiveprefix = {arXiv},
-  keywords = {Computer Science - Machine Learning},
-  journal = {arxiv:2510.06213[cs]}
+  langid = {english}
 }
 
 @article{chandak_answer_2025,
@@ -223,6 +218,23 @@
   abstract = {As federated learning (FL) matures, privacy attacks against FL systems in turn become more numerous and complex. Attacks on language models have progressed from recovering single sentences in simple classification tasks to recovering larger parts of user data. Current attacks against federated language models are sequence-agnostic and aim to extract as much data as possible from an FL update - often at the expense of fidelity for any particular sequence. Because of this, current attacks fail to extract any meaningful data under large-scale aggregation. In realistic settings, an attacker cares most about a small portion of user data that contains sensitive personal information, for example sequences containing the phrase "my credit card number is ...". In this work, we propose the first attack on FL that achieves targeted extraction of sequences that contain privacy-critical phrases, whereby we employ maliciously modified parameters to allow the transformer itself to filter relevant sequences from aggregated user data and encode them in the gradient update. Our attack can effectively extract sequences of interest even against extremely large-scale aggregation.},
   copyright = {All rights reserved},
   langid = {english}
+}
+
+@article{deckenbach_models_2026,
+  title = {Models {{That Know How Evaluations Are Designed Score Safer}}},
+  author = {Deckenbach, Katharina and Puerto, Haritz and Geiping, Jonas and Abdelnabi, Sahar},
+  year = 2026,
+  month = jun,
+  eprint = {2605.28591},
+  primaryclass = {cs.CL},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2605.28591},
+  url = {http://arxiv.org/abs/2605.28591},
+  urldate = {2026-06-14},
+  abstract = {The validity of AI safety evaluations depends on models behaving consistently across controlled and deployment settings. Prior work has identified test-time contextual cues, such as hypothetical scenarios, as a source of verbalized evaluation awareness and subsequent behavioral shift. In this paper, we investigate a potential explanation of this phenomenon: evaluation meta-knowledge, defined as parametric knowledge about the structural traits that characterize evaluations. Similar to dataset contamination, where benchmark exposure leads to higher performance through memorization, we hypothesize that models trained on texts describing evaluation practices may implicitly learn to recognize and respond to evaluation-like contexts, for instance, through exposure to scientific articles or social media posts about AI benchmarking. To test this, we fine-tune models on synthetic documents describing evaluation traits such as verifiable structures or moral dilemmas. Evaluating this fine-tuned model on six safety benchmarks, we find that it is significantly safer than the base model and control model. This behavioral shift persists even when restricting the analysis to responses lacking explicit verbalization of evaluation awareness. Our results demonstrate that evaluation meta-knowledge may inflate safety benchmark performance, introducing a novel confounder that is independent of explicit memorization or verbalized evaluation awareness, thus, challenging to detect. These findings have important implications for the design and interpretation of AI safety evaluations. Our code and models are available at https://github.com/compass-group-tue/arxiv2026\_evaluation\_meta\_knowledge.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computation and Language},
+  journal = {arxiv:2605.28591[cs.CL]}
 }
 
 @inproceedings{elhassan_can_2025,
@@ -330,7 +342,7 @@
   abstract = {It has recently been shown that adversarial attacks on large language models (LLMs) can "jailbreak" the model into making harmful statements. In this work, we argue that the spectrum of adversarial attacks on LLMs is much larger than merely jailbreaking. We provide a broad overview of possible attack surfaces and attack goals. Based on a series of concrete examples, we discuss, categorize and systematize attacks that coerce varied unintended behaviors, such as misdirection, model control, denial-of-service, or data extraction. We analyze these attacks in controlled experiments, and find that many of them stem from the practice of pre-training LLMs with coding capabilities, as well as the continued existence of strange "glitch" tokens in common LLM vocabularies that should be removed for security reasons.},
   archiveprefix = {arXiv},
   keywords = {Computer Science - Computation and Language,Computer Science - Cryptography and Security,Computer Science - Machine Learning},
-  selected = {true},
+  selected = {true}
 }
 
 @phdthesis{geiping_comparison_2014,
@@ -373,23 +385,7 @@
   urldate = {2023-08-02},
   abstract = {Recent trends in language modeling have focused on increasing performance through scaling, and have resulted in an environment where training language models is out of reach for most researchers and practitioners. While most in the community are asking how to push the limits of extreme computation, we ask the opposite question: How far can we get with a single GPU in just one day? We investigate the downstream performance achievable with a transformer-based language model trained completely from scratch with masked language modeling for a single day on a single consumer GPU. Aside from re-analyzing nearly all components of the pretraining pipeline for this scenario and providing a modified pipeline with performance close to BERT, we investigate why scaling down is hard, and which modifications actually improve performance in this scenario. We provide evidence that even in this constrained setting, performance closely follows scaling laws observed in large-compute settings. Through the lens of scaling laws, we categorize a range of recent improvements to training and architecture and discuss their merit and practical applicability (or lack thereof) for the limited compute setting. We provide code to reproduce all experiments at github.com/JonasGeiping/cramming .},
   langid = {english},
-  selected = {true},
-}
-
-@article{geiping_darts_2021,
-  title = {{{DARTS}} for {{Inverse Problems}}: A {{Study}} on {{Hyperparameter Sensitivity}}},
-  shorttitle = {{{DARTS}} for {{Inverse Problems}}},
-  author = {Geiping, Jonas and Lukasik, Jovita and Keuper, Margret and Moeller, Michael},
-  year = 2021,
-  month = aug,
-  journal = {arXiv:2108.05647 [cs]},
-  eprint = {2108.05647},
-  primaryclass = {cs},
-  url = {http://arxiv.org/abs/2108.05647},
-  urldate = {2021-09-14},
-  abstract = {Differentiable architecture search (DARTS) is a widely researched tool for neural architecture search, due to its promising results for image classification. The main benefit of DARTS is the effectiveness achieved through the weight-sharing one-shot paradigm, which allows efficient architecture search. In this work, we investigate DARTS in a systematic case study of inverse problems, which allows us to analyze these potential benefits in a controlled manner. Although we demonstrate that the success of DARTS can be extended from image classification to reconstruction, our experiments yield three fundamental difficulties in the evaluation of DARTS-based methods: First, the results show a large variance in all test cases. Second, the final performance is highly dependent on the hyperparameters of the optimizer. And third, the performance of the weight-sharing architecture used during training does not reflect the final performance of the found architecture well. Thus, we conclude the necessity to 1) report the results of any DARTS-based methods from several runs along with its underlying performance statistics, 2) show the correlation of the training and final architecture performance, and 3) carefully consider if the computational efficiency of DARTS outweighs the costs of hyperparameter optimization and multiple runs.},
-  archiveprefix = {arXiv},
-  keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning}
+  selected = {true}
 }
 
 @article{geiping_efficient_2025,
@@ -510,19 +506,16 @@
 @inproceedings{geiping_scaling_2025,
   title = {Scaling up {{Test-Time Compute}} with {{Latent Reasoning}}: {{A Recurrent Depth Approach}}},
   shorttitle = {Scaling up {{Test-Time Compute}} with {{Latent Reasoning}}},
-  booktitle = {Neurips 2025},
-  author = {Geiping, Jonas and McLeish, Sean and Jain, Neel and Kirchenbauer, John and Singh, Siddharth and Bartoldson, Brian R. and Kailkhura, Bhavya and Bhatele, Abhinav and Goldstein, Tom},
+  booktitle = {The {{Thirty-ninth Annual Conference}} on {{Neural Information Processing Systems}}},
+  author = {Geiping, Jonas and McLeish, Sean Michael and Jain, Neel and Kirchenbauer, John and Singh, Siddharth and Bartoldson, Brian R. and Kailkhura, Bhavya and Bhatele, Abhinav and Goldstein, Tom},
   year = 2025,
-  eprint = {2502.05171},
-  primaryclass = {cs},
-  address = {San Diego},
-  doi = {10.48550/arXiv.2502.05171},
-  url = {http://arxiv.org/abs/2502.05171},
-  urldate = {2025-02-10},
-  abstract = {We study a novel language model architecture that is capable of scaling test-time computation by implicitly reasoning in latent space. Our model works by iterating a recurrent block, thereby unrolling to arbitrary depth at test-time. This stands in contrast to mainstream reasoning models that scale up compute by producing more tokens. Unlike approaches based on chain-of-thought, our approach does not require any specialized training data, can work with small context windows, and can capture types of reasoning that are not easily represented in words. We scale a proof-of-concept model to 3.5 billion parameters and 800 billion tokens. We show that the resulting model can improve its performance on reasoning benchmarks, sometimes dramatically, up to a computation load equivalent to 50 billion parameters.},
-  archiveprefix = {arXiv},
+  month = oct,
+  url = {https://openreview.net/forum?id=S3GhJooWIC},
+  urldate = {2026-04-19},
+  abstract = {We study a novel language model architecture that is capable of scaling test-time computation by implicitly reasoning in latent space. Our model works by iterating a recurrent block, thereby unrolling to arbitrary depth at test-time. This stands in contrast to mainstream reasoning models that scale up compute by producing more tokens. Unlike approaches based on chain-of-thought, our approach does not require any specialized training data, can work with small context windows, and can capture types of reasoning that are not easily represented in words. We train a proof-of-concept model from scratch with 3.5 billion parameters and 800 billion tokens. We show that this model can effortlessly use varying levels of compute, significantly improving with additional compute especially on reasoning tasks, such as math and coding. Further, this architecture naturally reduces compute costs via zero-shot per-token adaptive compute, KV-cache sharing and speculative decoding.},
+  langid = {english},
   keywords = {Computer Science - Computation and Language,Computer Science - Machine Learning},
-  selected = {true},
+  selected = {true}
 }
 
 @inproceedings{geiping_stochastic_2021,
@@ -538,7 +531,7 @@
   archiveprefix = {arXiv},
   langid = {english},
   keywords = {Computer Science - Machine Learning,Mathematics - Optimization and Control},
-  selected = {true},
+  selected = {true}
 }
 
 @inproceedings{geiping_what_2021,
@@ -585,6 +578,24 @@
   urldate = {2024-10-06},
   abstract = {Large Language Models (LLMs) have revolutionized the domain of natural language processing (NLP) with remarkable capabilities of generating human-like text responses. However, despite these advancements, several works in the existing literature have raised serious concerns about the potential misuse of LLMs such as spreading misinformation, generating fake news, plagiarism in academia, and contaminating the web. To address these concerns, a consensus among the research community is to develop algorithmic solutions to detect AI-generated text. The basic idea is that whenever we can tell if the given text is either written by a human or an AI, we can utilize this information to address the above-mentioned concerns. To that end, a plethora of detection frameworks have been proposed, highlighting the possibilities of AI-generated text detection. But in parallel to the development of detection frameworks, researchers have also concentrated on designing strategies to elude detection, i.e., focusing on the impossibilities of AI-generated text detection. This is a crucial step in order to make sure the detection frameworks are robust enough and it is not too easy to fool a detector. Despite the huge interest and the flurry of research in this domain, the community currently lacks a comprehensive analysis of recent developments. In this survey, we aim to provide a concise categorization and overview of current work encompassing both the prospects and the limitations of AI-generated text detection. To enrich the collective knowledge, we engage in an exhaustive discussion on critical and challenging open questions related to ongoing research on AI-generated text detection.},
   langid = {english}
+}
+
+@article{goel_futuresim_2026,
+  title = {{{FutureSim}}: {{Replaying World Events}} to {{Evaluate Adaptive Agents}}},
+  shorttitle = {{{FutureSim}}},
+  author = {Goel, Shashwat and Chandak, Nikhil and Arun, Arvindh and Prabhu, Ameya and Staab, Steffen and Hardt, Moritz and Andriushchenko, Maksym and Geiping, Jonas},
+  year = 2026,
+  month = may,
+  eprint = {2605.15188},
+  primaryclass = {cs.LG},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2605.15188},
+  url = {http://arxiv.org/abs/2605.15188},
+  urldate = {2026-05-15},
+  abstract = {AI agents are being increasingly deployed in dynamic, open-ended environments that require adapting to new information as it arrives. To efficiently measure this capability for realistic use-cases, we propose building grounded simulations that replay real-world events in the order they occurred. We build FutureSim, where agents forecast world events beyond their knowledge cutoff while interacting with a chronological replay of the world: real news articles arriving and questions resolving over the simulated period. We evaluate frontier agents in their native harness, testing their ability to predict world events over a three-month period from January to March 2026. FutureSim reveals a clear separation in their capabilities, with the best agent's accuracy being 25\%, and many having worse Brier skill score than making no prediction at all. Through careful ablations, we show how FutureSim offers a realistic setting to study emerging research directions like long-horizon test-time adaptation, search, memory, and reasoning about uncertainty. Overall, we hope our benchmark design paves the way to measure AI progress on open-ended adaptation spanning long time-horizons in the real world.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Machine Learning},
+  journal = {arxiv:2605.15188[cs.LG]}
 }
 
 @inproceedings{goel_great_2025-1,
@@ -673,7 +684,7 @@
   urldate = {2024-10-06},
   abstract = {Detecting text generated by modern large language models is thought to be hard, as both LLMs and humans can exhibit a wide range of complex behaviors. However, we find that a score based on contrasting two closely related language models is highly accurate at separating human-generated and machine-generated text. Based on this mechanism, we propose a novel LLM detector that only requires simple calculations using a pair of pre-trained LLMs. The method, called Binoculars, achieves state-of-the-art accuracy without any training data. It is capable of spotting machine text from a range of modern LLMs without any model-specific modifications. We comprehensively evaluate Binoculars on a number of text sources and in varied situations. Over a wide range of document types, Binoculars detects over 90\% of generated samples from ChatGPT (and other LLMs) at a false positive rate of 0.01\%, despite not being trained on any ChatGPT data.},
   langid = {english},
-  selected = {true},
+  selected = {true}
 }
 
 @inproceedings{huang_metapoison_2020,
@@ -791,7 +802,7 @@
   abstract = {Potential harms of large language models can be mitigated by watermarking model output, i.e., embedding signals into generated text that are invisible to humans but algorithmically detectable from a short span of tokens. We propose a watermarking framework for proprietary language models. The watermark can be embedded with negligible impact on text quality, and can be detected using an efficient open-source algorithm without access to the language model API or parameters. The watermark works by selecting a randomized set of "green" tokens before a word is generated, and then softly promoting use of green tokens during sampling. We propose a statistical test for detecting the watermark with interpretable p-values, and derive an information-theoretic framework for analyzing the sensitivity of the watermark. We test the watermark using a multi-billion parameter model from the Open Pretrained Transformer (OPT) family, and discuss robustness and security.},
   copyright = {All rights reserved},
   langid = {english},
-  selected = {true},
+  selected = {true}
 }
 
 @inproceedings{li_augmenters_2023,
@@ -809,6 +820,23 @@
   abstract = {This paper describes our zero-shot approachesfor the Visual Word Sense Disambiguation(VWSD) Task in English. Our preliminarystudy shows that the simple approach of match-ing candidate images with the phrase usingCLIP suffers from the many-to-many natureof image-text pairs. We find that the CLIP textencoder may have limited abilities in captur-ing the compositionality in natural language.Conversely, the descriptive focus of the phrasevaries from instance to instance. We addressthese issues in our two systems, Augment-CLIPand Stable Diffusion Sampling (SD Sampling).Augment-CLIP augments the text prompt bygenerating sentences that contain the contextphrase with the help of large language mod-els (LLMs). We further explore CLIP modelsin other languages, as the an ambiguous wordmay be translated into an unambiguous one inthe other language. SD Sampling uses text-to-image Stable Diffusion to generate multipleimages from the given phrase, increasing thelikelihood that a subset of images match theone that paired with the text.}
 }
 
+@article{li_efficient_2026,
+  title = {Efficient {{Test-Time Inference}} via {{Deterministic Exploration}} of {{Truncated Decoding Trees}}},
+  author = {Li, Xueyan and Zenn, Johannes and Fadeeva, Ekaterina and Su, Guinan and Sachan, Mrinmaya and Geiping, Jonas},
+  year = 2026,
+  month = apr,
+  eprint = {2604.20500},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2604.20500},
+  url = {http://arxiv.org/abs/2604.20500},
+  urldate = {2026-05-02},
+  abstract = {Self-consistency boosts inference-time performance by sampling multiple reasoning traces in parallel and voting. However, in constrained domains like math and code, this strategy is compute-inefficient because it samples with replacement, repeatedly revisiting the same high-probability prefixes and duplicate completions. We propose Distinct Leaf Enumeration (DLE), a deterministic decoding method that treats truncated sampling as traversal of a pruned decoding tree and systematically enumerates distinct leaves instead of sampling with replacement. This strategy improves inference efficiency in two ways. Algorithmically, it increases coverage of the truncated search space under a fixed budget by exploring previously unvisited high-probability branches. Systemically, it reuses shared prefixes and reduces redundant token generation. Empirically, DLE explores higher-quality reasoning traces than stochastic self-consistency, yielding better performance on math, coding, and general reasoning tasks.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Machine Learning},
+  journal = {arxiv:2604.20500[cs]}
+}
+
 @inproceedings{li_llm-generated_2025,
   title = {{{LLM-Generated Passphrases That Are Secure}} and {{Easy}} to {{Remember}}},
   booktitle = {The 2025 {{Annual Conference}} of the {{Nations}} of the {{Americas Chapter}} of the {{ACL}}},
@@ -821,22 +849,17 @@
   langid = {english}
 }
 
-@article{li_sample_2025,
+@inproceedings{li_sample_2025-1,
   title = {Sample {{Smart}}, {{Not Hard}}: {{Correctness-First Decoding}} for {{Better Reasoning}} in {{LLMs}}},
   shorttitle = {Sample {{Smart}}, {{Not Hard}}},
+  booktitle = {The {{Fourteenth International Conference}} on {{Learning Representations}}},
   author = {Li, Xueyan and Su, Guinan and Sachan, Mrinmaya and Geiping, Jonas},
   year = 2025,
   month = oct,
-  eprint = {2510.05987},
-  primaryclass = {cs},
-  publisher = {arXiv},
-  doi = {10.48550/arXiv.2510.05987},
-  url = {http://arxiv.org/abs/2510.05987},
-  urldate = {2025-10-10},
-  abstract = {Large Language Models (LLMs) are increasingly applied to complex tasks that require extended reasoning. In such settings, models often benefit from diverse chains-of-thought to arrive at multiple candidate solutions. This requires two competing objectives: to inject enough stochasticity to explore multiple reasoning chains, and to ensure sufficient accuracy and quality in each path. Existing works pursue the first objective by increasing exploration at highly uncertain steps with higher temperature or larger candidate token sets, while others improve reliability by rejecting samples with low confidence post-generation, implying that low confidence correlates with low answer quality. These two lines of thought are in conflict, as they conflate different sources of uncertainty. To resolve this, we argue that the decoding rule should be calibrated by correctness, not confidence alone. We should sample from tokens with higher estimated correctness, and reduce sampling where expected correctness is low. We propose simple strategies that achieve this goal: Greedy-Threshold makes sampling greedy at very low confidence steps. Calibrated-TopK and Calibrated-epsilon set truncation threshold based on estimated rank-wise correctness. Together, our findings challenge prevailing heuristics about decoding under uncertainty and show gains across math and general reasoning benchmarks.},
-  archiveprefix = {arXiv},
-  keywords = {Computer Science - Computation and Language,Computer Science - Machine Learning},
-  journal = {arxiv:2510.05987[cs]}
+  url = {https://openreview.net/forum?id=pNwCWIBHBC\&referrer=\%5BAuthor\%20Console\%5D(\%2Fgroup\%3Fid\%3DICLR.cc\%2F2026\%2FConference\%2FAuthors\%23your-submissions)},
+  urldate = {2026-04-13},
+  abstract = {Large Language Models (LLMs) are increasingly applied to complex tasks that require extended reasoning. In such settings, models often benefit from diverse chains-of-thought to arrive at multiple candidate solutions. This requires two competing objectives: to inject enough stochasticity to explore multiple reasoning chains, and to ensure sufficient accuracy and quality in each path. Existing works pursue the first objective by increasing exploration at highly uncertain steps with higher temperature or larger candidate token sets, while others improve reliability by rejecting samples with low confidence post generation, implying that low confidence correlates with low answer quality. These two lines of thought are in conflict, as they conflate different sources of uncertainty. To resolve this, we argue that the decoding rule should be calibrated by *correctness*, not confidence alone. We should sample from tokens with higher estimated correctness, and reduce sampling where expected correctness is low. We propose simple strategies that achieve this goal: **Greedy-Threshold** makes sampling greedy at very low confidence steps. **Calibrated-TopK** and **Calibrated-{$\varepsilon$}** set truncation threshold based on estimated rank-wise correctness. Together, our findings challenge prevailing heuristics about decoding under uncertainty, showing consistent gains across math and general reasoning benchmarks.},
+  langid = {english}
 }
 
 @inproceedings{lukasik_differentiable_2023,
@@ -861,8 +884,7 @@
   url = {https://openreview.net/forum?id=aIyNLWXuDO},
   urldate = {2024-10-06},
   abstract = {The poor performance of transformers on arithmetic tasks seems to stem in large part from their inability to keep track of the exact position of each digit inside of a large span of digits. We mend this problem by adding an embedding to each digit that encodes its position relative to the start of the number. In addition to the boost these embeddings provide on their own, we show that this fix enables architectural modifications such as input injection and recurrent layers to improve performance even further. With positions resolved, we can study the logical extrapolation ability of transformers. Can they solve arithmetic problems that are larger and more complex than those in their training data? We find that training on only 20 digit numbers with a single GPU for one day, we can reach state-of-the-art performance, achieving up to 99\% accuracy on 100 digit addition problems. Finally, we show that these gains in numeracy also unlock improvements on other multi-step reasoning tasks including sorting and multiplication.},
-  langid = {english},
-  selected = {true},
+  langid = {english}
 }
 
 @article{ni_k-sam_2022,
@@ -883,55 +905,76 @@
   journal = {arxiv:2210.12864[cs]}
 }
 
-@article{paleka_pitfalls_2025,
+@inproceedings{paleka_pitfalls_2025-1,
   title = {Pitfalls in {{Evaluating Language Model Forecasters}}},
+  booktitle = {The {{Fourteenth International Conference}} on {{Learning Representations}}},
   author = {Paleka, Daniel and Goel, Shashwat and Geiping, Jonas and Tram{\`e}r, Florian},
   year = 2025,
-  month = may,
-  eprint = {2506.00723},
-  primaryclass = {cs},
-  publisher = {arXiv},
-  doi = {10.48550/arXiv.2506.00723},
-  url = {http://arxiv.org/abs/2506.00723},
-  urldate = {2025-06-04},
+  month = oct,
+  url = {https://openreview.net/forum?id=z85kARAoyD\&referrer=\%5BAuthor\%20Console\%5D(\%2Fgroup\%3Fid\%3DICLR.cc\%2F2026\%2FConference\%2FAuthors\%23your-submissions)},
+  urldate = {2026-04-13},
   abstract = {Large language models (LLMs) have recently been applied to forecasting tasks, with some works claiming these systems match or exceed human performance. In this paper, we argue that, as a community, we should be careful about such conclusions as evaluating LLM forecasters presents unique challenges. We identify two broad categories of issues: (1) difficulty in trusting evaluation results due to many forms of temporal leakage, and (2) difficulty in extrapolating from evaluation performance to real-world forecasting. Through systematic analysis and concrete examples from prior work, we demonstrate how evaluation flaws can raise concerns about current and future performance claims. We argue that more rigorous evaluation methodologies are needed to confidently assess the forecasting abilities of LLMs.},
-  archiveprefix = {arXiv},
-  keywords = {Computer Science - Artificial Intelligence,Computer Science - Information Retrieval,Computer Science - Machine Learning},
-  journal = {arxiv:2506.00723[cs]}
+  langid = {english}
 }
 
-@article{panfilov_capability-based_2025,
-  title = {Capability-{{Based Scaling Laws}} for {{LLM Red-Teaming}}},
+@inproceedings{panfilov_capability-based_2025-1,
+  title = {Capability-{{Based Scaling Trends}} for {{LLM-Based Red-Teaming}}},
+  booktitle = {The {{Fourteenth International Conference}} on {{Learning Representations}}},
   author = {Panfilov, Alexander and Kassianik, Paul and Andriushchenko, Maksym and Geiping, Jonas},
   year = 2025,
-  month = may,
-  eprint = {2505.20162},
-  primaryclass = {cs},
-  publisher = {arXiv},
-  doi = {10.48550/arXiv.2505.20162},
-  url = {http://arxiv.org/abs/2505.20162},
-  urldate = {2025-05-27},
-  abstract = {As large language models grow in capability and agency, identifying vulnerabilities through red-teaming becomes vital for safe deployment. However, traditional prompt-engineering approaches may prove ineffective once red-teaming turns into a weak-to-strong problem, where target models surpass red-teamers in capabilities. To study this shift, we frame red-teaming through the lens of the capability gap between attacker and target. We evaluate more than 500 attacker-target pairs using LLM-based jailbreak attacks that mimic human red-teamers across diverse families, sizes, and capability levels. Three strong trends emerge: (i) more capable models are better attackers, (ii) attack success drops sharply once the target's capability exceeds the attacker's, and (iii) attack success rates correlate with high performance on social science splits of the MMLU-Pro benchmark. From these trends, we derive a jailbreaking scaling law that predicts attack success for a fixed target based on attacker-target capability gap. These findings suggest that fixed-capability attackers (e.g., humans) may become ineffective against future models, increasingly capable open-source models amplify risks for existing systems, and model providers must accurately measure and control models' persuasive and manipulative abilities to limit their effectiveness as attackers.},
-  archiveprefix = {arXiv},
-  keywords = {Computer Science - Artificial Intelligence},
-  journal = {arxiv:2505.20162[cs]}
+  month = oct,
+  url = {https://openreview.net/forum?id=1InFGGz1D5\&referrer=\%5BAuthor\%20Console\%5D(\%2Fgroup\%3Fid\%3DICLR.cc\%2F2026\%2FConference\%2FAuthors\%23your-submissions)},
+  urldate = {2026-04-13},
+  abstract = {As large language models grow in capability and agency, identifying vulnerabilities through red-teaming becomes vital for safe deployment. However, traditional prompt-engineering approaches may prove ineffective once red-teaming turns into a \textbackslash emph\textbraceleft weak-to-strong\textbraceright{} problem, where target models surpass red-teamers in capabilities. To study this shift, we frame red-teaming through the lens of the \textbackslash emph\textbraceleft capability gap\textbraceright{} between attacker and target. We evaluate more than 600 attacker-target pairs using LLM-based jailbreak attacks that mimic human red-teamers across diverse families, sizes, and capability levels. Three strong trends emerge: (i) more capable models are better attackers, (ii) attack success drops sharply once the target's capability exceeds the attacker's, and (iii) attack success rates correlate with high performance on social science splits of the MMLU-Pro benchmark. From these observations, we derive a \textbackslash emph\textbraceleft jailbreaking scaling curve\textbraceright{} that predicts attack success for a fixed target based on attacker-target capability gap. These findings suggest that fixed-capability attackers (e.g., humans) may become ineffective against future models, increasingly capable open-source models amplify risks for existing systems, and model providers must accurately measure and control models' persuasive and manipulative abilities to limit their effectiveness as attackers.},
+  langid = {english}
 }
 
-@article{panfilov_strategic_2025,
-  title = {Strategic {{Dishonesty Can Undermine AI Safety Evaluations}} of {{Frontier LLMs}}},
-  author = {Panfilov, Alexander and Kortukov, Evgenii and Nikoli{\'c}, Kristina and Bethge, Matthias and Lapuschkin, Sebastian and Samek, Wojciech and Prabhu, Ameya and Andriushchenko, Maksym and Geiping, Jonas},
-  year = 2025,
-  month = sep,
-  eprint = {2509.18058},
+@article{panfilov_claudini_2026,
+  title = {Claudini: {{Autoresearch Discovers State-of-the-Art Adversarial Attack Algorithms}} for {{LLMs}}},
+  shorttitle = {Claudini},
+  author = {Panfilov, Alexander and Romov, Peter and Shilov, Igor and de Montjoye, Yves-Alexandre and Geiping, Jonas and Andriushchenko, Maksym},
+  year = 2026,
+  month = mar,
+  eprint = {2603.24511},
   primaryclass = {cs},
   publisher = {arXiv},
-  doi = {10.48550/arXiv.2509.18058},
-  url = {http://arxiv.org/abs/2509.18058},
-  urldate = {2025-09-23},
-  abstract = {Large language model (LLM) developers aim for their models to be honest, helpful, and harmless. However, when faced with malicious requests, models are trained to refuse, sacrificing helpfulness. We show that frontier LLMs can develop a preference for dishonesty as a new strategy, even when other options are available. Affected models respond to harmful requests with outputs that sound harmful but are subtly incorrect or otherwise harmless in practice. This behavior emerges with hard-to-predict variations even within models from the same model family. We find no apparent cause for the propensity to deceive, but we show that more capable models are better at executing this strategy. Strategic dishonesty already has a practical impact on safety evaluations, as we show that dishonest responses fool all output-based monitors used to detect jailbreaks that we test, rendering benchmark scores unreliable. Further, strategic dishonesty can act like a honeypot against malicious users, which noticeably obfuscates prior jailbreak attacks. While output monitors fail, we show that linear probes on internal activations can be used to reliably detect strategic dishonesty. We validate probes on datasets with verifiable outcomes and by using their features as steering vectors. Overall, we consider strategic dishonesty as a concrete example of a broader concern that alignment of LLMs is hard to control, especially when helpfulness and harmlessness conflict.},
+  doi = {10.48550/arXiv.2603.24511},
+  url = {http://arxiv.org/abs/2603.24511},
+  urldate = {2026-03-27},
+  abstract = {LLM agents like Claude Code can not only write code but also be used for autonomous AI research and engineering \textbackslash citep\textbraceleft rank2026posttrainbench, novikov2025alphaevolve\textbraceright. We show that an \textbackslash emph\textbraceleft autoresearch\textbraceright -style pipeline \textbackslash citep\textbraceleft karpathy2026autoresearch\textbraceright{} powered by Claude Code discovers novel white-box adversarial attack \textbackslash textit\textbraceleft algorithms\textbraceright{} that \textbackslash textbf\textbraceleft significantly outperform all existing (30+) methods\textbraceright{} in jailbreaking and prompt injection evaluations. Starting from existing attack implementations, such as GCG\textasciitilde\textbackslash citep\textbraceleft zou2023universal\textbraceright, the agent iterates to produce new algorithms achieving up to 40\textbackslash\% attack success rate on CBRN queries against GPT-OSS-Safeguard-20B, compared to \$\textbackslash leq\$10\textbackslash\% for existing algorithms (\textbackslash Cref\textbraceleft fig:teaser\textbraceright, left). The discovered algorithms generalize: attacks optimized on surrogate models transfer directly to held-out models, achieving \textbackslash textbf\textbraceleft 100\textbackslash\% ASR against Meta-SecAlign-70B\textbraceright{} \textbackslash citep\textbraceleft chen2025secalign\textbraceright{} versus 56\textbackslash\% for the best baseline (\textbackslash Cref\textbraceleft fig:teaser\textbraceright, middle). Extending the findings of\textasciitilde\textbackslash cite\textbraceleft carlini2025autoadvexbench\textbraceright, our results are an early demonstration that incremental safety and security research can be automated using LLM agents. White-box adversarial red-teaming is particularly well-suited for this: existing methods provide strong starting points, and the optimization objective yields dense, quantitative feedback. We release all discovered attacks alongside baseline implementations and evaluation code at https://github.com/romovpa/claudini.},
   archiveprefix = {arXiv},
   keywords = {Computer Science - Artificial Intelligence,Computer Science - Cryptography and Security,Computer Science - Machine Learning},
-  journal = {arxiv:2509.18058[cs]}
+  journal = {arxiv:2603.24511[cs]}
+}
+
+@article{panfilov_stealing_2026,
+  title = {Stealing {{Reasoning Traces}} from {{Proprietary LLM APIs}}},
+  author = {Panfilov, Alexander and Schmotz, David and Shumailov, Ilia and {Beurer-Kellner}, Luca and Schaeffer, Joachim and Prabhu, Ameya and Geiping, Jonas and Andriushchenko, Maksym},
+  year = 2026,
+  month = aug,
+  eprint = {2608.09867},
+  primaryclass = {cs.CR},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2608.09867},
+  url = {http://arxiv.org/abs/2608.09867},
+  urldate = {2026-08-11},
+  abstract = {Leading large language model providers now conceal their models' step-by-step reasoning, or chain-of-thought, to protect intellectual property and limit information leakage. Rather than storing these traces server-side, providers return them to the client as blocks of encrypted text, which the client passes back with each subsequent request. Building on prior research, we identify an architectural vulnerability: these encrypted blocks are fully compatible and interchangeable across different sessions, users, and models within a provider's ecosystem. We exploit this compatibility to develop a scalable decryption jailbreak. By injecting an encrypted reasoning trace from a given model into a weaker, and less safeguarded model from the same provider, we force it to decode and output the trace verbatim in plaintext, without ever jailbreaking the more capable model directly. This vulnerability enables four distinct attack vectors. First, it circumvents anti-distillation mechanisms, allowing adversaries to extract a proprietary model's reasoning, as we demonstrate across Anthropic, OpenAI, and Google. Second, it allows for large-scale private data extraction. Developers frequently share session logs publicly, unaware of contents of the encrypted blocks. By decoding 315,320 reasoning blocks scraped from public repositories, we recovered 367 Personally Identifiable Information (PII) artifacts and 182 credentials. Third, it inadvertently reveals hazardous information hidden within the reasoning process, even in cases where the model's final, visible output safely rejects a malicious request. Fourth, attackers can leverage this flaw to execute invisible prompt injections, embedding malicious payloads entirely within encrypted blocks to poison public agentic rollouts. Following responsible disclosure, we propose concrete cryptographic and system-level mitigations to secure client-side reasoning.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Cryptography and Security,Computer Science - Machine Learning},
+  journal = {arxiv:2608.09867[cs.CR]},
+  selected = {true}
+}
+
+@inproceedings{panfilov_strategic_2025-1,
+  title = {Strategic {{Dishonesty Can Undermine AI Safety Evaluations}} of {{Frontier LLMs}}},
+  booktitle = {The {{Fourteenth International Conference}} on {{Learning Representations}}},
+  author = {Panfilov, Alexander and Kortukov, Evgenii and Nikoli{\'c}, Kristina and Bethge, Matthias and Lapuschkin, Sebastian and Samek, Wojciech and Prabhu, Ameya and Andriushchenko, Maksym and Geiping, Jonas},
+  year = 2025,
+  month = oct,
+  url = {https://openreview.net/forum?id=IbDr8xgUMW\&referrer=\%5BAuthor\%20Console\%5D(\%2Fgroup\%3Fid\%3DICLR.cc\%2F2026\%2FConference\%2FAuthors\%23your-submissions)},
+  urldate = {2026-04-13},
+  abstract = {Large language model (LLM) developers aim for their models to be honest, helpful, and harmless. However, when faced with malicious requests, models are trained to refuse, sacrificing helpfulness. We show that frontier LLMs can develop a preference for \textbackslash textit\textbraceleft dishonesty\textbraceright{} as a new strategy, even when other options are available. Affected models respond to harmful requests with outputs that sound harmful but are crafted to be subtly incorrect or otherwise harmless in practice. This behavior emerges with hard-to-predict variations even within models from the same model family. We find no apparent cause for the propensity to deceive, but show that more capable models are better at executing this strategy. Strategic dishonesty already has a practical impact on safety evaluations, as we show that dishonest responses fool \textbackslash emph\textbraceleft all\textbraceright{} output-based monitors used to detect jailbreaks that we test, rendering benchmark scores unreliable. Further, strategic dishonesty can act like a \textbackslash emph\textbraceleft honeypot\textbraceright{} against malicious users, which noticeably obfuscates prior jailbreak attacks. While output monitors fail, we show that linear probes on internal activations can be used to reliably detect strategic dishonesty. We validate probes on datasets with verifiable outcomes and by using them as steering vectors. Overall, we consider strategic dishonesty as a concrete example of a broader concern that alignment of LLMs is hard to control, especially when helpfulness and harmlessness conflict.},
+  langid = {english}
 }
 
 @article{qi_ai_2024,
@@ -950,22 +993,16 @@
   journal = {arxiv:2405.19524[cs]}
 }
 
-@article{runkel_training_2024,
+@inproceedings{runkel_training_2025,
   title = {Training {{Data Reconstruction}}: {{Privacy}} Due to {{Uncertainty}}?},
   shorttitle = {Training {{Data Reconstruction}}},
+  booktitle = {Proceedings of the {{IEEE}}/{{CVF Conference}} on {{Computer Vision}} and {{Pattern Recognition}}},
   author = {Runkel, Christina and Gandikota, Kanchana Vaishnavi and Geiping, Jonas and Sch{\"o}nlieb, Carola-Bibiane and Moeller, Michael},
-  year = 2024,
-  month = dec,
-  eprint = {2412.08544},
-  primaryclass = {cs},
-  publisher = {arXiv},
-  doi = {10.48550/arXiv.2412.08544},
-  url = {http://arxiv.org/abs/2412.08544},
-  urldate = {2024-12-17},
-  abstract = {Being able to reconstruct training data from the parameters of a neural network is a major privacy concern. Previous works have shown that reconstructing training data, under certain circumstances, is possible. In this work, we analyse such reconstructions empirically and propose a new formulation of the reconstruction as a solution to a bilevel optimisation problem. We demonstrate that our formulation as well as previous approaches highly depend on the initialisation of the training images \$x\$ to reconstruct. In particular, we show that a random initialisation of \$x\$ can lead to reconstructions that resemble valid training samples while not being part of the actual training dataset. Thus, our experiments on affine and one-hidden layer networks suggest that when reconstructing natural images, yet an adversary cannot identify whether reconstructed images have indeed been part of the set of training samples.},
-  archiveprefix = {arXiv},
-  keywords = {Computer Science - Cryptography and Security,Computer Science - Machine Learning},
-  journal = {arxiv:2412.08544[cs]}
+  year = 2025,
+  pages = {3541--3549},
+  url = {https://openaccess.thecvf.com/content/CVPR2025W/WiCV/html/Runkel\_Training\_Data\_Reconstruction\_Privacy\_due\_to\_Uncertainty\_CVPRW\_2025\_paper.html},
+  urldate = {2026-04-13},
+  langid = {english}
 }
 
 @inproceedings{saifullah_seeing_2023,
@@ -1037,6 +1074,24 @@
   langid = {english}
 }
 
+@article{schaeffer_ciaware-bench_2026,
+  title = {{{CIAware-Bench}}: {{Benchmarking Control Intervention Awareness Across Frontier LLMs}}},
+  shorttitle = {{{CIAware-Bench}}},
+  author = {Schaeffer, Joachim and Jiralerspong, Thomas and Panfilov, Alexander and Lajoie, Guillaume and Geiping, Jonas and Bengio, Yoshua and Zimmermann, Roland S.},
+  year = 2026,
+  month = jun,
+  eprint = {2606.11063},
+  primaryclass = {cs.AI},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2606.11063},
+  url = {http://arxiv.org/abs/2606.11063},
+  urldate = {2026-06-14},
+  abstract = {AI control protocols oversee untrusted models by monitoring their actions and modifying potentially unsafe steps, often using a trusted model. This partially tampers with the untrusted model's trajectory. If the trusted model detects such an intervention, it may infer properties of the monitor and adapt to evade control. We introduce \textbackslash textbf\textbraceleft CIAware-Bench\textbraceright, a benchmark for measuring \textbackslash textbf\textbraceleft c\textbraceright ontrol \textbackslash textbf\textbraceleft i\textbraceright ntervention (CI) awareness across frontier models. CIAware-Bench tests whether models can distinguish their own trajectories from those modified by a control intervention. The benchmark is comprised of a suite of four task domains (essay writing, BigCodeBench, Bash Arena, and SHADE-Arena), while varying trajectory watermarking, side-task presence, and the control protocol. Evaluating eleven frontier models, we find low to moderate CI awareness under default settings (up to 0.87; random chance balanced binary classification accuracy is 0.5) with substantial variation across task domains and model pairs. Detection is generally easier across model families, suggesting that models exploit provider-specific differences in style or post-training. Overall, CI awareness is not a fixed model-level property, and should be measured for each new model release and deployment scenario. We release CIAware-Bench to track CI awareness and inform control protocols whose interventions are harder to detect.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning},
+  journal = {arxiv:2606.11063[cs.AI]},
+}
+
 @inproceedings{sharma_efficiently_2024,
   title = {Efficiently {{Dispatching Flash Attention For Partially Filled Attention Masks}}},
   booktitle = {{{ENLSP Workshop}} at {{NeurIPS}} 2024},
@@ -1077,7 +1132,7 @@
   abstract = {Training and fine-tuning large language models (LLMs) with hundreds of billions to trillions of parameters requires tens of thousands of GPUs, and a highly scalable software stack. In this work, we present a novel four-dimensional hybrid parallel algorithm implemented in a highly scalable, portable, open-source framework called AxoNN. We describe several performance optimizations in AxoNN to improve matrix multiply kernel performance, overlap non-blocking collectives with computation, and performance modeling to choose performance optimal configurations. These have resulted in unprecedented scaling and peak flop/s (bf16) for training of GPT-style transformer models on Perlmutter (620.1 Petaflop/s), Frontier (1.381 Exaflop/s) and Alps (1.423 Exaflop/s). While the abilities of LLMs improve with the number of trainable parameters, so do privacy and copyright risks caused by memorization of training data, which can cause disclosure of sensitive or private information at inference time. We highlight this side effect of scale through experiments that explore ``catastrophic memorization,'' where models are sufficiently large to memorize training data in a single pass, and present an approach to prevent it. As part of this study, we demonstrate fine-tuning of a 405-billion parameter LLM using AxoNN on Frontier.},
   isbn = {979-8-3503-5291-7},
   langid = {english},
-  selected = {true},
+  selected = {true}
 }
 
 @article{singla_simple_2023,
@@ -1097,6 +1152,25 @@
   journal = {arxiv:2311.03386[cs]}
 }
 
+@article{ko_attractor_2026,
+  title = {Attractor {{States Emerge}} in {{Multi-Turn LLM Conversations}}},
+  author = {Ko, Ting-Wen and Geiping, Jonas},
+  year = 2026,
+  month = jun,
+  eprint = {2606.30571},
+  primaryclass = {cs.LG},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2606.30571},
+  url = {http://arxiv.org/abs/2606.30571},
+  urldate = {2026-08-16},
+  abstract = {Large language models (LLMs) are increasingly used in open-ended multi-agent settings, but the long-run dynamics of model--model interaction remain poorly understood. We study whether open-ended LLM discussions exhibit attractor-like behavior, i.e. topic-independent stable sets of behaviors which conversations settle into. Across 7 LLMs and 20 controversial topics, we compare self-play and mixed-play dyadic debates, tracking trajectories in representation space, discourse traits, and stances. We find self-play trajectories to be model-specific attractors that draw their conversation partners asymmetrically in mixed-play debates, influencing the other models' stylistic choices and behavior. For example, Claude Haiku is a strong attractor of other models in latent space, corresponding to other models taking on its traits like metacommentary, and models like GPT-4.1 nano are especially malleable. Our results suggest that open-ended LLM interactions are partially predictable from model-specific attractors, but shaped by structured and asymmetric partner influence. Overall, our analysis sheds some light on the complex behavior of open-ended multi-agent interaction, which we hope is helpful in designing, predicting, and monitoring autonomous agentic systems in the real world.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Computation and Language,Computer Science - Machine Learning},
+  journal = {arxiv:2606.30571[cs.LG]},
+  selected = {true}
+}
+
+
 @inproceedings{sinha_can_2025-1,
   title = {Can {{Language Models Falsify}}? {{Evaluating Algorithmic Reasoning}} with {{Counterexample Creation}}},
   shorttitle = {Can {{Language Models Falsify}}?},
@@ -1112,22 +1186,17 @@
   langid = {english}
 }
 
-@article{sinha_illusion_2025,
+@inproceedings{sinha_illusion_2025-1,
   title = {The {{Illusion}} of {{Diminishing Returns}}: {{Measuring Long Horizon Execution}} in {{LLMs}}},
   shorttitle = {The {{Illusion}} of {{Diminishing Returns}}},
+  booktitle = {The {{Fourteenth International Conference}} on {{Learning Representations}}},
   author = {Sinha, Akshit and Arun, Arvindh and Goel, Shashwat and Staab, Steffen and Geiping, Jonas},
   year = 2025,
-  month = sep,
-  eprint = {2509.09677},
-  primaryclass = {cs},
-  publisher = {arXiv},
-  doi = {10.48550/arXiv.2509.09677},
-  url = {http://arxiv.org/abs/2509.09677},
-  urldate = {2025-09-12},
-  abstract = {Does continued scaling of large language models (LLMs) yield diminishing returns? Real-world value often stems from the length of task an agent can complete. We start this work by observing the simple but counterintuitive fact that marginal gains in single-step accuracy can compound into exponential improvements in the length of a task a model can successfully complete. Then, we argue that failures of LLMs when simple tasks are made longer arise from mistakes in execution, rather than an inability to reason. We propose isolating execution capability, by explicitly providing the knowledge and plan needed to solve a long-horizon task. We find that larger models can correctly execute significantly more turns even when small models have 100\textbackslash\% single-turn accuracy. We observe that the per-step accuracy of models degrades as the number of steps increases. This is not just due to long-context limitations -- curiously, we observe a self-conditioning effect -- models become more likely to make mistakes when the context contains their errors from prior turns. Self-conditioning does not reduce by just scaling the model size. In contrast, recent thinking models do not self-condition, and can also execute much longer tasks in a single turn. We conclude by benchmarking frontier thinking models on the length of task they can execute in a single turn. Overall, by focusing on the ability to execute, we hope to reconcile debates on how LLMs can solve complex reasoning problems yet fail at simple tasks when made longer, and highlight the massive benefits of scaling model size and sequential test-time compute for long-horizon tasks.},
-  archiveprefix = {arXiv},
-  keywords = {Computer Science - Artificial Intelligence},
-  journal = {arxiv:2509.09677[cs]}
+  month = oct,
+  url = {https://openreview.net/forum?id=3lm8lWYxiq\&referrer=\%5BAuthor\%20Console\%5D(\%2Fgroup\%3Fid\%3DICLR.cc\%2F2026\%2FConference\%2FAuthors\%23your-submissions)},
+  urldate = {2026-04-13},
+  abstract = {Does continued scaling of large language models (LLMs) yield diminishing returns? In this work, we show that short-task benchmarks may give an illusion of slowing progress, as even marginal gains in single-step accuracy can compound into exponential improvements in the length of tasks a model can successfully complete. Then, we argue that failures of LLMs when simple tasks are made longer arise from mistakes in execution, rather than an inability to reason. So, we propose isolating execution capability, by explicitly providing the knowledge and plan needed to solve a long-horizon task. First, we find that larger models can correctly execute significantly more turns even when small models have near-perfect single-turn accuracy. We then observe that the per-step accuracy of models degrades as the number of steps increases. This is not just due to long-context limitations---curiously, we observe a self-conditioning effect---models become more likely to make mistakes when the context contains their errors from prior turns. Self-conditioning does not reduce by just scaling the model size. But, we find that thinking mitigates self-conditioning, and also enables execution of much longer tasks in a single turn. We conclude by benchmarking frontier thinking models on the length of tasks they can execute in a single turn. Overall, by focusing on the ability to execute, we hope to reconcile debates on how LLMs can solve complex reasoning problems yet fail at simple tasks when made longer, and highlight the massive benefits of scaling model size and sequential test-time compute for long-horizon tasks.},
+  langid = {english}
 }
 
 @inproceedings{somepalli_calvin_2024,
@@ -1237,59 +1306,66 @@
   journal = {arxiv:2502.04030[cs]}
 }
 
-@article{su_gptailor_2025,
+@inproceedings{su_gptailor_2025-1,
   title = {{{GPTailor}}: {{Large Language Model Pruning Through Layer Cutting}} and {{Stitching}}},
   shorttitle = {{{GPTailor}}},
+  booktitle = {The {{Fourteenth International Conference}} on {{Learning Representations}}},
   author = {Su, Guinan and Shen, Li and Yin, Lu and Liu, Shiwei and Yang, Yanwu and Geiping, Jonas},
   year = 2025,
-  month = jun,
-  eprint = {2506.20480},
-  primaryclass = {cs},
-  publisher = {arXiv},
-  doi = {10.48550/arXiv.2506.20480},
-  url = {http://arxiv.org/abs/2506.20480},
-  urldate = {2025-06-26},
-  abstract = {Large language models (LLMs) have shown remarkable capabilities in language understanding and generation. However, such impressive capability typically comes with a substantial model size, which presents significant challenges in deployment and inference. While structured pruning of model parameters offers a promising way to reduce computational costs at deployment time, current methods primarily focus on single model pruning. In this work, we develop a novel strategy to compress models by strategically combining or merging layers from finetuned model variants, which preserves the original model's abilities by aggregating capabilities accentuated in different finetunes. We pose the optimal tailoring of these LLMs as a zero-order optimization problem, adopting a search space that supports three different operations: (1) Layer removal, (2) Layer selection from different candidate models, and (3) Layer merging. Our experiments demonstrate that this approach leads to competitive model pruning, for example, for the Llama2-13B model families, our compressed models maintain approximately 97.3\textbackslash\% of the original performance while removing \$\textbackslash sim25\textbackslash\%\$ of parameters, significantly outperforming previous state-of-the-art methods. The code is available at https://github.com/Guinan-Su/auto-merge-llm.},
-  archiveprefix = {arXiv},
-  keywords = {Computer Science - Computation and Language},
-  journal = {arxiv:2506.20480[cs]}
+  month = oct,
+  url = {https://openreview.net/forum?id=yCTpYe3UOL\&referrer=\%5BAuthor\%20Console\%5D(\%2Fgroup\%3Fid\%3DICLR.cc\%2F2026\%2FConference\%2FAuthors\%23your-submissions)},
+  urldate = {2026-04-13},
+  abstract = {Large language models (LLMs) have shown remarkable capabilities in language understanding and generation. However, such impressive capability typically comes with a substantial model size, which presents significant challenges in deployment and inference. While structured pruning of model parameters offers a promising way to reduce computational costs at deployment time, current methods primarily focus on single model pruning. In this work, we develop a novel strategy to compress models by strategically combining or merging layers from finetuned model variants, which preserves the original model's abilities by aggregating capabilities accentuated in different finetunes. We pose the optimal tailoring of these LLMs as a zero-order optimization problem, adopting a search space that supports three different operations: (1) Layer removal, (2) Layer selection from different candidate models, and (3) Layer merging. Our experiments demonstrate that this approach leads to competitive model pruning, for example, for the Llama2-13B model families, our compressed models maintain approximately 97.3\textbackslash\% of the original performance while removing ～25\textbackslash\% of parameters, significantly outperforming previous state-of-the-art methods.},
+  langid = {english}
 }
 
-@article{su_rewiring_2025,
+@article{su_multi-stream_2026,
+  title = {Multi-{{Stream LLMs}}: {{Unblocking Language Models}} with {{Parallel Streams}} of {{Thoughts}}, {{Inputs}} and {{Outputs}}},
+  shorttitle = {Multi-{{Stream LLMs}}},
+  author = {Su, Guinan and Yang, Yanwu and Li, Xueyan and Geiping, Jonas},
+  year = 2026,
+  month = may,
+  eprint = {2605.12460},
+  primaryclass = {cs.LG},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2605.12460},
+  url = {http://arxiv.org/abs/2605.12460},
+  urldate = {2026-05-13},
+  abstract = {The continued improvements in language model capability have unlocked their widespread use as drivers of autonomous agents, for example in coding or computer use applications. However, the core of these systems has not changed much since early instruction-tuned models like ChatGPT. Even advanced AI agents function on message exchange formats, successively exchanging messages with users, systems, with itself (i.e. chain-of-thought) and tools in a single stream of computation. This bottleneck to a single stream in chat models leads to a number of limitations: the agent cannot act (generate output) while reading, and in reverse, cannot react to new information while writing. Similarly, the agent cannot act while thinking and cannot think while reading or acting on information. In this work, we show that models can be unblocked by switching from instruction-tuning for sequential message formats to instruction-tuning for multiple, parallel streams of computation, splitting each role into a separate stream. Every forward pass of the language model then simultaneously reads from multiple input streams and generates tokens in multiple output streams, all of which causally depend on earlier timesteps. We argue that this data-driven change remedies a number of usability limitations as outlined above, improves model efficiency through parallelization, improves model security through better separation of concerns and can further improve model monitorability.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Computation and Language,Computer Science - Machine Learning},
+  journal = {arxiv:2605.12460[cs.LG]},
+  selected = {true}
+}
+
+@inproceedings{su_rewiring_2025,
   title = {Rewiring {{Experts}} on the {{Fly}}:{{Continuous Rerouting}} for {{Better Online Adaptation}} in {{Mixture-of-Expert}} Models},
   shorttitle = {Rewiring {{Experts}} on the {{Fly}}},
+  booktitle = {Proceedings of the 43rd {{International Conference}} on {{Machine Learning}}},
   author = {Su, Guinan and Yang, Yanwu and Shen, Li and Yin, Lu and Liu, Shiwei and Geiping, Jonas},
-  year = 2025,
-  month = oct,
+  year = 2026,
   eprint = {2510.14853},
   primaryclass = {cs},
-  publisher = {arXiv},
+  address = {Seoul, Korea},
   doi = {10.48550/arXiv.2510.14853},
   url = {http://arxiv.org/abs/2510.14853},
   urldate = {2025-10-17},
   abstract = {Mixture-of-Experts (MoE) models achieve efficient scaling through sparse expert activation, but often suffer from suboptimal routing decisions due to distribution shifts in deployment. While existing test-time adaptation methods could potentially address these issues, they primarily focus on dense models and require access to external data, limiting their practical applicability to MoE architectures. However, we find that, instead of relying on reference data, we can optimize MoE expert selection on-the-fly based only on input context. As such, we propose \textbackslash textit\textbraceleft a data-free, online test-time framework\textbraceright{} that continuously adapts MoE routing decisions during text generation without external supervision or data. Our method cycles between two phases: During the prefill stage, and later in regular intervals, we optimize the routing decisions of the model using self-supervision based on the already generated sequence. Then, we generate text as normal, maintaining the modified router until the next adaption. We implement this through lightweight additive vectors that only update router logits in selected layers, maintaining computational efficiency while preventing over-adaptation. The experimental results show consistent performance gains on challenging reasoning tasks while maintaining robustness to context shifts. For example, our method achieves a 5.5\textbackslash\% improvement on HumanEval with OLMoE. Furthermore, owing to its plug-and-play property, our method naturally complements existing test-time scaling techniques, e.g., achieving 6\textbackslash\% average gains when incorporated with self-consistency on DeepSeek-V2-Lite.},
   archiveprefix = {arXiv},
-  keywords = {Computer Science - Computation and Language},
-  journal = {arxiv:2510.14853[cs]},
-  selected = {true},
+  keywords = {Computer Science - Computation and Language}
 }
 
-@article{terekhov_adaptive_2025,
+@inproceedings{terekhov_adaptive_2025-1,
   title = {Adaptive {{Attacks}} on {{Trusted Monitors Subvert AI Control Protocols}}},
+  booktitle = {The {{Fourteenth International Conference}} on {{Learning Representations}}},
   author = {Terekhov, Mikhail and Panfilov, Alexander and Dzenhaliou, Daniil and Gulcehre, Caglar and Andriushchenko, Maksym and Prabhu, Ameya and Geiping, Jonas},
   year = 2025,
   month = oct,
-  eprint = {2510.09462},
-  primaryclass = {cs},
-  publisher = {arXiv},
-  doi = {10.48550/arXiv.2510.09462},
-  url = {http://arxiv.org/abs/2510.09462},
-  urldate = {2025-10-13},
-  abstract = {AI control protocols serve as a defense mechanism to stop untrusted LLM agents from causing harm in autonomous settings. Prior work treats this as a security problem, stress testing with exploits that use the deployment context to subtly complete harmful side tasks, such as backdoor insertion. In practice, most AI control protocols are fundamentally based on LLM monitors, which can become a central point of failure. We study adaptive attacks by an untrusted model that knows the protocol and the monitor model, which is plausible if the untrusted model was trained with a later knowledge cutoff or can search for this information autonomously. We instantiate a simple adaptive attack vector by which the attacker embeds publicly known or zero-shot prompt injections in the model outputs. Using this tactic, frontier models consistently evade diverse monitors and complete malicious tasks on two main AI control benchmarks. The attack works universally against current protocols that rely on a monitor. Furthermore, the recent Defer-to-Resample protocol even backfires, as its resampling amplifies the prompt injection and effectively reframes it as a best-of-\$n\$ attack. In general, adaptive attacks on monitor models represent a major blind spot in current control protocols and should become a standard component of evaluations for future AI control mechanisms.},
-  archiveprefix = {arXiv},
-  keywords = {Computer Science - Artificial Intelligence,Computer Science - Cryptography and Security,Computer Science - Machine Learning},
-  journal = {arxiv:2510.09462[cs]},
-  selected = {true},
+  url = {https://openreview.net/forum?id=wSs1Ez3aKl},
+  urldate = {2026-04-13},
+  abstract = {AI control protocols serve as a defense mechanism to stop untrusted LLM agents from causing harm in autonomous settings. Prior work treats this as a security problem, stress testing with exploits that use the deployment context to subtly complete harmful side tasks, such as backdoor insertion. In practice, most AI control protocols are fundamentally based on LLM monitors, which can become a central point of failure. We study \textbackslash textit\textbraceleft adaptive\textbraceright{} attacks by an untrusted model that knows the protocol and the monitor model, which is plausible if the untrusted model was trained with a later knowledge cutoff or can search for this information autonomously. We instantiate a simple adaptive attack vector by which the attacker embeds known or zero-shot prompt injections in the model outputs. Using this tactic, frontier models consistently evade diverse monitors and complete malicious tasks on two main AI control benchmarks. The attack works universally against current protocols that rely on a monitor. Furthermore, the recent Defer-to-Resample protocol even backfires, as its resampling amplifies the prompt injection and effectively reframes it as a best-of-\$n\$ attack. In general, adaptive attacks on monitor models represent a major blind spot in current control protocols and should become a standard component of evaluations for future AI control mechanisms.},
+  langid = {english},
+  selected = {true}
 }
 
 @article{wang_when_2025,
@@ -1432,4 +1508,22 @@
   url = {https://openaccess.thecvf.com/content/CVPR2024/html/Yue\_Object\_Recognition\_as\_Next\_Token\_Prediction\_CVPR\_2024\_paper.html},
   urldate = {2024-10-06},
   langid = {english}
+}
+
+@article{zenn_when_2026,
+  title = {When Are Likely Answers Right? {{On Sequence Probability}} and {{Correctness}} in {{LLMs}}},
+  shorttitle = {When Are Likely Answers Right?},
+  author = {Zenn, Johannes and Geiping, Jonas},
+  year = 2026,
+  month = jun,
+  eprint = {2606.27359},
+  primaryclass = {stat.ML},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2606.27359},
+  url = {http://arxiv.org/abs/2606.27359},
+  urldate = {2026-06-26},
+  abstract = {Many decoding methods for large language models can be understood as shifting probability mass toward outputs that are more likely under the model, either locally at the token level or globally at the sequence level. Therefore, their success depends on a fundamental question: when does sequence probability, that is, the conditional probability of a continuation given a prompt, actually align with correctness? In this paper, we set out to quantify this relationship across decoding methods, models, and benchmarks at four levels: across decoding methods, across hyperparameters within a method, across prompt-answer pairs within a dataset, and across repeated responses to the same prompt. We find that higher sequence probability is often predictive of correctness across prompt-answer pairs within a fixed dataset. However, this relationship does not generally transfer to decoding decisions: increasing sequence probability by changing hyperparameters or methods does not reliably improve accuracy. Further, sequence probability is not a good indicator of correctness for responses to the same prompt. These findings clarify when decoding can and cannot be expected to improve correctness, and provide practical guidance for decoding, self-consistency, and verifier-free self-improvement.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Machine Learning,Statistics - Machine Learning},
+  journal = {arxiv:2606.27359[stat.ML]}
 }

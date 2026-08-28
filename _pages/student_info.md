@@ -9,12 +9,14 @@ nav_order: 4
 
 I am often on the lookout for dedicated students from all backgrounds, who are interested in building, breaking and understanding machine learning systems.
 Incoming PhD students should hold a Master's degree, ideally in Computer Science or Mathematics, and should be highly-motivated, creative and curious.
-Good mathematical understanding, or the ambition to learn it, and good coding skills, or the eagerness to develop them, are required. Proficiency in English, both in reading and writing, is essential, while knowledge of the German language is not required.
+Good mathematical understanding, or the ambition to learn it, and solid engineering skills, or the eagerness to develop them, are required. Proficiency in English, both in reading and writing, is essential, while knowledge of the German language is not required.
 
 You do not need to bring previous experience or a background in machine learning, necessarily. Anything that demonstrates your interest in research, coding, and science as a whole is a great addition to any application.
 Don't hesitate to share links to your GitHub repositories or open-source contributions when submitting your application.
 When emailing me, the most important thing to do is to make it clear that your email is addressed to me. To do so, include at least this 🦭 (unicode glyph U+1F9AD) in the subject line.
 Even better though, contextualize your thoughts and previous experience in light of the topics our group is working on. Describe which areas of collaboration excite you the most, and add details about your thoughts and plans for a PhD with my group.
+
+When emailing me, please do not send me AI-generated or AI-polished emails. I'd much rather hear from you in your own words what you are interested in and why you are messaging me. Also, the kind of hooks Claude writes sound much less convincing once you've read them several hundred times. Finally, while you can send me examples of your prior research and research reports, if those are heavily machine-generated, they may be good, but, they don't tell me a whole lot about you in particular.
 
 ### Topics:
 
@@ -35,7 +37,7 @@ In Germany, PhD students are considered employees and receive a salary based on 
 ### Student Assistants:
 
 I am occasionally hiring student assistants (SHK/WHK) from the University of Tübingen. Feel free to inquire for more details, if you are currently enrolled
-as student at the University of Tübingen, or are admitted.
+as student at the University of Tübingen. A good time to apply for student assistant positions is near the start of each new semester.
 
 ## Internships:
 

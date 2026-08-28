@@ -20,20 +20,18 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi, I'm Jonas. I am a Machine Learning researcher in Tübingen, where I lead the research group for **safety- & efficiency- aligned learning** (🦭). Before this, I've spent time at the Universities of Maryland, Siegen and Münster.
+Hi, I'm Jonas. I am a Machine Learning researcher in Tübingen, where I lead the research group for **safety- & efficiency- aligned learning** (🦭). Before this, I spent time at the Universities of Maryland, Siegen and Münster.
 
-I am constantly fascinated by questions of safety and efficiency in modern machine learning. There are a number of fundamental machine learning questions that come up in these topics that we still do not understand well.
-On the safety side, I investigate how models can be manipulated through data poisoning, jailbreaks, and adversarial attacks. I'm curious about watermarking for generative models, privacy guarantees in machine learning, and the challenge of defining "safety" in a meaningful technical way. Are there feasible technical solutions that reduce harm?
-
-For efficiency, I study how we can build systems that do more with less, from weight averaging techniques to recursive computation approaches that extend model capabilities. I'm particularly interested in how these systems reason, and whether we can enhance their reasoning abilities while maintaining efficiency. How do we build mechanisms that let these models learn to be intelligent systems?
-At the core of my research is this intersection: Can we make models that reason well without sacrificing safety? How do computational constraints affect safety guarantees? Can we design systems where intelligence and safety reinforce each other?
+I am very interested in understanding *how to construct safe intelligent systems* and how to align machine learning with this goal, for example by studying reasoning under uncertainty, self-knowledge, persona formation, and a number of related questions concerning the cybernetics of modern LLM-based systems. This work is sometimes described as constructive AI safety, where, aside from passive observation and evaluation of frontier models, we wonder in what ways models or systems could be constructed differently to improve safety, with the aim of finding designs where intelligence and safety reinforce each other. Overall I want to know in what areas we can expect feasible technical solutions that reduce harm without hamstringing artificial systems.
 
 In short:
 
 - Safety, Security and Privacy in Machine Learning
-- Understanding (and Implementing) Reasoning in Intelligent Systems
-- Efficient Machine Learning (especially in Language Modeling)
+- Constructing safe intelligent systems
+- Understanding the machine cybernetics of frontier systems
 - Deep Learning as-a-Natural-Science
+
+If you absolutely need an academic biography for a formal occasion, you can find one [here](/bio/).
 
 ### Incoming PhD Students:
 
