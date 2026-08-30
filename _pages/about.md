@@ -11,8 +11,9 @@ profile:
   more_info: >
     <p>Tübingen, Germany</p>
 
-     <p>ELLIS Institute</p>
-     <p>Maria-von-Linden Straße 2</p>
+    <p>ELLIS Institute</p>
+    <p>Maria-von-Linden-Straße 2</p>
+    <div style="height: 2rem" aria-hidden="true"></div>
 
 news: false # includes a list of news items
 latest_posts: false # includes a list of the newest posts
